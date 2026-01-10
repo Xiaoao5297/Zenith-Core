@@ -1,0 +1,4 @@
+Genisys (代号 "Kyrios")
+PHP 版本: 7.0.9
+API: 2.1.0 (iTX API 版本 1.9.3)
+客户端: Minecraft PE v0.16.x alpha (protocol 版本)

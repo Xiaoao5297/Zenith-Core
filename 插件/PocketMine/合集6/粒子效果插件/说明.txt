@@ -1,0 +1,11 @@
+行走时粒子效果！
+指令：
+-/wparticles get <玩家id> 看看该玩家目前有什么粒子效果
+-/wparticles list 查看可供选择的粒子列表
+-/wparticles clear <玩家id> 清空玩家身上所有的粒子效果
+-/wparticles add <粒子名字> <玩家id> 增加一个粒子给玩家
+-/wparticles remove <粒子名字> <玩家id> 清空玩家身上某一个粒子效果
+-/wparticles amplifier <粒子名字> <玩家id> 设置粒子强度
+-/wparticles defaultparticle <粒子名字> 设置预设粒子效果 
+-/wparticles defaultamplifier <强度> 设置预设的强度
+-/wparticles help 取得帮助

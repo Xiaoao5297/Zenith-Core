@@ -1,0 +1,71 @@
+Nukkit uGPS
+
+原作者:ShurikHolmes
+
+
+uGPS是个简单的插件,提供玩家方便地获取当前的坐标。
+
+功能:
+
+-获取自己当前的坐标。
+
+-在服务器上分享您当前的坐标给大家。
+
+-分享您当前的坐标给其他玩家。
+
+-管理员可以找到任何玩家当前的坐标。
+
+-可配置的输出格式。
+
+-支持多世界。
+
+
+
+命令与限权:
+
+命令
+
+用途
+
+限权
+
+/gps
+
+显示你当前的坐标。
+
+ugps.gps
+
+/gps share
+
+在服务器上分享您当前的坐标给大家。
+
+ugps.share
+
+/gps send [玩家名]
+
+分享您当前的坐标给某玩家。
+
+ugps.send
+
+/gps spy [玩家名]
+
+显示某玩家当前的坐标
+
+ugps.spy
+
+
+
+
+配置:
+
+#4种变量:所在X轴坐标'{x}';所在Y轴坐标'{y}';所在Z轴坐标'{z}';所在世界'{world}'。
+gps-format: "&e The location is:&eX: &2{x} &eZ: &2{z} &eY: &2{y}.&e World: &2 {world}"
+#获取坐标的信息格式。
+gps-share-format: "&2 {DISPLAYNAME}'s &e location is: &eX: &2{x} &eZ: &2{z} &eY: &2{y}.&e World: &2 {world}"
+#分享坐标的信息格式。
+
+
+
+更新日志:
+1.0:(2016.02.24)创建主体
+

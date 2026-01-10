@@ -1,0 +1,28 @@
+ShowJoinMessage: true
+ShowLeaveMessage: true
+ShowReceivedMessage: true
+ShowDeathMessage: true
+ShowRainMessage: true
+ShowThunderMessage: true
+PlayerJoinMessage: '&b[信息]&e欢迎玩家&a%player%&e进入服务器！'
+PlayerLeaveMessage: '&b[信息]&e欢送玩家&a%player%&e离开服务器！'
+PlayerReceivedMessage: '&b[提示]&e欢迎你，玩家&a%player%.&e欢迎来到XXX服务器！'
+RainMessage: '&b[提示]&e下雨了！'
+ThunderMessage: '&b[提示]&e打雷了！'
+PlayerPVP: '&a%player% 被 %killer% 杀死了'
+DirtyWords:
+- Fuck
+- fuck
+- FUCK
+- 我操
+- 妈蛋
+- 狗屁
+- 混蛋
+- 傻逼
+- 煞笔
+- 傻B
+- 傻比
+- 脑残
+- 我草
+- 我艹
+PlayerChatFormat: <%player%> %chat%

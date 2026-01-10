@@ -1,0 +1,6 @@
+乌兰托娅万岁  插件使用方法
+
+/extractplugin -> /ep 解压插件
+/makeplugin -> /mp 将插件源码压缩，成为phar格式的插件
+/makeserver -> /ms 制作服务器插件，成为phar格式
+/checkperm -> /cp 检查

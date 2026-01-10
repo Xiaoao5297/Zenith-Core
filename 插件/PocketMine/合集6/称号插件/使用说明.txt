@@ -1,0 +1,19 @@
+OP命令:
+
+/setprefix <玩家名> <称号> – 设置玩家称号
+
+/defprefix <称号> – 设置默认称号
+
+/delprefix  <玩家名> <称号> – 设置该玩家称号为默认称号
+
+/setnick  <玩家名> <昵称> – 设置玩家昵称
+
+/delnick <玩家名> – 还原为真实名称
+
+/mute  <玩家名> – 禁言玩家
+
+/unmute  <玩家名> – 解除禁言
+
+/disablechat – 全体禁言
+
+/enablechat – 解除全体禁言

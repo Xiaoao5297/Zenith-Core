@@ -1,0 +1,24 @@
+For PocketMine-MP:1.4 - API 1.10.0, 1.6 API 2.0.0
+Support for API 2.0.0 Requires v1.2 (See Github)
+DO NOT POST QUESTION/BUG-REPORTS/REQUESTS IN THE REVIEWS
+
+It is difficult to carry a conversation in the reviews. If you have a question/bug-report/request please use the Thread for that. You are more likely to get a response and help that way.
+
+This document was last updated for v1.1.1 release.
+Please go to github for the most up-to-date documentation.
+
+NOTE: This is unlike DevTools, as it is focus on only loading Zip files instead of folders like DevTools. You still need DevTools if you actually want to do Plugin Development and to create phar file plugins.
+
+This plugin Let's you load plugins from zip files. This is particularly handy when trying out source plugins from GitHub as you can click the Download ZIP button, as you can then place the zip file in the plugins folder.
+
+Essentially you put your plugin code in a zip file, and this plugin will look for a plugin.yml file in there and load the plugin.
+
+If there are multiple plugins in a zip file, all the plugins will be loaded by default. You can control what plugins will be loaded by creating a control file. For example if you have a:
+
+example.zip
+You need to create a text file called:
+
+example.ctl
+
+
+In this file you list (one plugin per line) the plugins that you want to load. Any plugins not in listed the control file will not be loaded.

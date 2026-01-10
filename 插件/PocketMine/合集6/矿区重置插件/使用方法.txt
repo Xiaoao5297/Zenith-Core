@@ -1,0 +1,9 @@
+一键设置矿区,一键恢复矿区,随机填充矿物!生存服必备!
+OP命令:
+
+/mine create <名字> – 设置矿区名字,之后你需要点击方块设置2个点,两点之间的区域就是矿区
+/mine destroy <名字> – 删除矿区
+/mine set <名字> <ID> <ID>…… – 设置矿区中随机生成的矿物
+/mine reset <名字> – 重新生成矿物!
+新建一个矿区(/mine create),要先给他设置矿物(/mine set),然后在生成矿物(/mine rest)
+命令简化可以使用如/mine c = /mine create,这样的单词第一个字母代替!

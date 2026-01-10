@@ -1,0 +1,35 @@
+[New API][经济出售商店木牌指令全汉化]
+
+★ 创建出售商店的木牌指令支持中文!
+★ 木牌上显示的出售物品也支持中文!
+
+★创建出售商店木牌指令格式★
+第一行: 出售
+第二行: <物品出售价格>
+第三行: <物品中文名称>
+第四行: <物品数量>
+(木牌指令使用权限: OP管理员)
+
+详细使用说明:
+1 创建木牌出售商店: (权限: OP管理员)
+(直接编辑木牌即可)
+
+2 使用木牌出售商店: (权限: 所有玩家)
+(直接点击木牌即可)
+
+3 移除木牌出售商店: (权限: OP管理员)
+(直接破坏木牌即可)
+
+语言显示BUG修复:
+$this->lang = new Config($this->getDataFolder()."language.properties", Config::PROPERTIES, yaml_parse(stream_get_contents($resource = $this->getResource("language.yml"))));
+@fclose($resource);
+改为:
+$this->saveResource("language.properties");
+$this->lang = new Config($this->getDataFolder()."language.properties", Config::PROPERTIES);
+错误说明: 原代码是无法导出语言配置文件的,导致游戏内无法显示木牌出售商店相关语言信息.
+
+
+(注: 出售物品中文名称和ID对应关系文档打包在附件中,方便大家参考)
+
+"PM插件指令汉化合集"已上传到百度网盘,持续更新中:
+http://pan.baidu.com/s/1gdBysa3

@@ -1,0 +1,6 @@
+name: Economy-LEET
+main: cc.leet.economy.Economy
+author: ProjectInfinity
+version: 1.0.1-b2
+api: ["1.0.0"]
+description: An extensible Economy suite

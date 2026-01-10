@@ -1,0 +1,81 @@
+#########################################
+# ___  ___       ______  _         _    #
+# |  \/  |       | ___ \| |       | |   #
+# | .  . | _   _ | |_/ /| |  ___  | |_  #
+# | |\/| || | | ||  __/ | | / _ \ | __| #
+# | |  | || |_| || |    | || (_) || |_  #
+# \_|  |_/ \__, |\_|    |_| \___/  \__| #
+#           __/ |                       #
+#          |___/                        #
+#########################################这是config.yml的配置文件说明
+
+# The language that should be used in MyPlot
+# Available languages: eng, nl, vi, spa, chs, zho, deu , ces
+#以下分别是各个语言翻译家，无需注意
+# English language pack by @Exxarion
+# Dutch language pack by @Wies
+# Vietnamese language pack by @daany123
+# Spanish language pack by @thelucyclub
+# Chinese ( ROC ) pack by @jerryzooyoyo
+# Chinese ( PRC ) pack by @jerryzooyoyo
+# German language pack by @morpheusTP and @SalmonGER
+# Czech lanauge pack by @GamakCZ
+language: chs
+
+# 使用地皮在线管理
+# 例如:
+DataProvider: sqlite
+
+# 使用MySQL地皮在线管理
+MySQLSettings:
+  Host: 127.0.0.1
+  Port: 19133
+  Username: default
+  Password: Xiaoao
+  DatabaseName: plots.db 地皮配置文件名称
+
+# 是否使用经济插件加载
+# 如果改成false，地皮是免费给玩家的
+UseEconomy: true
+
+# 地皮最大大小
+PlotCacheSize: 256
+
+# 当玩家进入一个地皮时候，是否在底部显示这个地皮信息
+ShowPlotPopup: true
+
+ClearBlocksPerTick: 256
+
+# 使用默认配置的世界
+DefaultWorld:
+
+  # Restrict entities (e.g. tnt) from moving except falling
+  # This will prevent things like tnt cannons from ruining other plots
+  RestrictEntityMovement: true
+
+  # How much it costs to claim a plot (Economy must be set to 'true')
+  ClaimPrice: 0 地皮购买价格
+  # How much it costs to clear a plot (Economy must be set to 'true')
+  ClearPrice: 0 地皮清理价格
+  # How much it costs to dispose a plot (Economy must be set to 'true')
+  DisposePrice: 地皮处置价格
+  # How much it costs to reset a plot (Economy must be set to 'true')
+  ResetPrice: 0 地皮重置价格
+
+  # The size of a plot
+  PlotSize: 32
+  # The height of a plot
+  GroundHeight: 64
+  # The width of the road
+  RoadWidth: 7
+
+  # The block that the road is made of (Default is Oak Planks)
+  RoadBlock: '5:0' 道路方块id
+  # The block that plot walls are made of (Default is Stone Slabs)
+  WallBlock: '44:0' 墙方块id
+  # The block used as the plot floor (Default is Grass)
+  PlotFloorBlock: '2:0' 地皮最上方id
+  # The block that fills the rest of the plot (Default is Dirt)
+  PlotFillBlock: '3:0' 地皮下方id
+  # The block at the bottom (Default is Bedrock)
+  BottomBlock: '7:0' 

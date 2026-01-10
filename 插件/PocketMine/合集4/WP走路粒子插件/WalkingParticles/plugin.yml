@@ -1,0 +1,53 @@
+name: WalkingParticles
+main: WalkingParticles\WalkingParticles
+api: 
+- 1.0.0
+- 2.0.0
+- 3.0.0
+- 3.0.0-ALPHA1
+- 3.0.0-ALPHA2
+- 3.0.0-ALPHA3
+- 3.0.0-ALPHA4
+- 3.0.0-ALPHA5
+- 4.0.0
+- 4.0.0-ALPHA1
+- 4.0.0-ALPHA2
+- 4.0.0-ALPHA3
+- 4.0.0-ALPHA4
+- 4.0.0-ALPHA5
+version: 9.9.9
+author: CyberCube-HK Team/aojiao修改
+
+commands:
+  walkingparticles:
+    usage: /wparticles help
+    permission: walkingparticles.command.admin
+    description: Admin command of WalkingParticles
+    aliases: ["wparticles", "walkp"]
+  wplist:
+    usage: /wplist
+    permission: walkingparticles.command.wplist
+    description: WalkingParticles > Show a list of available particles
+  wpget:
+    usage: /wpget
+    permission: walkingparticles.command.wpget
+    description: WalkingParticles > Show a list of your using particles
+
+permissions:
+  walkingparticles:
+    default: true
+  walkingparticles.command:
+    default: false
+    children:
+      walkingparticles.command.admin:
+        default: op
+      walkingparticles.command.wplist:
+        default: true
+      walkingparticles.command.wpget:
+        default: true     
+  walkingparticles.sign.toggle:
+    default: true
+  walkingparticles.sign.create:
+    default: op
+  walkingparticles.sign.destroy:
+    default: op

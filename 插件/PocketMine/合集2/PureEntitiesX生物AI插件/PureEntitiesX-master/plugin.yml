@@ -1,0 +1,22 @@
+name: PureEntitiesX
+main: revivalpmmp\pureentities\PureEntities
+version: 0.1.1_dev
+api: 
+- 1.0.0
+- 2.0.0
+- 3.0.0
+- 3.0.0-ALPHA1
+- 3.0.0-ALPHA2
+- 3.0.0-ALPHA3
+- 3.0.0-ALPHA4
+- 3.0.0-ALPHA5
+- 4.0.0
+- 4.0.0-ALPHA1
+- 4.0.0-ALPHA2
+- 4.0.0-ALPHA3
+- 4.0.0-ALPHA4
+- 4.0.0-ALPHA5
+load: STARTUP
+authors: ["milk0417", "RevivalPMMP"]
+description: Implement all MCPE entities into your worlds
+website: https://github.com/RevivalPMMP/PureEntitiesX

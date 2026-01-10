@@ -1,0 +1,41 @@
+# Copyright © 2016 FENGberd.All rights reserved.
+# GitHub Project:
+# https://github.com/fengberd/FNPC
+
+name: FNPC
+main: FNPC\Main
+version: 1.1.7
+api: 
+- 1.0.0
+- 2.0.0
+- 3.0.0
+- 3.0.0-ALPHA1
+- 3.0.0-ALPHA2
+- 3.0.0-ALPHA3
+- 3.0.0-ALPHA4
+- 3.0.0-ALPHA5
+- 4.0.0
+- 4.0.0-ALPHA1
+- 4.0.0-ALPHA2
+- 4.0.0-ALPHA3
+- 4.0.0-ALPHA4
+- 4.0.0-ALPHA5
+load: POSTWORLD
+author: "FENGberd"
+commands:
+ fnpc:
+  aliases: ["npc"]
+  permission: FNPC.command.fnpc
+  description: "NPC系统指令"
+  usage: "使用 /fnpc help 查看帮助"
+permissions:
+ FNPC.*:
+  description: "根权限"
+  default: op
+ FNPC.command.*:
+  description: "使用命令权限"
+  default: op
+ FNPC.command.fnpc:
+  description: "NPC命令使用权限"
+  default: op
+

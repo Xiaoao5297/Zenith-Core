@@ -1,0 +1,10 @@
+命令：
+主命令;/restartme，/RM
+add：增加了秒到计时器
+help：显示所有restartme命令
+memory：显示内存使用信息
+set：设置定时器为秒
+start：启动定时器
+stop：停止计时器
+subtract：减去N秒的计时器
+time：获取剩余的时间直到服务器重启

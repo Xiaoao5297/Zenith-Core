@@ -1,0 +1,30 @@
+
+作者：yuio_pq
+          Yulo团队
+
+指令介绍:
+/cshop add [指令名字，随便输入，记住即可] [指令] 新增一个指令到指令商店中
+例如:/cshop add 1 help
+          /cshop remove [指令名字] 删除一个指令从指令商店中
+          /cshop setprice <money|item> <金币数量|物品ID:特殊值:数量>
+money意思是金币，item意思是物品，这个指令在打add指令后才会有效
+例如你要执行一个指令要200金币
+那么输入/cshop setprice money 200
+          /cshop sign [指令名字] 打完这个指令以后再点一个方块，玩家点了这个方块就会自动购买指令了
+          /cshop buycmd 玩家购买指令的指令，op后面可以再输入true或者false来对应这个指令是否可以购买
+          /cshop addcmd [指令id] [要加的指令] 添加一个指令到一个指令商店中，例如设置了id为1的指令商店可以执行help指令，这时候你又想购买以后执行另外一个指令，你可以输入这个指令来添加
+          /cshop list 指令商店列表
+          /cshop info [指令id] 查看一个指令商店
+本插件可以做到
+玩家购买一个指令以后，还可以执行另外无限个指令
+
+配置文件解释:
+
+example: 指令id
+    cmds:  玩家购买这个指令后执行的指令，可以无限添加
+     - "tp {player} 123 123 123"
+    buycmd: "true" 玩家是否可以购买
+    price: 价格
+      paytype: "item" 支付类型，有item物品和money金币两种
+      item: "1:0:64" 这里是物品，填写为物品id:附属id:数量
+

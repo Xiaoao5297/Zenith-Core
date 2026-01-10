@@ -1,0 +1,11 @@
+玩OP命令:
+
+/treecapitator或/tc – 快速伐木功能
+/magiccarpet或/mc – 玻璃制魔法飞毯
+/powertool或/pt – 快速破坏方块
+功能:
+
+指南针点击传送
+钟表点击隐身
+海绵蹦床
+火把点击生成跟随玩家的火把

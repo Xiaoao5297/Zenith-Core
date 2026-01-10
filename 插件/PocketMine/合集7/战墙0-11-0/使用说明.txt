@@ -1,0 +1,9 @@
+使用前需要确保服务器安装了Loader否则造成蹦服概不负责！
+Loader在\Loader文件夹内，请复制对应版本到PM根目录即可使用，面板服安不了别试了【和谐都市自带Loader】
+这里只打包linux的Loader，其他版本自行到
+http://www.sourceguardian.com/loaders.html
+下载
+bin文件夹的php.ini里面必须添加
+rescript_unencod=false
+按照格式写
+若复制后依然蹦服，请仔细看蹦服信息里的路径，自己创建文件夹复制进去，不会的自行百度翻译，别问我

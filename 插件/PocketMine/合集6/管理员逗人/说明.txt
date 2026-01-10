@@ -1,0 +1,11 @@
+当管理也可以很好玩！
+指令：
+（所有指令必须用/adminfun开头）
+- /adminfun bgod <信息> -->广播一个信息并且在前面加上[GOD
+- /adminfun burn <玩家id> <秒数> -->燃烧一
+- /adminfun fakejoin <名字> --> 广播该玩家进入了游戏（只是耍他们）
+- /adminfun fakeop <玩家id> --> 传送一则信息告诉该玩家他被提为OP（只是耍他）
+- /adminfun fakequit <名字> --> 广播该玩家离开了游戏（耍他们）
+- /adminfun help 1|2|3 --> 查看本插件帮助
+- /adminfun freeze <玩家id> --> 不允许某玩家动
+- /adminfun maxhealth <hearts> --> 设置玩家总生命

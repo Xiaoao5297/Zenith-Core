@@ -1,0 +1,39 @@
+MyRegion是一个能够保护服务器主城或者玩家自己的重要建筑的nukkit插件，通过这个插件就能够很方便地通过木斧头和木锄头选择一个区域并保护起来不被熊孩子破坏。这个插件支持俄语与英语，另外能够通过配置文件修改，以及限制一个保护区域的范围
+
+命令
+/rg claim 【区域名字】
+创建区域
+
+/rg expand 方块数量 up/down
+增加选区
+
+/rg remove 【区域名字】
+删除保护区
+
+/rg info
+查询保护区信息
+
+/rg wand
+获得用来设定范围的木斧头和锄头
+
+/rg pos1
+选择起点
+
+/rg pos2
+选择终点
+
+使用方法
+1、使用木斧（位置1）和木锄（位置2）选择一个区域；
+2、或者使用/rg pos1和/rg pos2，和pocketmine插件领地用法区别不大；
+3、选区都会了，其他自己看着办喽，很简单的。
+
+权限组
+myregion.select – 选区权限
+myregion.claim – 创建区域权限
+myregion.expand – 允许拓展区域
+myregion.remove – 允许删除区域
+myregion.info – 允许查询区域信息
+myregion.wand – 允许使用选区工具
+myregion.admin – 允许管理别人的区域
+
+作者:Doomhawk

@@ -1,0 +1,164 @@
+name: essentialsTP
+main: essentialsTP\essentialsTP
+version: 1.0.9
+api: 
+- 1.0.0
+- 2.0.0
+- 3.0.0
+- 3.0.0-ALPHA1
+- 3.0.0-ALPHA2
+- 3.0.0-ALPHA3
+- 3.0.0-ALPHA4
+- 3.0.0-ALPHA5
+- 4.0.0
+- 4.0.0-ALPHA1
+- 4.0.0-ALPHA2
+- 4.0.0-ALPHA3
+- 4.0.0-ALPHA4
+- 4.0.0-ALPHA5
+commands:
+ home:
+  description: 传送到你的家\n 使用/home 展示家的列表\n 使用/home < 家的名字 > 传送到那里.
+  usage: "/home 或 /home < 家的名字 >"
+  permission: essentialstp.command.home
+ sethome:
+  description: 设置家.
+  usage: "/sethome < 家的名字 >"
+  permission: essentialstp.command.sethome
+ delhome:
+  description: 删除家.
+  usage: "/delhome < 家的名字 >"
+  permission: essentialstp.command.delhome
+ back:
+  description: 传送到你上次死亡的地点.
+  usage: "/back"
+  permission: essentialstp.command.back
+ wild:
+  description: 随机传送.
+  usage: "/wild"
+  permission: essentialstp.command.wild
+ setspawn:
+  description: 设置世界出生点.
+  usage: "/setspawn"
+  permission: essentialstp.command.setspawn
+ spawn:
+  description: 传送到世界出生点.
+  usage: "/spawn"
+  permission: essentialstp.command.spawn
+ warp:
+  description: 使用 /warp 展示传送点列表\n 使用/warp < 传送点名字 > 传送到传送点.
+  usage: "/warp 或 /warp < 传送点名字 >"
+  permission: essentialstp.command.tpahere
+ setwarp:
+  description: 设置传送点.
+  usage: "/setwarp < 传送点名字 >"
+  permission: essentialstp.command.setwarp
+ delwarp:
+  description: 删除传送点.
+  usage: "/delwarp < 传送点名字 >"
+  permission: essentialstp.command.delwarp
+ addswd:
+  description: 添加无法set home之类的
+  usage: "addswd [世界名字]"
+  permission: essentialstp.command.setwarp
+ delswd:
+  description: 取消set home之类的
+  usage: "delswd [世界名字]"
+  permission: essentialstp.command.setwarp
+ tpa:
+  description: 向玩家发送传送到AT的位置的请求.
+  usage: "/tpa < 玩家名 > "
+  permission: essentialstp.command.tpa
+ tpahere:
+  description: 向玩家发送传送到你的位置的请求.
+  usage: "/tpahere < 玩家名 >"
+  permission: essentialstp.command.tpahere
+ tpaccept:
+  description: 接收请求.
+  usage: "/tpaccept"
+  permission: essentialstp.command.tpaccept
+ tpdeny:
+   description: 拒绝请求.
+   usage: "/tpdeny"
+   permission: essentialstp.command.tpdeny
+permissions:
+  essentialstp:
+    default: false
+    description: "Will allow all essentialsTP commands"
+    children:
+      essentialstp.command.*:
+        description: "Will allow you to use commands"
+        default: false
+        children:
+          essentialstp.command.tpdeny:
+            description: "Allows player to decline request"
+            default: true
+          essentialstp.command.tpaccept:
+            description: "Allows player to accept request"
+            default: true
+          essentialstp.command.tpahere:
+            description: "Allows player to teleport player to them"
+            default: true
+          essentialstp.command.tpa:
+            description: "Allows player to teleport to another player"
+            default: true
+          essentialstp.command.delwarp:
+            description: "Allows player to delete warps"
+            default: op
+          essentialstp.command.setwarp:
+            description: "Allows player to set warps"
+            default: op
+          essentialstp.command.warp:
+            description: "Allows player use warps"
+            default: true
+          essentialstp.command.setspawn:
+            description: "Allows player to set spawn for world"
+            default: op
+          essentialstp.command.spawn:
+            description: "Allows player use spawn command"
+            default: true
+          essentialstp.command.wild:
+            description: "Allows player to teleport to a random location in world"
+            default: true
+          essentialstp.command.back:
+            description: "Allows player go back to there last death location"
+            default: true
+          essentialstp.command.delhome:
+            description: "Allows player to delete thier homes"
+            default: true
+          essentialstp.command.sethome:
+            description: "Allows player to set there homes"
+            default: true
+          essentialstp.command.home:
+            description: "Allows player to use the home command"
+            default: true
+          essentialstp.command.bedsetshome:
+            description: "Allows player to set home with there bed"
+            default: true
+          essentialstp.command.sign.warp:
+            description: "Allows player to use warp signs"
+            default: true
+          essentialstp.command.sign.wild:
+            description: "Allows player to use wild signs"
+            default: true
+          essentialstp.command.sign.spawn:
+            description: "Allows player to use spawn signs"
+            default: true
+          essentialstp.command.sign.warp.create:
+            description: "Allows player to create warp signs"
+            default: op
+          essentialstp.command.sign.wild.create:
+            description: "Allows player to create wild signs"
+            default: op
+          essentialstp.command.sign.spawn.create:
+            description: "Allows player to create spawn signs"
+            default: op
+          essentialstp.command.sign.warp.break:
+            description: "Allows player to break warp signs"
+            default: op
+          essentialstp.command.sign.wild.break:
+            description: "Allows player to break wild signs"
+            default: op
+          essentialstp.command.sign.spawn.break:
+            description: "Allows player to break spawn signs"
+            default: op

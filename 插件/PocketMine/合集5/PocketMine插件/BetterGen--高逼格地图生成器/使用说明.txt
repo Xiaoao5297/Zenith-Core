@@ -1,0 +1,6 @@
+
+插件玩法：
+使用本插件后，在使用/createworld后可以生成一个高仿PC的地图生成器生成地图，自带遗迹，矿洞，浮空岛，蘑菇岛，黏土山等
+生成：/createworld <生成地图的名字> betternormal [seed 种子 = rand()]
+
+作者：yuio_pq

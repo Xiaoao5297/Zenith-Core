@@ -1,0 +1,24 @@
+Features功能:
+Protect worlds from griefers从最完善的方面保护世界
+
+Per world PvP建立pvp世界
+Create limits in your limitless worlds设置一个最少玩家数量上限的世界
+Limit the number of players in a world建立一个最多玩家上限世界
+Stops explosions from happening in a world在一个世界关掉爆炸系统
+Unbreakable blocks不让玩家破坏方块
+Banned Items在那个世界里禁用物品
+Per world gamemode with inventory saving设置一个世界死亡不掉落
+Basic Usage基础指令
+
+/motd : Shows the world's motd text展示世界讯息
+banitem/unbanitem : 禁用物品或解除禁用
+border : defines a border for a world限制一个世界的大小
+gm : Configures a world's gamemode.选择世界的游戏模式
+lock : Locks world, not even Op can use.锁掉世界，连op都不能进
+ls : List info on world protection.展示被保护的世界列表
+noexplode : Stops explosions in a world禁止爆炸
+
+protect : Protects world, only certain players can build.保护一个世界，普通玩家不能进行建造和破坏方块（除了圈地）
+pvp : Controls PvP in a world开不开启pvp
+unbreakable|breakable : Control blocks that can/cannot be broken关闭不能破坏方块
+unlock : Removes protection解除保护一个世界

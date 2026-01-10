@@ -1,0 +1,9 @@
+---
+userName: zmdd
+group: vip5
+permissions:
+- pocketmine.commands.reload.
+- pocketmine.commands.reload
+- pocketmine.command.give
+worlds: []
+...

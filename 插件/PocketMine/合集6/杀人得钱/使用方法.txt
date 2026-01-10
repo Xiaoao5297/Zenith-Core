@@ -1,0 +1,12 @@
+支持多种经济API:
+
+EconomyAPI
+EconomyMaster
+PocketMoney
+MassiveEconomyAPI
+配置文件(config.yml):
+
+enable: “true” #插件开关
+economy-plugin: EconomyAPI #经济API设置
+money: 100 #设置给玩家的金钱
+message: 你得到 {money} 元  #设置发送给玩家的信息

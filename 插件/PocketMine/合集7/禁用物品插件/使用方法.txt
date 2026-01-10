@@ -1,0 +1,11 @@
+修复bug!更新版本V1.2.1
+
+ZX紧急修复了/banitem item命令的bug!
+
+OP命令:
+
+/banitem  item <物品ID>  – 添加/移除禁用物品
+
+/banitem  admin <玩家名> – 添加/移除管理员（ 不受禁用物品限制的玩家 ）
+
+/banitem list 查看禁用物品列表和不受限制的玩家列表

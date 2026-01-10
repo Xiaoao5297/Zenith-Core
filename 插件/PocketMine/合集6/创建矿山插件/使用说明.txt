@@ -1,0 +1,9 @@
+/mine create <NAME>
+/mine set <NAME> <<ID> <%> [ID] <%>...>
+/mine reset <NAME>
+/mine destroy <NAME> (2.0.1 or greater)
+以上翻译
+/我创建<名称>
+/我组<名称> < < ID > < % >(ID)< % >…>
+/我重置<名称>
+/我摧毁<名称>(2.0.1或更大)

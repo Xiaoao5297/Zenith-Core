@@ -1,0 +1,12 @@
+这是一款能够自定义时间的禁言插件。
+
+作者:灵儿
+
+使用方法:
+命令:
+/chatban set <玩家名称> <时间/分钟> 禁言该玩家XX分钟
+/chatban remove <玩家名称> 解除该玩家的禁言
+/chatban removeall 解除全部被禁言的玩家
+/timeban set <玩家名称> <日期> 到X日自动解除该玩家的封禁(日期格式:20160101)
+/timeban remove <玩家名称> 解除该玩家的封禁
+/timeban removeall 解除全部被封禁的玩家

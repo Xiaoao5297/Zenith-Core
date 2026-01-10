@@ -1,0 +1,6 @@
+命令:
+/bc add <命令> 添加禁用的命令
+/bc remove <命令> 删除禁用指令
+/bc trust <名字> 信任某玩家
+/bc detrust <名字> 取消信任某玩家
+/bc list 查看所有被禁用的指令

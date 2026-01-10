@@ -1,0 +1,6 @@
+【指令介绍】
+添加:/cn add id 特殊值 要更改的名称 
+删除:/cn remove id 特殊值 
+
+【版权说明】
+*来源: https://pl.kkmo.net/mct/source/goods.php?id=32

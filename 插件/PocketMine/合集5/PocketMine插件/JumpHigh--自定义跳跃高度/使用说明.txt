@@ -1,0 +1,9 @@
+增加使用/setapi [高度] 来设置跳跃的高度。也可以在配置中设置
+
+点击石头(ID:1)即可跳跃。
+
+这是个垃圾插件: 用interact检测然后发送玩家数据到局start Vector3然后$player->getX().....$player->getY()+$high........
+
+再判断配置里的东西是不是数字is_numeric()就可以了
+
+作者：himpqblack

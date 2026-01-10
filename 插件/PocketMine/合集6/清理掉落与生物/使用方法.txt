@@ -1,0 +1,5 @@
+OP命令:
+
+/clear – 清理
+
+CleanDelay:300 #定时300秒自动清理

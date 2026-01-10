@@ -1,0 +1,32 @@
+name: Grade
+main: Grade\Grade
+version: 1.0.4
+api: [1.0.0]
+
+load: POSTWORLD
+author: Him188
+description: A EXP Plugin
+commands:
+ exp:
+  description: "等级插件命令"
+  usage: "/exp"
+  permission: Grade.command.exp
+ convert:
+  alias: ["兑换"]
+  description: "用节操兑换物品"
+  usage: "/convert <编号> [数量]"
+  permission: Grade.command.convert
+ setfix:
+  description: "设置昵称"
+  usage: "/setfix <目标玩家> [昵称]"
+  permission: Grade.command.setfix
+permissions:
+ Grade.command.exp:
+  description: "等级插件命令"
+  default: true
+ Grade.command.convert:
+  description: "兑换物品"
+  default: true
+ Grade.command.setfix:
+  description: "设置昵称"
+  default: op

@@ -1,0 +1,7 @@
+
+*指令:
+/bancommand add 指令 添加禁用指令 
+/bancommand remove 指令 删除禁用指令
+/bancommand trust 玩家 信任某玩家
+/bancommand detrust 玩家 取消信任某玩家
+/bancommand list 查看所有被禁用的指令

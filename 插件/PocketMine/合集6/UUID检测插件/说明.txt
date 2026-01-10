@@ -1,0 +1,6 @@
+命令
+- /UUID getp <玩家名>：由UUID获取玩家的名字
+- /UUID info：获取当前插件信息
+- /UUID machine：请检查您自己的UUID
+- /UUID player <玩家名>：检查一个玩家的UUID
+- /UUID server：检查您的服务器UUID（UUID+服务器IP+端口）

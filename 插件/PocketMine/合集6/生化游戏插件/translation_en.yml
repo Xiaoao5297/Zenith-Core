@@ -1,0 +1,55 @@
+---
+WELCOME_MESSAGE: 欢迎,%s1来到游戏!
+PLAYER_COUNT: 现在有%s1个玩家!
+WAIT_MESSAGE: 请等待! (至少需要%s1个玩家)
+SPAWNPOS_SET: 复活点设置成功!
+UNKNOWN_COMMAND: 未知命令!
+MUST_INGAME: 只能在游戏中输入该命令!
+PLAYER_LEAVE: 玩家%s1离开了游戏!
+WAS_INITIAL_ZOMBIE: 玩家%s1是初始僵尸. 新的初始僵尸创建完成!
+NO_TOUCH_INFECTION: 玩家%s1被感染了,因为他在本轮未碰触任何人类.
+ARE_INITIAL_ZOMBIE: 你是初始僵尸!攻击别的玩家感染他们吧!
+ARE_INITIAL_HUMAN: 你是人类!远离僵尸吧!
+POPUP_WAITING_PLAYERS: 请等待玩家集齐(%s1/%s2)...
+POPUP_WAITING_ISFLUSH: 或者等待本轮游戏结束
+POPUP_STATUS_ROUND: Round %s1
+POPUP_STATUS_ROUND_REST: 时间到 (Round %s1)
+POPUP_STATUS_PREPARATION: 准备阶段...
+POPUP_STATUS_LEFT: '%s1m %s2s Left'
+ROUND_FINISHED: Round %s1 结束!
+ROUND_FINISHED_COUNT: '僵尸: %s1, 人类: %s2'
+ROUND_STARTED: Round %s1 开始!
+WELCOME_GAME_MESSAGE: 僵尸人类比赛.
+GAME_EXPLANATION_1: 在启动游戏之前, %s1 初始僵尸会被选中.
+GAME_EXPLANATION_2: 每个人都知道初始僵尸是谁, 但是他们不知道被感染后的僵尸是谁.
+GAME_EXPLANATION_3: 游戏有%s1回合. 如果到你没碰到别人你就会成为一个僵尸.
+GAME_EXPLANATION_4: 完成一个回合之后，僵尸和人类的数量将被公告.
+GAME_EXPLANATION_5: 你不能点已被感染的玩家,只能点别人.
+GAME_EXPLANATION_P2_1: |
+  当你攻击别人，结果是
+  僵尸-僵尸: 什么都没发生.
+  僵尸-人类: 人类变成僵尸.
+  人类-人类: 人类获得得分.
+GAME_EXPLANATION_P2_2: 游戏结束后,如果都是僵尸,初始僵尸获胜.
+GAME_EXPLANATION_P2_3: 如果存在人类,最高分数着获胜.
+GAME_EXPLANATION_P3_1: 游戏开始时，你会得到一个解药.
+GAME_EXPLANATION_P3_2: 如果你在感染%s1秒后吃了药, 你会恢复成人类,除了初始僵尸.
+GAME_FINISHED_ZOMBIE: '游戏结束. 获胜者: 僵尸 %s1'
+GAME_FINISHED_HUMAN: 游戏结束. 获胜者 %s1 人类,得分 %s2 
+TOUCH_ALREADY_TOUCHED: 已被感染!
+PREPARATION_OR_REST: 游戏未开始!
+MEDICINE_USED: 你使用了解药!
+TOUCH_MESSAGE: '%s1 感染了 %s2'
+RESETPOS_SET: 坐标设置成功!
+DONE_LOADING_TRANSLATION: 'Done Loading Translation : %s1'
+LOADING_CONFIG: 加载配置...
+FOUND_CONFIG: Config %s1 has been found in class %s2
+DONE_LOADING_CONFIG: Done loading configuration.
+DONE_LOADING_GAME: Zombie Game has been loaded!
+SPAWNPOS_FIRST: 请设置 spawnpos 坐标!
+RESETPOS_FIRST: 请设置 resetpos 坐标!
+VERSION_DIFFER: Version may differ from the recent version! Please update!
+RECENT_VERSION: Your version is up-to-date :)
+UNDEFINED_TRANSLATION: 'Undefined Translation : '
+CHECK_VERSION_FAILED: Failed to checking version!
+...

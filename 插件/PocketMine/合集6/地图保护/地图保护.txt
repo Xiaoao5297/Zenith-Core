@@ -1,0 +1,38 @@
+如果你是想要那种破坏方块不会消失再恢复值有裂痕的点进来
+
+
+【特性】
+
+更简单的保护地图
+
+简单易懂又很美观
+
+【指令】
+
+世界：
+
+/nobreak world a/add 世界名    *添加世界到可破坏列表
+
+/nobreak world r/remove 世界名 *把世界从可破坏列表移除
+
+/nobreak worls l/list 页数     *查看可破坏世界列表
+
+玩家：
+
+/nobreak player a/add 玩家ID   *添加玩家到可破坏名单
+
+/nobreak player r/remove 玩家ID*把玩家从可破坏名单移除
+
+/nobreak player l/list 页数    *查看可破坏玩家名单
+
+4.jpg
+
+更新日志：
+
+v1.0.1  禁止点击物品
+
+v1.0.4  修复bug
+
+v1.0.5  修复不能创造模式bug
+
+v1.0.6  再次修复bug

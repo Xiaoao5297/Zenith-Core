@@ -1,0 +1,10 @@
+【插件用法】
+命令集
+/cflow [add/del/list]   （效果会被下面flow开关覆盖，开启这个功能请先输入/flow on开启流动）
+将世界 asd 设置为禁止流动/cflow add asd
+
+命令集
+/flow [on/off]    (如果)
+开启流动/flow on
+关闭流动/flow off
+更新历史

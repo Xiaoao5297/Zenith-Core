@@ -1,0 +1,9 @@
+name: WatchMan
+version: 1.0
+api: [2.0.0]
+author: HDJ
+description: 2333
+main: WatchMan\Main
+commands:
+ setWM:
+  usage: ¶î

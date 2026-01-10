@@ -1,0 +1,78 @@
+	public function onItemHeld(PlayerItemHeldEvent $event){
+		$item = $event->getItem()->getID();
+		switch($item){
+			case "321":
+			$event->getPlayer()->sendMessage("§c手中的 §1【碧血鸳鸯剑】\n§e等级:§a史§b诗 §d★★★☆☆\n§1技能:§2火焰附加 ，持续八秒烧伤");
+			return false;
+			case "268":
+			$event->getPlayer()->sendMessage("§c手中的 §a【日月火龙剑】\n§e等级:§a普通 §d★☆☆☆☆\n§1技能:§2火焰附加 ，持续两秒烧伤");
+			return false;
+			case "289":
+			$event->getPlayer()->sendMessage("§c手中的 §a【赤霞剑】\n§e等级:§4精英 §d★★☆☆☆\n§1技能:§2火焰附加 ，持续四秒烧伤");
+			return false;
+			case "325":
+			$event->getPlayer()->sendMessage("§c手中的 §f【§2紫§3电§4凝§5霜§6剑§f】\n§e等级:§c附§d魔 §b★★★★☆\n§1技能:\n§f①§2火焰附加: 持续十秒烧伤\n§f②§c吸血: 每次攻击吸取两颗?");
+			return false;
+			case "291":
+			$event->getPlayer()->sendMessage("§c手中的 §a【五钩神飞枪】\n§e等级:§a普通 §d★☆☆☆☆\n§1技能:§2附加击退 ，10格");
+			return false;	
+			case "292":
+			$event->getPlayer()->sendMessage("§c手中的 §a【五钩神飞亮银枪】\n§e等级:§4精英 §d★★☆☆☆\n§1技能:§2附加击退 ，15格");
+			return false;
+			case "282":
+			$event->getPlayer()->sendMessage("§c手中的 §a【七星宝剑】\n§e等级:§a普通 §d★☆☆☆☆\n§1技能:§2吸血:半颗?");
+			return false;
+			case "359":
+			$event->getPlayer()->sendMessage("§c手中的 §4【七星昆吾剑】\n§e等级:§4精英 §d★★☆☆☆\n§1技能:§2吸血:一颗?");
+			return false;
+			case "353":
+			$event->getPlayer()->sendMessage("§c手中的 §1【七星紫电扫风剑】\n§e等级:§a史§b诗 §d★★★☆☆\n§1技能:§2吸血:两颗?");
+			return false;
+			case "352":
+			$event->getPlayer()->sendMessage("§c手中的 §a【丧门棒】\n§e等级:§a普通 §d★☆☆☆☆\n§1技能:§2点击玩家帮他回血:两颗?");
+			return false;
+			case "351":
+			$event->getPlayer()->sendMessage("§c手中的 §a【九合金丝棒】\n§e等级:§4精英 §d★★☆☆☆\n§1技能:§2点击玩家帮他回血:四颗?");
+			return false;	
+			case "347":
+			$event->getPlayer()->sendMessage("§c手中的 §1【银亮狼牙棒】\n§e等级:§a史§b诗 §d★★★☆☆\n§1技能:§2点击玩家帮他回血:十颗?");
+			return false;
+			case "344":
+			$event->getPlayer()->sendMessage("§c手中的 §a【三股亮银叉】\n§e等级:§a普通 §d★☆☆☆☆\n§1技能:§2附加眩晕2秒");
+			return false;
+			case "341":
+			$event->getPlayer()->sendMessage("§c手中的 §a【三股托天叉】\n§e等级:§4精英 §d★★☆☆☆\n§1技能:§2附加眩晕5秒");
+			return false;
+			case "340":
+			$event->getPlayer()->sendMessage("§c手中的 §1【三股烈焰托天叉】\n§e等级:§a史§b诗 §d★★★☆☆\n§1技能:§2附加眩晕10秒");
+			return false;
+			case "339":
+			$event->getPlayer()->sendMessage("§c手中的 §a【银面大刀】\n§e等级:§a普通 §d★☆☆☆☆\n§1技能:§2造成大量的伤害 六颗?");
+			return false;
+			case "337":
+			$event->getPlayer()->sendMessage("§c手中的 §a【银面鬼头刀】\n§e等级:§4精英 §d★★☆☆☆\n§1技能:§2造成较重的伤害 十颗?");
+			return false;
+			case "329":
+			$event->getPlayer()->sendMessage("§c手中的 §1【银龙锁日月刀】\n§e等级:§a史§b诗 §d★★★☆☆\n§1技能:§2造成成吨的伤害 十六颗?");
+			return false;	
+			case "288":	
+			$event->getPlayer()->sendMessage("§c手中的 §a【亮银链子锤】\n§e等级:§a普通 §d★☆☆☆☆\n§1技能:§2击飞敌人 八格高\n§c技能冷却10秒");
+			return false;
+			case "293":
+			$event->getPlayer()->sendMessage("§c手中的 §a【人面赤铜锤】\n§e等级:§4精英 §d★★☆☆☆\n§1技能:§2击飞敌人 十四格高\n§c技能冷却15秒");
+			return false;
+			case "294":
+			$event->getPlayer()->sendMessage("§c手中的 §1【八卦生铜链子锤】\n§e等级:§d史§b诗 §e★★★☆☆\n§1技能:§2击飞敌人 20格高\n§c技能冷却20秒");
+			return false;
+			case "295":
+			$event->getPlayer()->sendMessage("§c手中的 §1【盘龙飞凤双枪】\n§e等级:§a史§b诗 §d★★★☆☆\n§1技能:§2附加击退 ，20格");
+			return false;	
+			case "79":
+			$event->getPlayer()->sendMessage("§c手中的 §e【八棱紫金降魔杵】\n§e等级:§c稀§d有 §d★★★★★\n§1技能点击地面使用:§2范围10×10里的玩家冰冻 （定身）4秒\n§c技能冷却30秒");
+			return false;
+			case "91":
+			$event->getPlayer()->sendMessage("§c手中的 §e【镔铁判官笔】\n§e等级:§c稀§d有 §d★★★★★\n§1技能点击地面使用:§2隐身20秒\n§c技能冷却60秒");	
+		}
+		unset($item);
+	}
+}

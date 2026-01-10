@@ -1,0 +1,11 @@
+Portal to another world传送到其他世界（随机传送版）:
+/mtp {世界名} 
+
+Portal to another location in the same world传送到同一个世界的其他地方:
+/mtp {x y z} 
+
+Portal to an specific location in another world传送到其他世界的一个点（准确传送）:
+/mtp {世界名} {x y z}
+
+FastTransfer portal (New for 1.1.0)传送到其他服务器（0.11.0以上可用）
+/mtp {ip}:{端口} （别忘了冒号）

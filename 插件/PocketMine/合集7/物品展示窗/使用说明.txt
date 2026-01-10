@@ -1,0 +1,5 @@
+物品展示窗
+/itemcase Add 物品id
+点击玻璃 添加
+/itemcase Del 物品id
+点击玻璃 删除

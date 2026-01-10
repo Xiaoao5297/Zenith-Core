@@ -1,0 +1,49 @@
+---
+type: classic
+material: wool
+enabled: "true"
+signs:
+  join_sign_x: 127
+  join_sign_y: 6
+  join_sign_z: 130
+  join_sign_world: cm
+  enable_status: "true"
+  status_line_1: '&3[CM]'
+  status_line_2: '&a%alive/%max'
+  status_line_3: '%status'
+  status_line_4: '&6%type'
+  sign_update_time: "1"
+  return_sign_x: 566
+  return_sign_y: 57
+  return_sign_z: 890
+arena:
+  arena_world: cm
+  join_position_x: 126
+  join_position_y: 5
+  join_position_z: 171
+  lobby_position_x: 126
+  lobby_position_y: 4
+  lobby_position_z: 137
+  first_corner_x: 114
+  first_corner_z: 155
+  second_corner_x: 137
+  second_corner_z: 188
+  floor_y: 4
+  spectator_mode: "true"
+  spec_spawn_x: 320
+  spec_spawn_y: 50
+  spec_spawn_z: 32
+  leave_position_x: 127
+  leave_position_y: 3
+  leave_position_z: 127
+  leave_position_world: cm
+  max_game_time: "60"
+  max_players: "10"
+  min_players: "2"
+  starting_time: 30
+  color_wait_time: "5"
+  finish_msg_levels: game
+  time: "true"
+  item_reward: 0
+  money_reward: 100
+...

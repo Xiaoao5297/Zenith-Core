@@ -1,0 +1,36 @@
+WalkingParticles
+这是一个走路特效插件，使用方法：
+（直接输入，不用[ ]）
+（不输入玩家ID即为自己使用）
+添加粒子：    /walkp add [粒子名称] [玩家ID]
+删除粒子：    /walkp remove [粒子名称] [玩家ID]
+清空粒子：    /walkp clear [粒子名称] [玩家ID]
+设置默认粒子强度:/walkp defaultamplifier [1~9]
+设置默认粒子：/walkp defaultparticle [粒子名称]
+查看玩家正在使用的粒子:/walkp get [玩家ID]
+查看所有粒子列表:/wplist或/walkp list
+粒子插帮助件列表:/walkp help
+目前粒子列表：
+岩浆（Lava），
+水（water），
+滴落岩浆（driplava），
+滴落水（dripwater），
+气泡（bubble），传送门粒子（portal），
+爱心（heart），
+生物火焰（entityflame），
+火把/熔炉火焰（flame），
+爆炸时产生的白烟（explode），
+黑烟（smoke），
+墨水（ink），
+附魔台粒子（enchantment），
+未知粒子（instantspell），
+村民愤怒粒子（angryvillager），
+村民高兴粒子（happyvillager），
+小型爆炸粒子（largeexplode），
+巨大爆炸粒子（hugeexplode），
+物品损坏粒子（item_物品ID），
+踩方块粒子（block_ID），
+破坏方块粒子（desblock_ID）
+其中小型爆炸粒子.巨大爆炸粒子.破坏方块粒子等粒子略卡，若要使用请将粒子强度调为1
+
+感谢aojiao提供的WP走路粒子特效插件升级版.

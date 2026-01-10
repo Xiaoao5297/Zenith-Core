@@ -1,0 +1,16 @@
+
+# PurePerms by 64FF00 (xktiverz@gmail.com, @64ff00 for Twitter)
+
+---
+# Sets the data provider for PurePerms :3 
+# - yaml, sqlite3
+data-provider: yaml
+
+# Setting this option will allow you to use per-world permissions
+# - true / false
+enable-multiworld-perms: false
+
+# Broadcasts this message when a player's group has been changed
+# - STRING
+msg-on-group-change: Your group has been changed into a / an {group}!
+...

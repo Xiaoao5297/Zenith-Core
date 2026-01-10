@@ -1,0 +1,19 @@
+ARCore插件-一款多功能结合插件
+作者：[HyGlobalHD,GamerXzavier,Adam1609,NeuroBinds,Skull3x]
+github链接：[https://github.com/ArchRPG/ARCore]
+所有功能：【公会 帮派 社交 防作弊 宠物 粒子 地下室 装备交换 聊天检测 登录/注册】
+其中：
+公会(帮派)总指令: 
+/c
+
+登录: 
+/rpwd <player>
+/reg <password> <confirm password>
+/cpwd <old password> <new password>
+/forgotpassword <pin> <new password>
+/log <password>
+/logout
+/pin
+
+宠物总指令:
+/pets

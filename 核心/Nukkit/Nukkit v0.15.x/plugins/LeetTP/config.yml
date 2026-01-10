@@ -1,0 +1,61 @@
+version: 1
+
+tp:
+  cooldown: 30
+
+home:
+  cooldown: 5
+  set-by-bed: true
+
+warp:
+  cooldown: 5
+
+spawn:
+  cooldown: 5
+
+messages:
+  error:
+    no-permission: "%red%You don't have permission to do that."
+    home-name-missing: "%red%You have to specify a name for your home."
+    home-exists: "%red%A home with that name already exists."
+    home-not-exists: "%red%You don't have a home by that name."
+    home-not-deleted: "%red%Failed to delete that home."
+    warp-name-missing: "%red%Warp name is missing."
+    warp-exists: "%red%A warp with that name already exists."
+    warp-not-exists: "%red%Found no warp with that name."
+    warp-not-deleted: "%red%Failed to delete that warp."
+    world-not-loaded: "%red%Target world NOT loaded!"
+    cooldown-wait: "%red%You need to wait {0} second(s) before doing that."
+    tp-name-missing: "%red%You need to specify a target player."
+    tp-request-exists: "%red%Your target already has a teleportation request from you."
+    tp-not-allowed: "%red%Your target does not allow teleportation requests."
+    tp-no-requests: "%red%You do not have any teleportation requests."
+    tp-not-exists: "%red%You have no requests by that player."
+    tp-not-online: "%red%You can only accept requests from online players."
+    tp-rejected: "%red%Your teleportation request made to {0} has been rejected."
+    back-empty: "%red%You have to die before using /back."
+    tpworld-name-missing: "%red%You have to specify a target world."
+    tpworld-not-loaded: "%red%Your target world is not loaded."
+  success:
+    home-set: "%green%Home set! Use /home %aqua%{0} %green%to return to it."
+    home-deleted: "%green%Home successfully deleted!"
+    home-teleported: "%green%Welcome back to {0}"
+    warp-set: "%green%Warp set! Use /warp %aqua%{0} %green%to warp to it."
+    warp-sign-created: "%green%Warp sign created, click to teleport to %aqua%{0}%green%."
+    warp-deleted: "%green%Warp successfully deleted!"
+    warp-teleported: "%green%Warped to {0}"
+    tp-request-sent: "%green%Sent teleportation request to {0}."
+    tp-status-changed: "%green%You {0} allow teleportation requests."
+    tp-tpa-success: "%green%You teleported to {0}."
+    tp-tpahere-success: "%green%You teleported {0} to you."
+    tp-tpa-target-success: "%green%{0} was teleported to you."
+    tp-tpahere-target-success: "%green%You were teleported to {0}."
+    tp-target-rejected: "%green%Teleportation request has been rejected."
+    tpworld-success: "%green%You teleported to {0}"
+    back-teleported: "%green%You returned to your last death location."
+    spawn-set: "%green%Spawn location set."
+    spawn-teleported: "%green%Teleported to spawn."
+  notify:
+    warp-private-exists: "%yellow%A private warp with the same name exists, add '-p' to warp to it."
+    tp-to-received: "%yellow%{0} has asked to teleport to you, type %aqua%/tpaccept {1}"
+    tp-here-received: "%yellow%You were asked to teleport to {0}, type %aqua%/tpaccept {1}"

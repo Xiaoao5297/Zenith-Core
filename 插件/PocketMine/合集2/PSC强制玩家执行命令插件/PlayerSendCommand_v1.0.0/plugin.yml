@@ -1,0 +1,30 @@
+name: PlayerSendCommand
+main: PlayerSendCommand\PlayerSendCommand
+version: 1.0.0
+api: 
+- 1.0.0
+- 2.0.0
+- 3.0.0
+- 3.0.0-ALPHA1
+- 3.0.0-ALPHA2
+- 3.0.0-ALPHA3
+- 3.0.0-ALPHA4
+- 3.0.0-ALPHA5
+- 4.0.0
+- 4.0.0-ALPHA1
+- 4.0.0-ALPHA2
+- 4.0.0-ALPHA3
+- 4.0.0-ALPHA4
+- 4.0.0-ALPHA5
+load: STARTUP
+author: linger
+
+commands:
+ cplayer:
+  description: "/cplayer [名字] [指令(不加/)]"
+  usage: "/cplayer [名字] [指令(不加/)]"
+  permission: PlayerSendCommand.
+permissions:
+ PlayerSendCommand.:
+  description: "OP允许!"
+  default: op

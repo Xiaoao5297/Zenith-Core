@@ -1,0 +1,52 @@
+RandomXYZ
+
+
+可配置的随机传送
+
+
+RandomXYZ for PocketMine
+
+
+
+介绍
+
+
+通过指令进行随机传送，通过配置文件设置范围
+
+
+
+指令
+
+
+[spoiler]
+
+/rxyz: 随机传送 权限:无
+/rreload: 重载配置文件 权限:OP
+
+[/spoiler]
+
+
+配置文件
+
+
+[spoiler]
+
+randomX: 300
+randomY: 30
+randomZ: 300
+
+randomX是X方向最大距离
+
+randomY是Y方向最大距离
+
+randomZ是Z方向最大距离
+
+
+本插件已实现掉落回血
+
+但是一次摔死是不能回血的
+
+所以Y方向请尽量小
+
+[/spoiler]
+

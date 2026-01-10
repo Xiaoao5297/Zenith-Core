@@ -1,0 +1,21 @@
+这是什么？
+iControlU使服务器管理员能够控制其他玩家！借助 iCU，您可以轻松控制目标的移动、聊天、库存等。每个人都喜欢巨魔，现在你可以在下一个级别巨魔！
+
+使用iCU很容易：首先选择一个目标 - 不幸的是被选中的玩家。第二：使用命令 /icu control（玩家名）。最后，开始移动。你真的像木偶一样控制你的目标！随意在聊天中冒充他，让他朋友的房子悲伤，弄乱他的库存，并最终恶搞他！完成后，您只需退出控制模式即可。为此，请使用命令 /icu stop。您将获得10秒的隐身状态，因此您可以从现场逃跑，永远不会被抓住！或者，如果您愿意，您可以随时再次重复该过程！
+
+命令
+/icu control（players） - 进入控制模式。（玩家）现在是你的傀儡！
+/icu stop - 退出控制模式，将目标恢复到自由意志。
+
+Permissions
+icu.use -- 使用 /icu 命令。
+icu.exempt -- 拥有此节点的
+
+玩家无法控制 Magic Updater
+此插件包含一个从版本 1.3 开始的更新程序脚本。有关如何使用它的信息，请查看 http://blog.falkirks.com/pm-updater/
+
+许可证
+此插件是FireBreath15编写的"受保护的开源软件许可证"下的许可证。此许可证在此插件的 MCPE 和 PC 版本之间共享。您可以在 https://github.com/Falkirks/iControlU/blob/master/LICENSE 处获取副本。
+
+
+这个插件是由FireBreath15（Bukkit，GitHub）和我自己开发的。FireBreath15是Bukkit的原始作者，因此请查看他的作品（http://dev.bukkit.org/bukkit-plugins/icontrolu/）。

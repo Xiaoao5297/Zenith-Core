@@ -1,0 +1,23 @@
+当前版本 V1.0.0  /  2016.2.22
+
+还在为熊孩子在主城乱打人而烦恼吗？
+
+还在为登录时输入密码被打断而烦恼吗？
+
+pvpworlds帮你解决，只需要将你的主城加入禁止PVP名单中。
+
+
+【插件用法】
+
+命令集 /pvpworld [add/del/list] [world]
+
+*例：禁止在世界abc进行pvp  /pvpworld add abc   删除改为del即可
+
+*例：查看禁止pvp的世界      /pvpworld list
+
+
+
+更新历史
+
+V1.0.0 - 完成主体
+

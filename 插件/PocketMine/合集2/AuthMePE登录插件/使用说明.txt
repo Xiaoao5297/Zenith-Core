@@ -1,0 +1,12 @@
+AuthMePE
+一款简单实用的登录插件
+作者: hoyinm & CyberCube-HK™
+用法:
+安装插件并重启服务器, 进入游戏规矩提示注册游戏账号并登录即可.
+在配置文件可以修改更多设置.
+命令:
+/unregister: 移除自己的密码.包括ip .简化命令:/ur
+/changepass <old> <new>: 改变你的密码.简化命令:/mima
+/chgemail <email>: 设置你的邮箱.简化命令:/email
+/logout: 退出登录状态
+/authme help: SAuth管理员命令

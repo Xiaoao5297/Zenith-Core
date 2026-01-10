@@ -1,0 +1,62 @@
+[New API][经济飞机场插件木牌指令全汉化+BUG完美修复]
+
+★ 飞机场的木牌指令支持中文!
+★ 文本汉化语言尽量贴近生活!
+★ 木牌飞机场只支持单程航线!
+★ 木牌飞机场不支持多世界!
+★ 本次汉化修复 1 个严重BUG!
+
+★创建飞机场木牌指令格式★
+一、起点飞机场:
+第一行:  飞机场
+第二行:  起点
+第三行:  <机票价格>
+第四行:  <目的地>
+二、终点飞机场:
+第一行:  飞机场
+第二行:  终点
+第三行:  <目的地>
+第四行:  空
+
+(木牌指令使用权限: OP管理员)
+
+详细使用说明:
+★1 创建飞机场的步骤: (权限: OP管理员)
+(直接编辑木牌即可)
+第一步:  创建终点飞机场
+
+第二步:  创建起点飞机场
+
+(注: 先创建起点飞机场,后创建终点飞机场,是无效的,2个飞机场不会相通.原因在于,只有先创建了终点飞机场,再创建起点飞机场,起点飞机场才能保存终点飞机场的坐标信息,从而建立关联)
+
+2 使用飞机场木牌: (权限: 所有玩家)
+(直接点击起点飞机场木牌即可,点击终点飞机场木牌无效,因为是单程航线)
+
+3 移除飞机场木牌: (权限: OP管理员)
+
+★ 对本次修复的BUG详细说明! ★
+public function onBlockTouch(PlayerInteractEvent $event){
+	$block = $event->getBlock();
+	if(isset($this->airport[$block->getX().":".$block->getY().":".$block->getZ().":".$block->getLevel()->getFolderName()])){
+		$airport = $this->airport[$block->getX().":".$block->getY().":".$block->getZ().":".$block->getLevel()->getFolderName()];
+		$player = $event->getPlayer();
+        if(isset($this->airport[$airport["targetX"].":".$airport["targetY"].":".$airport["targetZ"].":".$airport["targetLevel"]])){
+...
+改为
+public function onBlockTouch(PlayerInteractEvent $event){
+	$block = $event->getBlock();
+	if(isset($this->airport[$block->getX().":".$block->getY().":".$block->getZ().":".$block->getLevel()->getFolderName()])){
+		$airport = $this->airport[$block->getX().":".$block->getY().":".$block->getZ().":".$block->getLevel()->getFolderName()];
+		$player = $event->getPlayer();
+			
+		if($airport["type"] === 1){
+			$player->sendMessage("这是单程航班的终点站, 无法搭乘哦 !");
+			return;
+		}
+
+      if(isset($this->airport[$airport["targetX"].":".$airport["targetY"].":".$airport["targetZ"].":".$airport["targetLevel"]])){
+...
+错误说明:onBlockTouch本来的目的是接收玩家点击起点飞机场木牌的PlayerInteractEvent事件来处理搭乘飞机的请求;但是原代码却忽略了玩家点击终点飞机场木牌的PlayerInteractEvent事件,未做限制判断,从而导致数组越界的严重错误.原因在于起点飞机场木牌和终点飞机场木牌保存的信息是不一样的,处理方式当然也不能一样;我在这里加上了限制判断,从而避免了数组越界的BUG!
+
+"PM插件指令汉化合集"已上传到百度网盘,持续更新中:
+http://pan.baidu.com/s/1gdBysa3

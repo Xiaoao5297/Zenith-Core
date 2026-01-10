@@ -1,0 +1,6 @@
+name: LuCactus
+main: LuCactus\Main
+version: 1.0.0
+api: 1.0.0
+load: POSTWORLD
+author: Spiderman

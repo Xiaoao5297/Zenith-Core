@@ -1,0 +1,6 @@
+Features功能:
+
+Recieve an effect when player join (configurable in config.yml)给玩家状态当他们加入服务器时
+Send PopUp, Tip or Chat message on join (configurable in config.yml)当玩家进入服务器和获得状态后发一个浮空文字，贴士，还有提示
+Refill players heal when join to the server (configurable in config.yml)当玩家再次加入服务器是还会获得状态
+（上面功能除第一个外其他的都可在config修改）

@@ -1,0 +1,1 @@
+ 朋友插件 作用:可以试您PVP时不伤害您的朋 友！ 指令:/friend <player> -请求该玩家接受 /friend accept <player> -接受该玩家的请求 /friend decline <player> -拒接该玩家的请求 /unfriend <player> -将该玩家移除您的朋友列表 /friend list -显示您的朋友列表

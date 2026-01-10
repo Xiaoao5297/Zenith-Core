@@ -1,0 +1,21 @@
+你可以一次性砍掉树,但是要支付少许的钱!
+
+ 
+
+配置文件:
+
+maxWorldHeight: 128 #世界最大高度
+
+break: #破坏木头会一次性砍掉所有木头
+  enabled: true #功能开关
+  tools: [275, 258, 286, 279] #使用的工具ID
+  plantSaplingAfter: true #是否自动栽树
+  costPerBlock: false #是否为每一块木头付钱
+  cost: 10 #付钱的数目
+
+doubleTouch: #双击木头会一次性砍掉所有木头
+  enabled: true
+  tools: [286, 279]
+  plantSaplingAfter: true
+  costPerBlock: false
+  cost: 20

@@ -1,0 +1,6 @@
+/exp setgrade    设置等级
+/exp setexp       设置经验
+/exp setmi        设置节操(看图..某单位)
+/convert            用节操兑换物品
+请配合多功能VIP插件和经济核心和经济land
+请把文件夹里内容src和plugin.yml放入Devtools

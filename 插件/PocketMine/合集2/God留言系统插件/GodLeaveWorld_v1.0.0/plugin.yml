@@ -1,0 +1,30 @@
+name: GodLeaveWorld
+main: Mian\Mian 
+version: 1.0.0
+api: 
+- 1.0.0
+- 2.0.0
+- 3.0.0
+- 3.0.0-ALPHA1
+- 3.0.0-ALPHA2
+- 3.0.0-ALPHA3
+- 3.0.0-ALPHA4
+- 3.0.0-ALPHA5
+- 4.0.0
+- 4.0.0-ALPHA1
+- 4.0.0-ALPHA2
+- 4.0.0-ALPHA3
+- 4.0.0-ALPHA4
+- 4.0.0-ALPHA5
+load: STARTUP
+author: xiaokai
+commands:
+ 留言:
+  description: "给某人留言"
+  usage: " /留言 玩家名 内容"
+ 情侣留言:
+  description: "给情侣留言"
+  usage: " /情侣留言 内容"
+ 留言帮助:
+  description: "留言帮助列表"
+  usage: " /留言帮助"

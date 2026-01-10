@@ -1,0 +1,1 @@
+/mail <read|view|clear> or /mail send <player> <message>

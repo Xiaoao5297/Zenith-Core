@@ -1,0 +1,26 @@
+NuginManager
+
+
+——针对Nukkit 的插件管理器
+
+
+==============================
+
+前言: @depricated("untested")
+
+
+灵感:
+
+
+[spoiler]昨天测试NukkitEssentials的时候动不动就要关服，我就想，有没有一个针对Nukkit的类似Plugman的东西?
+
+
+好像没有唉。。。于是乎我自己写了一个.....[/spoiler]
+
+
+指令描述
+/nm load加载一个插件
+/nm unlaod卸载一个插件
+/nm list列出所有插件
+/nm command显示一个插件的指令
+

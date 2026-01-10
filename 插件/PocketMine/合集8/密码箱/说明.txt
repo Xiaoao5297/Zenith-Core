@@ -1,0 +1,7 @@
+方法 : /pg passlock <密码>"
+方法 : /pg share <玩家名>"
+/pg <lock/unlock/public/info>");
+/pg <passlock/passunlock/share>
+/spg unlock player <玩家名> 解锁某玩家的所有箱子"
+/spg unlock <all/玩家名>
+/spg unlock

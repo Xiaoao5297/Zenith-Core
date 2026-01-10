@@ -1,0 +1,15 @@
+DevTools v1.11.1
+
+这是一款能够直接驱动插件源码的插件! 
+
+安装即可使用源码驱动功能。
+
+作者:PocketMine 小组  
+
+使用方法:
+/makeplugin <插件名称> 将该插件的源码打包phar格式的插件
+/extractplugin <插件名称> 将该插件解包为源码状态
+/makeserver 创建一个phar格式的PocketMine-MP核心文件
+/checkperm <数值> <玩家名称> 检查发送端或玩家的权限值
+
+本说明由极致人生编写

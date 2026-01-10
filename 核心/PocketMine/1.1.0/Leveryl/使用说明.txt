@@ -1,0 +1,63 @@
+介绍：
+
+这是一个高级和功能丰富的MCPE服务器软件，希望替代Tesseract。
+这个项目是基于GenisysPro（For Stability），它是基于Genisys
+在issues版块报告任何BUGS…
+
+注意：master是唯一正式支持的分支。 所有其他分支机构正在测试中，可能不稳定。
+不要使用其他分支的构建，除非您确定您了解风险。
+
+特征：
+ CustomPotions
+ 完全支持具有空格的用户名
+ XBox Live身份验证
+ 集成DevTools
+ 高级播放器功能
+ GeniAPI v2.0
+ LoginPacket变量可通过插件访问
+ CustomEnchants
+ PMMP插件的插件兼容性
+ Tesseract和Genisys插件的插件兼容性
+ 更高级和开放MainLogger
+其他列表条目位于“leveryl.yml”….
+
+为了能够在Windows上运行，您需要Visual Studio C ++ Redistributable 2015
+
+
+致谢/信用：
+
+Leveryl是Pocketmine-MP分支项
+大多数原始代码是由原始的PocketMine Team和GenisysPro编写的。
+一些实施从Tesseract，Prismarine和Genisys移植
+移植文件的作者在文件中说明
+
+执照：
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Lesser General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
+使用的第三方库/协议：
+
+PHP插座
+PHP mbstring
+PHP SQLite3
+PHP BCMath
+PHP pthreads由 krakjoe：线程PHP – 分享没有，做一切。
+PHP YAML by Bryan Davis：Yaml PHP Extension为LibYAML库提供了一个包装器。
+LibyAML由 Kirill Simonov：一个YAML 1.1解析器和发射器写在C.
+cURL：cURL是一种用URL语法传输数据的命令行工具
+Zlib：一个非常庞大但却非常不引人注意的压缩库
+来源RCON协议
+UT3查询协议
+PHP的OpenSSL由 OpenSSL.org：加密和SSL / TLS工具包

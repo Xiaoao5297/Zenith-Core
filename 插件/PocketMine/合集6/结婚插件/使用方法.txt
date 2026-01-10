@@ -1,0 +1,8 @@
+指令]
+
+/love add <玩家名> —求婚
+/love accept <玩家名>—接受求婚
+/love deny <玩家名> —拒绝求婚
+/love del — 离婚
+/love tp — 情侣tp
+/love money <钱数量> —情侣给钱

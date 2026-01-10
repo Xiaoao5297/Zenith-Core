@@ -1,0 +1,31 @@
+name: EDontTapTheWhiteTile
+main: EMUedsa\EDontTapTheWhiteTile
+version: 0.1.2
+api: 
+- 1.0.0
+- 2.0.0
+- 3.0.0
+- 3.0.0-ALPHA1
+- 3.0.0-ALPHA2
+- 3.0.0-ALPHA3
+- 3.0.0-ALPHA4
+- 3.0.0-ALPHA5
+- 4.0.0
+- 4.0.0-ALPHA1
+- 4.0.0-ALPHA2
+- 4.0.0-ALPHA3
+- 4.0.0-ALPHA4
+- 4.0.0-ALPHA5
+load: POSTWORLD
+author: MUedsa
+description: A Named 'Dont Tap The White Tile' Mini Game
+website: http://www.cattery.cn
+commands:
+ dtt:
+  description: EDontTapTheWhiteTile Command
+  usage: "Usage: /dtt <set/del> 设置/删除小游戏"
+  permission: emuedsa.command.dtt
+permissions:
+ emuedsa.command.dtt:
+  description: "Only OP can use CMD : /dtt "
+  default: op

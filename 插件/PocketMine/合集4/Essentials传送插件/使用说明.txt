@@ -1,0 +1,18 @@
+EssentialsTP是一款Home类型插件
+命令:
+传送回家: "/home 或 /home < 家的名字 >"
+设置家.: "/sethome < 家的名字 >"
+删除家.: "/delhome < 家的名字 >"
+传送到你上次死亡的地点.: "/back"
+随机传送.: "/wild"
+设置世界出生点.: "/setspawn"
+传送到世界出生点.: "/spawn"
+使用 /warp 展示传送点列表, 使用/warp < 传送点名字 > 传送到传送点.: "/warp 或 /warp < 传送点名字 >"
+设置传送点.: "/setwarp < 传送点名字 >"
+删除传送点.: "/delwarp < 传送点名字 >"
+添加无法set home之类的: "/addswd [世界名字]"
+取消set home之类的: "/delswd [世界名字]"
+向玩家发送传送到AT的位置的请求.: "/tpa < 玩家名 > "
+向玩家发送传送到你的位置的请求.: "/tpahere < 玩家名 >"
+接收请求.: "/tpaccept"
+拒绝请求.:"/tpdeny"

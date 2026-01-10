@@ -1,0 +1,52 @@
+name: HeadHunting
+main: HeadHunting\HeadHunting
+version: 1.0.5
+api:
+- 1.0.0
+- 2.0.0
+- 3.0.0
+- 3.0.0-ALPHA1
+- 3.0.0-ALPHA2
+- 3.0.0-ALPHA3
+- 3.0.0-ALPHA4
+- 3.0.0-ALPHA5
+- 4.0.0
+- 4.0.0-ALPHA1
+- 4.0.0-ALPHA2
+- 4.0.0-ALPHA3
+- 4.0.0-ALPHA4
+- 4.0.0-ALPHA5
+load: POSTWORLD
+author: dzj
+commands:
+ hunt:
+  description: "悬赏一个人"
+  usage: "/hunt <名字> <赏金>"
+  permission: HeadHunting.Command.hunt
+ rm:
+  description: "取消悬赏一个人"
+  usage: "/removehunt <名字>"
+  permission: HeadHunting.Command.rm
+ gethunt:
+  description: "杀手获取一个任务"
+  usage: "/gethunt <任务名字>"
+  permission: HeadHunting.Command.gethunt
+ joinhunter:
+  description: "注册为杀手"
+  usage: "/joinhunters"
+  permission: HeadHunting.Command.joinhunter
+ check:
+  description: "查看一个玩家是否被追杀"
+  usage: "/check <玩家名字>"
+  permission: HeadHunting.Command.check
+permissions:
+ HeadHunting.Command.hunt:
+  default: true
+ HeadHunting.Command.rm:
+  default: true
+ HeadHunting.Command.gethunt:
+  default: true
+ HeadHunting.Command.joinhunter:
+  default: true
+ HeadHunting.Command.check:
+  default: true

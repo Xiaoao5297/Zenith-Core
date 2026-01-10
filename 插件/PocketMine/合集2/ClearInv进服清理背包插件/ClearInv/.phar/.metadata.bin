@@ -1,0 +1,1 @@
+a:9:{s:4:"name";s:8:"ClearInv";s:7:"version";s:5:"1.0.0";s:4:"main";s:13:"ClearInv\Main";s:3:"api";a:3:{i:0;s:5:"1.0.0";i:1;s:5:"2.0.0";i:2;s:5:"3.0.0";}s:6:"depend";a:0:{}s:11:"description";s:36:"一个简单的进服清包插件！";s:7:"authors";a:1:{i:0;s:6:"古董";}s:7:"website";N;s:12:"creationDate";i:1468562411;}

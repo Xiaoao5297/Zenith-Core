@@ -1,0 +1,13 @@
+需要和经济插件�￠onom￥$配套使用!
+
+命令:
+
+/bounty set <玩家> <金额> – 发布悬赏,全服通缉此玩家
+/bounty del <玩家> – 删除悬赏
+/bounty list – 查看悬赏列表
+配置文件(/plugins/KillBounty/Bounty.yml)说明:
+
+Minimum-Bounty: “50” – 发布悬赏的最低数额(默认50)
+Death-Fine: “50” – 被悬赏的玩家死亡会受到惩罚的金钱(默认50)
+allow-multi-bountys: true – 是否允许发布多个悬赏(默认true为允许, false为不允许)
+Current-Bounties: [] – 当前的悬赏列表

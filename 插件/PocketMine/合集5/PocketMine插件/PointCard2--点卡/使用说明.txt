@@ -1,0 +1,71 @@
+PointCard2
+
+点卡插件是PocketMine开服器的插件。 你可以用它创建礼品卡的密码，发送给玩家
+当玩家使用这个点卡，他会获得你预设的称号或金钱或vip时间
+
+功能：
+发放金币(EconomyS插件前置)
+发放Points(RVIP 3.0+ | RsFunction | RsPoints插件前置)
+发放会员(RVIP 3.0+ | RsFunction插件前置)
+发放头衔(RVIP 3.0+ | RsFunction | RsPrefix插件前置)
+执行命令(未经仔细测试)
+
+支持：
+限制使用次数
+限制有效时间
+设置点卡前缀
+批量生成
+定制界面显示文字(lang.yml)
+命令功能需要预先在配置文件中设置！
+
+简单命令介绍：
+玩家命令：
+
+/pc <卡密>使用卡密
+
+管理员常用命令：
+
+/pcgen <opts>...生成卡密
+
+由于此插件参数较多且仍在增加，为了减少命令长度，此命令参数需要特殊格式
+
+参数格式如： 参数名=参数值 参数名=参数值
+
+详细指令:
+PointCard兑换	/pc
+PointCard管理	/pcmgr
+PointCard生成	/pcgen
+PointCard获取	/pcget
+PointCard查询	/pclog
+PointCard重置	/pcreset
+PointCard关闭	/pcclose
+VIP信息     	/vipinfo
+
+详细用法见:
+https://github.com/Cansll/PointCard/wiki/%E7%94%9F%E6%88%90%E5%8D%A1%E5%AF%86---pcgen
+
+生成命令比较繁琐，所以我有预备一个生成器http://cansll.github.io/PointCard2-CMD-Gen/index.html
+
+如果您不希望使用时产生麻烦，可以使用我们提供的命令生成器
+
+网页版:
+https://cansll.github.io/PointCard2-CMD-Gen/index.html
+
+安卓版(未经测试):
+https://t.cn/RC8urDw
+
+更多使用方法请见PointCard Wiki(完善中)
+https://github.com/Cansll/PointCard/wiki/%E4%B8%BB%E9%A1%B5
+
+
+此更新包内还有一个插件InviteU
+InviteU是一个配合PC使用的邀请码插件，最好的配合就是两边都是最新版本否则可能不兼容
+
+本插件基于GPLv3协议在Github中开源-->https://github.com/Cansll/PointCard
+本插件已经于幻星梦生存服务器实装且作为增值服务兑换方式投入使用，欢迎前往体验！
+CKylinMyGOD | FancyDreamTeam 禁止任何未经允许的转载 使用时禁止删除插件中的版权信息！
+
+作者:CKylin
+Team:FancyDreamTeam
+
+

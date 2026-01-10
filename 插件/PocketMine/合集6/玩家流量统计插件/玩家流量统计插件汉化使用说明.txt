@@ -1,0 +1,30 @@
+[New API][玩家流量统计插件文本汉化]
+
+该插件无命令,直接使用即可!
+
+用途:统计某段时间内进出服务器的玩家!
+
+配置文件参数说明:
+1 玩家流量统计的时间间隔(单位: 秒):
+interval: 60 
+2 是否显示进出游戏的玩家列表:
+showPlayers: true
+插件BUG修复:
+if($leftCount > 0) {
+...
+    foreach($this->plugin->getJoined() as $player) {
+                ....
+     }
+...
+}
+改为
+if($leftCount > 0) {
+...
+    foreach($this->plugin->getLeft() as $player) {
+                ....
+     }
+...
+错误说明:逻辑错误!
+
+"PM插件指令汉化合集"已上传到百度云网盘,方便大家下载:(持续更新...)
+http://pan.baidu.com/s/1gdBysa3

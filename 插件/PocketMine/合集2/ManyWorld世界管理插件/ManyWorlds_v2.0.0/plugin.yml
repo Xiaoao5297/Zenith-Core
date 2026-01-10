@@ -1,0 +1,54 @@
+main: aliuly\manyworlds\Main
+api: 
+- 1.0.0
+- 2.0.0
+- 3.0.0
+- 3.0.0-ALPHA1
+- 3.0.0-ALPHA2
+- 3.0.0-ALPHA3
+- 3.0.0-ALPHA4
+- 3.0.0-ALPHA5
+- 4.0.0
+- 4.0.0-ALPHA1
+- 4.0.0-ALPHA2
+- 4.0.0-ALPHA3
+- 4.0.0-ALPHA4
+- 4.0.0-ALPHA5
+load: POSTWORLD
+
+name: ManyWorlds
+description: Manage Multiple Worlds
+version: 2.0.0
+author: aliuly
+
+commands:
+  mw:
+    description: Manage worlds
+    usage: "/mw <help|sub-cmd> [options]"
+    permission: mw.cmds
+
+permissions:
+  mw.cmds:
+    default: true
+    description: "Allow all the ManyWorlds functionality"
+  mw.cmd.tp:
+    default: op
+    description: "Allows users to travel to other worlds"
+  mw.cmd.tp.others:
+    default: op
+    description: "Allows users to make others travel to other worlds"
+  mw.cmd.ls:
+    default: op
+    description: "Allows users to list worlds"
+  mw.cmd.world.create:
+    default: op
+    description: "Allows users to create worlds"
+  mw.cmd.world.load:
+    default: op
+    description: "Allows users to load worlds"
+  mw.cmd.lvdat:
+    default: op
+    description: "Manipulate level.dat"
+  mw.cmd.default:
+    default: op
+    description: "Changes default world"

@@ -1,0 +1,495 @@
+2016-8-21 12:18:13 [INFO] Welcome! Please choose a language first!
+2016-8-21 12:18:13 [INFO] eng => English
+2016-8-21 12:18:13 [INFO] chs => 中文（简体）
+2016-8-21 12:18:13 [INFO] cht => 中文（繁體）
+2016-8-21 12:18:13 [INFO] jpn => 日本語
+2016-8-21 12:18:13 [INFO] rus => Pyccĸий
+2016-8-21 12:18:13 [INFO] spa => Español
+2016-8-21 12:18:13 [INFO] pol => Polish
+2016-8-21 12:18:13 [INFO] bra => Português-Brasil
+2016-8-21 12:18:13 [INFO] kor => 한국어
+2016-8-21 12:18:24 [INFO] Loading nukkit.yml...
+2016-8-21 12:18:24 [INFO] Loading server properties...
+2016-8-21 12:18:24 [INFO] 将 中文(简体) (chs) 设定为基本语言
+2016-8-21 12:18:24 [INFO] 正在启动支持 Minecraft: PE v0.15.0 alpha 版本的服务器
+2016-8-21 12:18:24 [INFO] 正在启动服务器在 0.0.0.0:25565
+2016-8-21 12:18:24 [INFO] 此服务器正在运行 Nukkit 1.0dev 版本 "蘋果(Apple)派(Pie)" (API 1.0.0)
+2016-8-21 12:18:24 [INFO] Nukkit 根据 LGPL 许可发行
+2016-8-21 12:18:24 [INFO] 读取中... Money v1.3.0
+2016-8-21 12:18:24 [INFO] [Money] 欢迎使用本插件, 请选择语言: 
+2016-8-21 12:18:24 [INFO] [Money] Hello. Please choose a language: 
+2016-8-21 12:18:24 [INFO] [Money] chs: 简体中文
+2016-8-21 12:18:24 [INFO] [Money] cht: 繁體中文
+2016-8-21 12:18:24 [INFO] [Money] eng: English
+
+2016-8-21 12:19:25 [INFO] [Money] 请输入 'chs' 或 'cht' 或 'eng'
+2016-8-21 12:19:25 [INFO] [Money] Please enter 'chs', 'cht' or 'eng'
+2016-8-21 12:19:25 [INFO] [Money] 欢迎使用本插件, 请选择语言: 
+2016-8-21 12:19:25 [INFO] [Money] Hello. Please choose a language: 
+2016-8-21 12:19:25 [INFO] 未知的指令。请使用 /help 来显示指令列表。
+2016-8-21 12:19:25 [INFO] [Money] chs: 简体中文
+2016-8-21 12:19:25 [INFO] [Money] cht: 繁體中文
+2016-8-21 12:19:25 [INFO] [Money] eng: English
+
+2016-8-21 12:19:41 [INFO] 未知的指令。请使用 /help 来显示指令列表。
+2016-8-21 12:20:02 [INFO] Loading nukkit.yml...
+2016-8-21 12:20:02 [INFO] Loading server properties...
+2016-8-21 12:20:02 [INFO] 将 中文(简体) (chs) 设定为基本语言
+2016-8-21 12:20:02 [INFO] 正在启动支持 Minecraft: PE v0.15.0 alpha 版本的服务器
+2016-8-21 12:20:02 [INFO] 正在启动服务器在 0.0.0.0:25565
+2016-8-21 12:20:02 [INFO] 此服务器正在运行 Nukkit 1.0dev 版本 "蘋果(Apple)派(Pie)" (API 1.0.0)
+2016-8-21 12:20:02 [INFO] Nukkit 根据 LGPL 许可发行
+2016-8-21 12:20:03 [INFO] 读取中... Money v1.3.0
+2016-8-21 12:20:03 [INFO] [Money] 欢迎使用本插件, 请选择语言: 
+2016-8-21 12:20:03 [INFO] [Money] Hello. Please choose a language: 
+2016-8-21 12:20:03 [INFO] [Money] chs: 简体中文
+2016-8-21 12:20:03 [INFO] [Money] cht: 繁體中文
+2016-8-21 12:20:03 [INFO] [Money] eng: English
+
+2016-8-21 12:20:10 [INFO] [Money] 请输入 'chs' 或 'cht' 或 'eng'
+2016-8-21 12:20:10 [INFO] [Money] Please enter 'chs', 'cht' or 'eng'
+2016-8-21 12:20:10 [INFO] [Money] 欢迎使用本插件, 请选择语言: 
+2016-8-21 12:20:10 [INFO] [Money] Hello. Please choose a language: 
+2016-8-21 12:20:10 [INFO] [Money] chs: 简体中文
+2016-8-21 12:20:10 [INFO] [Money] cht: 繁體中文
+2016-8-21 12:20:10 [INFO] [Money] eng: English
+
+2016-8-21 12:21:37 [INFO] [Money] 请输入 'chs' 或 'cht' 或 'eng'
+2016-8-21 12:21:37 [INFO] 未知的指令。请使用 /help 来显示指令列表。
+2016-8-21 12:21:37 [INFO] [Money] Please enter 'chs', 'cht' or 'eng'
+2016-8-21 12:21:37 [INFO] [Money] 欢迎使用本插件, 请选择语言: 
+2016-8-21 12:21:37 [INFO] [Money] Hello. Please choose a language: 
+2016-8-21 12:21:37 [INFO] [Money] chs: 简体中文
+2016-8-21 12:21:37 [INFO] [Money] cht: 繁體中文
+2016-8-21 12:21:37 [INFO] [Money] eng: English
+
+2016-8-21 12:21:42 [INFO] [Money] 已使用 [简体中文] 作为默认语言.
+2016-8-21 12:21:42 [INFO] 读取中... MoneyLand v1.1.0
+2016-8-21 12:21:42 [INFO] 读取中... MyLock v1.0.4
+2016-8-21 12:21:42 [INFO] 读取中... NEssentials v0.0.1-SNAPSHOT
+2016-8-21 12:21:42 [INFO] 读取中... SntuAuth v1.2
+2016-8-21 12:21:42 [INFO] 开启中... Money v1.3.0
+2016-8-21 12:21:42 [INFO] 开启中... NEssentials v0.0.1-SNAPSHOT
+2016-8-21 12:21:42 [INFO] [Essentials] 正在启动Nukkit Essentials
+2016-8-21 12:21:42 [INFO] [Essentials] 插件由berry64制作.......
+2016-8-21 12:21:42 [INFO] [Essentials] =======================
+2016-8-21 12:21:42 [NOTICE] 无法找到地图 "world"
+2016-8-21 12:21:42 [INFO] 准备地图中... "world"
+2016-8-21 12:21:42 [INFO] 开启中... MoneyLand v1.1.0
+2016-8-21 12:21:42 [INFO] 开启中... MyLock v1.0.4
+2016-8-21 12:21:42 [INFO] [MyLock] 插件:MyLock  版本:1.0.4  作者:uuuuone  QQ:578102133
+2016-8-21 12:21:42 [INFO] 开启中... SntuAuth v1.2
+2016-8-21 12:21:42 [INFO] [SntuAuth] Sntu登录插件加载成功 !
+2016-8-21 12:21:42 [INFO] 默认的游戏模式为：生存模式
+2016-8-21 12:21:42 [INFO] 启动完成 (100.489s)！如需帮助，请输入 "help" 或 "?"
+2016-8-21 12:24:42 [INFO] [CONSOLE: 正在关闭服务器]
+2016-8-21 12:24:42 [INFO] 关闭中... Money v1.3.0
+2016-8-21 12:24:42 [INFO] 关闭中... MoneyLand v1.1.0
+2016-8-21 12:24:42 [INFO] 关闭中... MyLock v1.0.4
+2016-8-21 12:24:42 [INFO] [MyLock] 保存数据中...
+2016-8-21 12:24:42 [INFO] [MyLock] 数据保存完成
+2016-8-21 12:24:42 [INFO] 关闭中... NEssentials v0.0.1-SNAPSHOT
+2016-8-21 12:24:42 [INFO] 关闭中... SntuAuth v1.2
+2016-8-21 12:24:42 [INFO] [SntuAuth] Sntu登录插件卸载成功 !
+2016-8-21 12:24:42 [INFO] 正在移除地图 "world"
+2016-8-21 12:24:42 [INFO] Stopping other threads
+2016-8-21 12:24:46 [INFO] Loading nukkit.yml...
+2016-8-21 12:24:46 [INFO] Loading server properties...
+2016-8-21 12:24:46 [INFO] 将 中文(简体) (chs) 设定为基本语言
+2016-8-21 12:24:46 [INFO] 正在启动支持 Minecraft: PE v0.15.0 alpha 版本的服务器
+2016-8-21 12:24:46 [INFO] 正在启动服务器在 0.0.0.0:19132
+2016-8-21 12:24:46 [INFO] 此服务器正在运行 Nukkit 1.0dev 版本 "蘋果(Apple)派(Pie)" (API 1.0.0)
+2016-8-21 12:24:46 [INFO] Nukkit 根据 LGPL 许可发行
+2016-8-21 12:24:47 [INFO] 读取中... Money v1.3.0
+2016-8-21 12:24:47 [INFO] 读取中... MoneyLand v1.1.0
+2016-8-21 12:24:47 [INFO] 读取中... MyLock v1.0.4
+2016-8-21 12:24:47 [INFO] 读取中... NEssentials v0.0.1-SNAPSHOT
+2016-8-21 12:24:47 [INFO] 读取中... SntuAuth v1.2
+2016-8-21 12:24:47 [INFO] 开启中... Money v1.3.0
+2016-8-21 12:24:47 [INFO] 开启中... NEssentials v0.0.1-SNAPSHOT
+2016-8-21 12:24:47 [INFO] [Essentials] 正在启动Nukkit Essentials
+2016-8-21 12:24:47 [INFO] [Essentials] 插件由berry64制作.......
+2016-8-21 12:24:47 [INFO] [Essentials] =======================
+2016-8-21 12:24:47 [INFO] 准备地图中... "world"
+2016-8-21 12:24:47 [INFO] 开启中... MoneyLand v1.1.0
+2016-8-21 12:24:47 [INFO] 开启中... MyLock v1.0.4
+2016-8-21 12:24:47 [INFO] [MyLock] 插件:MyLock  版本:1.0.4  作者:uuuuone  QQ:578102133
+2016-8-21 12:24:47 [INFO] 开启中... SntuAuth v1.2
+2016-8-21 12:24:47 [INFO] [SntuAuth] Sntu登录插件加载成功 !
+2016-8-21 12:24:47 [INFO] 默认的游戏模式为：生存模式
+2016-8-21 12:24:47 [INFO] 启动完成 (1.2s)！如需帮助，请输入 "help" 或 "?"
+2016-8-21 12:29:57 [INFO] [/192.168.1.57:62272] 登出游戏，原因： client disconnect
+2016-8-21 12:30:17 [INFO] [/192.168.1.57:62272] 登出游戏，原因： client disconnect
+2016-8-21 12:33:29 [INFO] [CONSOLE: 正在关闭服务器]
+2016-8-21 12:33:29 [INFO] 关闭中... Money v1.3.0
+2016-8-21 12:33:29 [INFO] 关闭中... MoneyLand v1.1.0
+2016-8-21 12:33:29 [INFO] 关闭中... MyLock v1.0.4
+2016-8-21 12:33:29 [INFO] [MyLock] 保存数据中...
+2016-8-21 12:33:29 [INFO] [MyLock] 数据保存完成
+2016-8-21 12:33:29 [INFO] 关闭中... NEssentials v0.0.1-SNAPSHOT
+2016-8-21 12:33:29 [INFO] 关闭中... SntuAuth v1.2
+2016-8-21 12:33:29 [INFO] [SntuAuth] Sntu登录插件卸载成功 !
+2016-8-21 12:33:29 [INFO] 正在移除地图 "world"
+2016-8-21 12:33:29 [INFO] Stopping other threads
+2016-8-21 13:28:37 [INFO] Loading nukkit.yml...
+2016-8-21 13:28:37 [INFO] Loading server properties...
+2016-8-21 13:28:37 [INFO] 将 中文(简体) (chs) 设定为基本语言
+2016-8-21 13:28:37 [INFO] 正在启动支持 Minecraft: PE v0.15.0 alpha 版本的服务器
+2016-8-21 13:28:37 [INFO] 正在启动服务器在 0.0.0.0:19132
+2016-8-21 13:28:37 [INFO] 此服务器正在运行 Nukkit 1.0dev 版本 "蘋果(Apple)派(Pie)" (API 1.0.0)
+2016-8-21 13:28:37 [INFO] Nukkit 根据 LGPL 许可发行
+2016-8-21 13:28:37 [INFO] 读取中... AwtMessage v0.0.2-SNAPSNOT
+2016-8-21 13:28:37 [INFO] 读取中... LeetTP v1.2.1-b22
+2016-8-21 13:28:37 [INFO] 读取中... Money v1.3.0
+2016-8-21 13:28:37 [INFO] 读取中... MoneyLand v1.1.0
+2016-8-21 13:28:37 [INFO] 读取中... MyLock v1.0.4
+2016-8-21 13:28:37 [INFO] 读取中... NEssentials v0.0.1-SNAPSHOT
+2016-8-21 13:28:37 [INFO] 读取中... RsFunction v1.0.2
+2016-8-21 13:28:37 [CRITICAL] 无法读取插件 'RsShop'：本插件无法单独使用
+2016-8-21 13:28:37 [INFO] 读取中... SntuAuth v1.2
+2016-8-21 13:28:37 [INFO] 读取中... WorldPlus v1.5
+2016-8-21 13:28:37 [INFO] 读取中... Worlds v1.1.0
+2016-8-21 13:28:37 [CRITICAL] 无法读取插件 'RsShop'：本插件无法单独使用
+2016-8-21 13:28:37 [CRITICAL] 无法读取插件 'RsShop'：检测出循环依赖
+2016-8-21 13:28:37 [INFO] 开启中... AwtMessage v0.0.2-SNAPSNOT
+2016-8-21 13:28:37 [INFO] [AwtMessage] 无法找到config.yml,正在创建...
+2016-8-21 13:28:37 [INFO] [AwtMessage] 成功加载config.yml.
+2016-8-21 13:28:37 [INFO] [AwtMessage] AwtMessage插件已经启动！
+2016-8-21 13:28:37 [INFO] 开启中... Money v1.3.0
+2016-8-21 13:28:37 [INFO] 开启中... NEssentials v0.0.1-SNAPSHOT
+2016-8-21 13:28:37 [INFO] [Essentials] 正在启动Nukkit Essentials
+2016-8-21 13:28:37 [INFO] [Essentials] 插件由berry64制作.......
+2016-8-21 13:28:37 [INFO] [Essentials] =======================
+2016-8-21 13:28:37 [INFO] 开启中... RsFunction v1.0.2
+2016-8-21 13:28:37 [INFO] [RsFunction] You will use :zh
+2016-8-21 13:28:37 [INFO] 准备地图中... "world"
+2016-8-21 13:28:37 [INFO] 开启中... LeetTP v1.2.1-b22
+2016-8-21 13:28:37 [INFO] 开启中... MoneyLand v1.1.0
+2016-8-21 13:28:37 [INFO] 开启中... MyLock v1.0.4
+2016-8-21 13:28:37 [INFO] [MyLock] 插件:MyLock  版本:1.0.4  作者:uuuuone  QQ:578102133
+2016-8-21 13:28:37 [INFO] 开启中... SntuAuth v1.2
+2016-8-21 13:28:37 [INFO] [SntuAuth] Sntu登录插件加载成功 !
+2016-8-21 13:28:37 [INFO] 开启中... WorldPlus v1.5
+2016-8-21 13:28:37 [INFO] [WorldPlus] 创世神Plus(v1.6)插件加载完成!--By Plus(http://tieba.baidu.com/p/4212029014?pid=80628659576)
+2016-8-21 13:28:37 [INFO] 开启中... Worlds v1.1.0
+2016-8-21 13:28:37 [INFO] [Worlds] 加载地图中...
+2016-8-21 13:28:37 [INFO] 默认的游戏模式为：生存模式
+2016-8-21 13:28:37 [INFO] 启动完成 (0.776s)！如需帮助，请输入 "help" 或 "?"
+2016-8-21 13:29:05 [INFO] [CONSOLE: 正在关闭服务器]
+2016-8-21 13:29:05 [INFO] 关闭中... AwtMessage v0.0.2-SNAPSNOT
+2016-8-21 13:29:05 [INFO] [AwtMessage] 成功保存config.yml.
+2016-8-21 13:29:05 [INFO] [AwtMessage] AwtMessage插件已经关闭！
+2016-8-21 13:29:05 [INFO] 关闭中... LeetTP v1.2.1-b22
+2016-8-21 13:29:05 [INFO] 关闭中... Money v1.3.0
+2016-8-21 13:29:05 [INFO] 关闭中... MoneyLand v1.1.0
+2016-8-21 13:29:05 [INFO] 关闭中... MyLock v1.0.4
+2016-8-21 13:29:05 [INFO] [MyLock] 保存数据中...
+2016-8-21 13:29:05 [INFO] [MyLock] 数据保存完成
+2016-8-21 13:29:05 [INFO] 关闭中... NEssentials v0.0.1-SNAPSHOT
+2016-8-21 13:29:05 [INFO] 关闭中... RsFunction v1.0.2
+2016-8-21 13:29:05 [INFO] 关闭中... SntuAuth v1.2
+2016-8-21 13:29:05 [INFO] [SntuAuth] Sntu登录插件卸载成功 !
+2016-8-21 13:29:05 [INFO] 关闭中... WorldPlus v1.5
+2016-8-21 13:29:05 [INFO] 关闭中... Worlds v1.1.0
+2016-8-21 13:29:05 [INFO] [Worlds] 卸载地图中...
+2016-8-21 13:29:05 [INFO] 正在移除地图 "world"
+2016-8-21 13:29:05 [INFO] Stopping other threads
+2016-8-21 13:39:05 [INFO] Loading nukkit.yml...
+2016-8-21 13:39:05 [INFO] Loading server properties...
+2016-8-21 13:39:05 [INFO] 将 中文(简体) (chs) 设定为基本语言
+2016-8-21 13:39:05 [INFO] 正在启动支持 Minecraft: PE v0.15.0 alpha 版本的服务器
+2016-8-21 13:39:05 [INFO] 正在启动服务器在 0.0.0.0:19132
+2016-8-21 13:39:05 [INFO] 此服务器正在运行 Nukkit 1.0dev 版本 "蘋果(Apple)派(Pie)" (API 1.0.0)
+2016-8-21 13:39:05 [INFO] Nukkit 根据 LGPL 许可发行
+2016-8-21 13:39:06 [INFO] 读取中... AwtMessage v0.0.2-SNAPSNOT
+2016-8-21 13:39:06 [INFO] 读取中... LeetTP v1.2.1-b22
+2016-8-21 13:39:06 [INFO] 读取中... Money v1.3.0
+2016-8-21 13:39:06 [INFO] 读取中... MoneyLand v1.1.0
+2016-8-21 13:39:06 [INFO] 读取中... MyLock v1.0.4
+2016-8-21 13:39:06 [INFO] 读取中... NEssentials v0.0.1-SNAPSHOT
+2016-8-21 13:39:06 [INFO] 读取中... RsFunction v1.0.2
+2016-8-21 13:39:06 [CRITICAL] 无法读取插件 'RsShop'：本插件无法单独使用
+2016-8-21 13:39:06 [INFO] 读取中... SntuAuth v1.2
+2016-8-21 13:39:06 [INFO] 读取中... WorldPlus v1.5
+2016-8-21 13:39:06 [INFO] 读取中... Worlds v1.1.0
+2016-8-21 13:39:06 [CRITICAL] 无法读取插件 'RsShop'：本插件无法单独使用
+2016-8-21 13:39:06 [CRITICAL] 无法读取插件 'RsShop'：检测出循环依赖
+2016-8-21 13:39:06 [INFO] 开启中... AwtMessage v0.0.2-SNAPSNOT
+2016-8-21 13:39:06 [INFO] [AwtMessage] 成功加载config.yml.
+2016-8-21 13:39:06 [INFO] [AwtMessage] AwtMessage插件已经启动！
+2016-8-21 13:39:06 [INFO] 开启中... Money v1.3.0
+2016-8-21 13:39:06 [INFO] 开启中... NEssentials v0.0.1-SNAPSHOT
+2016-8-21 13:39:06 [INFO] [Essentials] 正在启动Nukkit Essentials
+2016-8-21 13:39:06 [INFO] [Essentials] 插件由berry64制作.......
+2016-8-21 13:39:06 [INFO] [Essentials] =======================
+2016-8-21 13:39:06 [INFO] 开启中... RsFunction v1.0.2
+2016-8-21 13:39:06 [INFO] [RsFunction] You will use :zh
+2016-8-21 13:39:06 [INFO] 准备地图中... "world"
+2016-8-21 13:39:06 [INFO] 开启中... LeetTP v1.2.1-b22
+2016-8-21 13:39:06 [INFO] 开启中... MoneyLand v1.1.0
+2016-8-21 13:39:06 [INFO] 开启中... MyLock v1.0.4
+2016-8-21 13:39:06 [INFO] [MyLock] 插件:MyLock  版本:1.0.4  作者:uuuuone  QQ:578102133
+2016-8-21 13:39:06 [INFO] 开启中... SntuAuth v1.2
+2016-8-21 13:39:06 [INFO] [SntuAuth] Sntu登录插件加载成功 !
+2016-8-21 13:39:06 [INFO] 开启中... WorldPlus v1.5
+2016-8-21 13:39:06 [INFO] [WorldPlus] 创世神Plus(v1.6)插件加载完成!--By Plus(http://tieba.baidu.com/p/4212029014?pid=80628659576)
+2016-8-21 13:39:06 [INFO] 开启中... Worlds v1.1.0
+2016-8-21 13:39:06 [INFO] [Worlds] 加载地图中...
+2016-8-21 13:39:06 [INFO] 默认的游戏模式为：生存模式
+2016-8-21 13:39:06 [INFO] 启动完成 (0.735s)！如需帮助，请输入 "help" 或 "?"
+2016-8-21 13:44:05 [INFO] [/192.168.1.57:53920] 登出游戏，原因： client disconnect
+2016-8-21 13:44:13 [INFO] [/192.168.1.57:53920] 登出游戏，原因： client disconnect
+2016-8-21 13:45:34 [NOTICE] 无法找到玩家数据 "sorestosprey935"，正在创建新的数据
+2016-8-21 13:45:34 [INFO] SorestOsprey935[/192.168.1.157:19132] 登入游戏，实体 ID 为 1，坐标位于 (world, 128.0, 70.0, 128.0)
+2016-8-21 13:45:37 [INFO] ��� SorestOsprey935 ��������Ϸ
+2016-8-21 13:46:00 [INFO] <SorestOsprey935> reg 2013 2013
+2016-8-21 13:46:27 [INFO] ��� %player �뿪����Ϸ....
+2016-8-21 13:46:27 [INFO] SorestOsprey935[/192.168.1.157:19132] 登出游戏，原因： 对不起! 注册超时 ! 
+2016-8-21 13:46:47 [INFO] SorestOsprey935[/192.168.1.157:19132] 登入游戏，实体 ID 为 2，坐标位于 (world, 128.3, 63.0, 128.0)
+2016-8-21 13:46:48 [INFO] ��� SorestOsprey935 ��������Ϸ
+2016-8-21 13:47:37 [INFO] [CONSOLE: 2011 已获得管理员权限]
+2016-8-21 13:48:32 [INFO] [CONSOLE: 正在关闭服务器]
+2016-8-21 13:48:32 [INFO] 关闭中... AwtMessage v0.0.2-SNAPSNOT
+2016-8-21 13:48:32 [INFO] [AwtMessage] 成功保存config.yml.
+2016-8-21 13:48:32 [INFO] [AwtMessage] AwtMessage插件已经关闭！
+2016-8-21 13:48:32 [INFO] 关闭中... LeetTP v1.2.1-b22
+2016-8-21 13:48:32 [INFO] 关闭中... Money v1.3.0
+2016-8-21 13:48:32 [INFO] 关闭中... MoneyLand v1.1.0
+2016-8-21 13:48:32 [INFO] 关闭中... MyLock v1.0.4
+2016-8-21 13:48:32 [INFO] [MyLock] 保存数据中...
+2016-8-21 13:48:32 [INFO] [MyLock] 数据保存完成
+2016-8-21 13:48:32 [INFO] 关闭中... NEssentials v0.0.1-SNAPSHOT
+2016-8-21 13:48:32 [INFO] 关闭中... RsFunction v1.0.2
+2016-8-21 13:48:32 [INFO] 关闭中... SntuAuth v1.2
+2016-8-21 13:48:32 [INFO] [SntuAuth] Sntu登录插件卸载成功 !
+2016-8-21 13:48:32 [INFO] 关闭中... WorldPlus v1.5
+2016-8-21 13:48:32 [INFO] 关闭中... Worlds v1.1.0
+2016-8-21 13:48:32 [INFO] [Worlds] 卸载地图中...
+2016-8-21 13:48:32 [INFO] SorestOsprey935 离开了游戏
+2016-8-21 13:48:32 [INFO] SorestOsprey935[/192.168.1.157:19132] 登出游戏，原因： 伺服器已關閉
+2016-8-21 13:48:32 [INFO] 正在移除地图 "world"
+2016-8-21 13:48:33 [INFO] Stopping other threads
+2016-8-21 13:48:35 [INFO] Loading nukkit.yml...
+2016-8-21 13:48:36 [INFO] Loading server properties...
+2016-8-21 13:48:36 [INFO] 将 中文(简体) (chs) 设定为基本语言
+2016-8-21 13:48:36 [INFO] 正在启动支持 Minecraft: PE v0.15.0 alpha 版本的服务器
+2016-8-21 13:48:36 [INFO] 正在启动服务器在 0.0.0.0:19132
+2016-8-21 13:48:36 [INFO] 此服务器正在运行 Nukkit 1.0dev 版本 "蘋果(Apple)派(Pie)" (API 1.0.0)
+2016-8-21 13:48:36 [INFO] Nukkit 根据 LGPL 许可发行
+2016-8-21 13:48:36 [ERROR] 无法读取在 'C:\Users\Administrator\Desktop\整合\server\plugins' 目录中的 'mcsgui_manager.jar'：java.lang.ClassCastException: java.lang.Double cannot be cast to java.lang.String
+	at cn.nukkit.plugin.PluginDescription.loadMap(PluginDescription.java:146)
+	at cn.nukkit.plugin.PluginDescription.<init>(PluginDescription.java:137)
+	at cn.nukkit.plugin.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:94)
+	at cn.nukkit.plugin.PluginManager.loadPlugins(PluginManager.java:172)
+	at cn.nukkit.plugin.PluginManager.loadPlugins(PluginManager.java:136)
+	at cn.nukkit.plugin.PluginManager.loadPlugins(PluginManager.java:128)
+	at cn.nukkit.plugin.PluginManager.loadPlugins(PluginManager.java:124)
+	at cn.nukkit.Server.<init>(Server.java:380)
+	at cn.nukkit.Nukkit.main(Nukkit.java:65)
+
+2016-8-21 13:48:36 [ALERT] java.lang.ClassCastException: java.lang.Double cannot be cast to java.lang.String
+	at cn.nukkit.plugin.PluginDescription.loadMap(PluginDescription.java:146)
+	at cn.nukkit.plugin.PluginDescription.<init>(PluginDescription.java:137)
+	at cn.nukkit.plugin.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:94)
+	at cn.nukkit.plugin.PluginManager.loadPlugins(PluginManager.java:172)
+	at cn.nukkit.plugin.PluginManager.loadPlugins(PluginManager.java:136)
+	at cn.nukkit.plugin.PluginManager.loadPlugins(PluginManager.java:128)
+	at cn.nukkit.plugin.PluginManager.loadPlugins(PluginManager.java:124)
+	at cn.nukkit.Server.<init>(Server.java:380)
+	at cn.nukkit.Nukkit.main(Nukkit.java:65)
+
+2016-8-21 13:48:36 [INFO] 读取中... AwtMessage v0.0.2-SNAPSNOT
+2016-8-21 13:48:36 [INFO] 读取中... LeetTP v1.2.1-b22
+2016-8-21 13:48:36 [INFO] 读取中... Money v1.3.0
+2016-8-21 13:48:36 [INFO] 读取中... MoneyLand v1.1.0
+2016-8-21 13:48:36 [INFO] 读取中... MyLock v1.0.4
+2016-8-21 13:48:36 [INFO] 读取中... NEssentials v0.0.1-SNAPSHOT
+2016-8-21 13:48:36 [INFO] 读取中... RsFunction v1.0.2
+2016-8-21 13:48:36 [CRITICAL] 无法读取插件 'RsShop'：本插件无法单独使用
+2016-8-21 13:48:36 [INFO] 读取中... SntuAuth v1.2
+2016-8-21 13:48:36 [INFO] 读取中... WorldPlus v1.5
+2016-8-21 13:48:36 [INFO] 读取中... Worlds v1.1.0
+2016-8-21 13:48:36 [CRITICAL] 无法读取插件 'RsShop'：本插件无法单独使用
+2016-8-21 13:48:36 [CRITICAL] 无法读取插件 'RsShop'：检测出循环依赖
+2016-8-21 13:48:36 [INFO] 开启中... AwtMessage v0.0.2-SNAPSNOT
+2016-8-21 13:48:36 [INFO] [AwtMessage] 成功加载config.yml.
+2016-8-21 13:48:36 [INFO] [AwtMessage] AwtMessage插件已经启动！
+2016-8-21 13:48:36 [INFO] 开启中... Money v1.3.0
+2016-8-21 13:48:36 [INFO] 开启中... NEssentials v0.0.1-SNAPSHOT
+2016-8-21 13:48:36 [INFO] [Essentials] 正在启动Nukkit Essentials
+2016-8-21 13:48:36 [INFO] [Essentials] 插件由berry64制作.......
+2016-8-21 13:48:36 [INFO] [Essentials] =======================
+2016-8-21 13:48:36 [INFO] 开启中... RsFunction v1.0.2
+2016-8-21 13:48:36 [INFO] [RsFunction] You will use :zh
+2016-8-21 13:48:36 [INFO] 准备地图中... "world"
+2016-8-21 13:48:36 [INFO] 开启中... LeetTP v1.2.1-b22
+2016-8-21 13:48:36 [INFO] 开启中... MoneyLand v1.1.0
+2016-8-21 13:48:36 [INFO] 开启中... MyLock v1.0.4
+2016-8-21 13:48:36 [INFO] [MyLock] 插件:MyLock  版本:1.0.4  作者:uuuuone  QQ:578102133
+2016-8-21 13:48:36 [INFO] 开启中... SntuAuth v1.2
+2016-8-21 13:48:36 [INFO] [SntuAuth] Sntu登录插件加载成功 !
+2016-8-21 13:48:36 [INFO] 开启中... WorldPlus v1.5
+2016-8-21 13:48:36 [INFO] [WorldPlus] 创世神Plus(v1.6)插件加载完成!--By Plus(http://tieba.baidu.com/p/4212029014?pid=80628659576)
+2016-8-21 13:48:36 [INFO] 开启中... Worlds v1.1.0
+2016-8-21 13:48:36 [INFO] [Worlds] 加载地图中...
+2016-8-21 13:48:36 [INFO] 默认的游戏模式为：生存模式
+2016-8-21 13:48:36 [INFO] 启动完成 (0.904s)！如需帮助，请输入 "help" 或 "?"
+2016-8-21 13:48:53 [INFO] SorestOsprey935[/192.168.1.157:19132] 登入游戏，实体 ID 为 1，坐标位于 (world, 111.6109, 64.0, 143.4201)
+2016-8-21 13:48:54 [INFO] ��� SorestOsprey935 ��������Ϸ
+2016-8-21 13:49:19 [INFO] 未知的指令。请使用 /help 来显示指令列表。
+2016-8-21 13:49:21 [INFO] 未知的指令。请使用 /help 来显示指令列表。
+2016-8-21 13:49:27 [INFO] [CONSOLE: 2011 已获得管理员权限]
+2016-8-21 13:49:55 [INFO] [CONSOLE: SprestOsprey935 已获得管理员权限]
+2016-8-21 13:50:08 [INFO] [CONSOLE: SorestOsprey935 已获得管理员权限]
+2016-8-21 13:50:29 [INFO] [SorestOsprey935: 您的游戏模式已被设置为 创造模式]
+2016-8-21 13:51:17 [INFO] ��� %player �뿪����Ϸ....
+2016-8-21 13:51:17 [INFO] SorestOsprey935[/192.168.1.157:19132] 登出游戏，原因： client disconnect
+2016-8-21 13:51:33 [INFO] [CONSOLE: 正在关闭服务器]
+2016-8-21 13:51:33 [INFO] 关闭中... AwtMessage v0.0.2-SNAPSNOT
+2016-8-21 13:51:33 [INFO] [AwtMessage] 成功保存config.yml.
+2016-8-21 13:51:33 [INFO] [AwtMessage] AwtMessage插件已经关闭！
+2016-8-21 13:51:33 [INFO] 关闭中... LeetTP v1.2.1-b22
+2016-8-21 13:51:33 [INFO] 关闭中... Money v1.3.0
+2016-8-21 13:51:33 [INFO] 关闭中... MoneyLand v1.1.0
+2016-8-21 13:51:33 [INFO] 关闭中... MyLock v1.0.4
+2016-8-21 13:51:33 [INFO] [MyLock] 保存数据中...
+2016-8-21 13:51:33 [INFO] [MyLock] 数据保存完成
+2016-8-21 13:51:33 [INFO] 关闭中... NEssentials v0.0.1-SNAPSHOT
+2016-8-21 13:51:33 [INFO] 关闭中... RsFunction v1.0.2
+2016-8-21 13:51:33 [INFO] 关闭中... SntuAuth v1.2
+2016-8-21 13:51:33 [INFO] [SntuAuth] Sntu登录插件卸载成功 !
+2016-8-21 13:51:33 [INFO] 关闭中... WorldPlus v1.5
+2016-8-21 13:51:33 [INFO] 关闭中... Worlds v1.1.0
+2016-8-21 13:51:33 [INFO] [Worlds] 卸载地图中...
+2016-8-21 13:51:33 [INFO] 正在移除地图 "world"
+2016-8-21 13:51:34 [INFO] Stopping other threads
+2022-2-4 18:40:32 [INFO] Loading nukkit.yml...
+2022-2-4 18:40:33 [INFO] Loading server properties...
+2022-2-4 18:40:33 [INFO] 将 中文(简体) (chs) 设定为基本语言
+2022-2-4 18:40:33 [INFO] 正在启动支持 Minecraft: PE v0.15.0 alpha 版本的服务器
+2022-2-4 18:40:33 [INFO] 正在启动服务器在 0.0.0.0:19132
+2022-2-4 18:40:33 [INFO] 此服务器正在运行 Nukkit 1.0dev 版本 "蘋果(Apple)派(Pie)" (API 1.0.0)
+2022-2-4 18:40:33 [INFO] Nukkit 根据 LGPL 许可发行
+2022-2-4 18:40:33 [ERROR] 无法读取在 'C:\Users\Administrator\Downloads\PE手机服务器整合\server\plugins' 目录中的 'mcsgui_manager.jar'：java.lang.ClassCastException: java.lang.Double cannot be cast to java.lang.String
+	at cn.nukkit.plugin.PluginDescription.loadMap(PluginDescription.java:146)
+	at cn.nukkit.plugin.PluginDescription.<init>(PluginDescription.java:137)
+	at cn.nukkit.plugin.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:94)
+	at cn.nukkit.plugin.PluginManager.loadPlugins(PluginManager.java:172)
+	at cn.nukkit.plugin.PluginManager.loadPlugins(PluginManager.java:136)
+	at cn.nukkit.plugin.PluginManager.loadPlugins(PluginManager.java:128)
+	at cn.nukkit.plugin.PluginManager.loadPlugins(PluginManager.java:124)
+	at cn.nukkit.Server.<init>(Server.java:380)
+	at cn.nukkit.Nukkit.main(Nukkit.java:65)
+
+2022-2-4 18:40:33 [ALERT] java.lang.ClassCastException: java.lang.Double cannot be cast to java.lang.String
+	at cn.nukkit.plugin.PluginDescription.loadMap(PluginDescription.java:146)
+	at cn.nukkit.plugin.PluginDescription.<init>(PluginDescription.java:137)
+	at cn.nukkit.plugin.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:94)
+	at cn.nukkit.plugin.PluginManager.loadPlugins(PluginManager.java:172)
+	at cn.nukkit.plugin.PluginManager.loadPlugins(PluginManager.java:136)
+	at cn.nukkit.plugin.PluginManager.loadPlugins(PluginManager.java:128)
+	at cn.nukkit.plugin.PluginManager.loadPlugins(PluginManager.java:124)
+	at cn.nukkit.Server.<init>(Server.java:380)
+	at cn.nukkit.Nukkit.main(Nukkit.java:65)
+
+2022-2-4 18:40:33 [INFO] 读取中... AwtMessage v0.0.2-SNAPSNOT
+2022-2-4 18:40:33 [INFO] 读取中... LeetTP v1.2.1-b22
+2022-2-4 18:40:33 [INFO] 读取中... Money v1.3.0
+2022-2-4 18:40:33 [INFO] 读取中... MoneyLand v1.1.0
+2022-2-4 18:40:33 [INFO] 读取中... MyLock v1.0.4
+2022-2-4 18:40:33 [INFO] 读取中... NEssentials v0.0.1-SNAPSHOT
+2022-2-4 18:40:33 [INFO] 读取中... RsFunction v1.0.2
+2022-2-4 18:40:33 [CRITICAL] 无法读取插件 'RsShop'：本插件无法单独使用
+2022-2-4 18:40:33 [INFO] 读取中... SntuAuth v1.2
+2022-2-4 18:40:33 [INFO] 读取中... WorldPlus v1.5
+2022-2-4 18:40:33 [INFO] 读取中... Worlds v1.1.0
+2022-2-4 18:40:33 [CRITICAL] 无法读取插件 'RsShop'：本插件无法单独使用
+2022-2-4 18:40:33 [CRITICAL] 无法读取插件 'RsShop'：检测出循环依赖
+2022-2-4 18:40:33 [INFO] 开启中... AwtMessage v0.0.2-SNAPSNOT
+2022-2-4 18:40:33 [INFO] [AwtMessage] 成功加载config.yml.
+2022-2-4 18:40:33 [INFO] [AwtMessage] AwtMessage插件已经启动！
+2022-2-4 18:40:33 [INFO] 开启中... Money v1.3.0
+2022-2-4 18:40:33 [INFO] 开启中... NEssentials v0.0.1-SNAPSHOT
+2022-2-4 18:40:33 [INFO] [Essentials] 正在启动Nukkit Essentials
+2022-2-4 18:40:33 [INFO] [Essentials] 插件由berry64制作.......
+2022-2-4 18:40:33 [INFO] [Essentials] =======================
+2022-2-4 18:40:33 [INFO] 开启中... RsFunction v1.0.2
+2022-2-4 18:40:33 [INFO] [RsFunction] You will use :zh
+2022-2-4 18:40:33 [INFO] 准备地图中... "world"
+2022-2-4 18:40:33 [INFO] 开启中... LeetTP v1.2.1-b22
+2022-2-4 18:40:33 [INFO] 开启中... MoneyLand v1.1.0
+2022-2-4 18:40:33 [INFO] 开启中... MyLock v1.0.4
+2022-2-4 18:40:33 [INFO] [MyLock] 插件:MyLock  版本:1.0.4  作者:uuuuone  QQ:578102133
+2022-2-4 18:40:33 [INFO] 开启中... SntuAuth v1.2
+2022-2-4 18:40:33 [INFO] [SntuAuth] Sntu登录插件加载成功 !
+2022-2-4 18:40:33 [INFO] 开启中... WorldPlus v1.5
+2022-2-4 18:40:33 [INFO] [WorldPlus] 创世神Plus(v1.6)插件加载完成!--By Plus(http://tieba.baidu.com/p/4212029014?pid=80628659576)
+2022-2-4 18:40:33 [INFO] 开启中... Worlds v1.1.0
+2022-2-4 18:40:33 [INFO] [Worlds] 加载地图中...
+2022-2-4 18:40:33 [INFO] 默认的游戏模式为：生存模式
+2022-2-4 18:40:33 [INFO] 启动完成 (1.672s)！如需帮助，请输入 "help" 或 "?"
+2023-5-20 21:59:20 [INFO] Loading nukkit.yml...
+2023-5-20 21:59:21 [INFO] Loading server properties...
+2023-5-20 21:59:21 [INFO] 将 中文(简体) (chs) 设定为基本语言
+2023-5-20 21:59:22 [INFO] 正在启动支持 Minecraft: PE v0.15.0 alpha 版本的服务器
+2023-5-20 21:59:22 [INFO] 正在启动服务器在 0.0.0.0:19132
+2023-5-20 21:59:22 [INFO] 此服务器正在运行 Nukkit 1.0dev 版本 "蘋果(Apple)派(Pie)" (API 1.0.0)
+2023-5-20 21:59:22 [INFO] Nukkit 根据 LGPL 许可发行
+2023-5-20 21:59:24 [ERROR] 无法读取在 'C:\Users\Administrator\Desktop\Nukkit v0.15.x\plugins' 目录中的 'mcsgui_manager.jar'：java.lang.ClassCastException: java.lang.Double cannot be cast to java.lang.String
+	at cn.nukkit.plugin.PluginDescription.loadMap(PluginDescription.java:146)
+	at cn.nukkit.plugin.PluginDescription.<init>(PluginDescription.java:137)
+	at cn.nukkit.plugin.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:94)
+	at cn.nukkit.plugin.PluginManager.loadPlugins(PluginManager.java:172)
+	at cn.nukkit.plugin.PluginManager.loadPlugins(PluginManager.java:136)
+	at cn.nukkit.plugin.PluginManager.loadPlugins(PluginManager.java:128)
+	at cn.nukkit.plugin.PluginManager.loadPlugins(PluginManager.java:124)
+	at cn.nukkit.Server.<init>(Server.java:380)
+	at cn.nukkit.Nukkit.main(Nukkit.java:65)
+
+2023-5-20 21:59:24 [ALERT] java.lang.ClassCastException: java.lang.Double cannot be cast to java.lang.String
+	at cn.nukkit.plugin.PluginDescription.loadMap(PluginDescription.java:146)
+	at cn.nukkit.plugin.PluginDescription.<init>(PluginDescription.java:137)
+	at cn.nukkit.plugin.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:94)
+	at cn.nukkit.plugin.PluginManager.loadPlugins(PluginManager.java:172)
+	at cn.nukkit.plugin.PluginManager.loadPlugins(PluginManager.java:136)
+	at cn.nukkit.plugin.PluginManager.loadPlugins(PluginManager.java:128)
+	at cn.nukkit.plugin.PluginManager.loadPlugins(PluginManager.java:124)
+	at cn.nukkit.Server.<init>(Server.java:380)
+	at cn.nukkit.Nukkit.main(Nukkit.java:65)
+
+2023-5-20 21:59:24 [INFO] 读取中... AwtMessage v0.0.2-SNAPSNOT
+2023-5-20 21:59:24 [INFO] 读取中... LeetTP v1.2.1-b22
+2023-5-20 21:59:24 [INFO] 读取中... Money v1.3.0
+2023-5-20 21:59:24 [INFO] 读取中... MoneyLand v1.1.0
+2023-5-20 21:59:24 [INFO] 读取中... MyLock v1.0.4
+2023-5-20 21:59:24 [INFO] 读取中... NEssentials v0.0.1-SNAPSHOT
+2023-5-20 21:59:24 [INFO] 读取中... RsFunction v1.0.2
+2023-5-20 21:59:24 [CRITICAL] 无法读取插件 'RsShop'：本插件无法单独使用
+2023-5-20 21:59:24 [INFO] 读取中... SntuAuth v1.2
+2023-5-20 21:59:24 [INFO] 读取中... WorldPlus v1.5
+2023-5-20 21:59:24 [INFO] 读取中... Worlds v1.1.0
+2023-5-20 21:59:24 [CRITICAL] 无法读取插件 'RsShop'：本插件无法单独使用
+2023-5-20 21:59:25 [CRITICAL] 无法读取插件 'RsShop'：检测出循环依赖
+2023-5-20 21:59:25 [INFO] 开启中... AwtMessage v0.0.2-SNAPSNOT
+2023-5-20 21:59:25 [INFO] [AwtMessage] 成功加载config.yml.
+2023-5-20 21:59:25 [INFO] [AwtMessage] AwtMessage插件已经启动！
+2023-5-20 21:59:25 [INFO] 开启中... Money v1.3.0
+2023-5-20 21:59:25 [INFO] 开启中... NEssentials v0.0.1-SNAPSHOT
+2023-5-20 21:59:25 [INFO] [Essentials] 正在启动Nukkit Essentials
+2023-5-20 21:59:25 [INFO] [Essentials] 插件由berry64制作.......
+2023-5-20 21:59:25 [INFO] [Essentials] =======================
+2023-5-20 21:59:25 [INFO] 开启中... RsFunction v1.0.2
+2023-5-20 21:59:25 [INFO] [RsFunction] You will use :zh
+2023-5-20 21:59:25 [INFO] 准备地图中... "world"
+2023-5-20 21:59:25 [INFO] 开启中... LeetTP v1.2.1-b22
+2023-5-20 21:59:25 [INFO] 开启中... MoneyLand v1.1.0
+2023-5-20 21:59:25 [INFO] 开启中... MyLock v1.0.4
+2023-5-20 21:59:25 [INFO] [MyLock] 插件:MyLock  版本:1.0.4  作者:uuuuone  QQ:578102133
+2023-5-20 21:59:25 [INFO] 开启中... SntuAuth v1.2
+2023-5-20 21:59:25 [INFO] [SntuAuth] Sntu登录插件加载成功 !
+2023-5-20 21:59:25 [INFO] 开启中... WorldPlus v1.5
+2023-5-20 21:59:25 [INFO] [WorldPlus] 创世神Plus(v1.6)插件加载完成!--By Plus(http://tieba.baidu.com/p/4212029014?pid=80628659576)
+2023-5-20 21:59:25 [INFO] 开启中... Worlds v1.1.0
+2023-5-20 21:59:25 [INFO] [Worlds] 加载地图中...
+2023-5-20 21:59:26 [INFO] 默认的游戏模式为：生存模式
+2023-5-20 21:59:26 [INFO] 启动完成 (9.369s)！如需帮助，请输入 "help" 或 "?"

@@ -1,0 +1,5 @@
+
+/extractplugin -> /ep
+/makeplugin -> /mp
+/makeserver -> /ms
+/checkperm -> /cp

@@ -1,0 +1,60 @@
+具有强大的 经济核心 经济商店 经济金钱 经济领地
+使用方法:
+
+商店:
+
+牌子:shop
+         价格
+         物品ID
+
+         数量
+
+
+收购把shop改为sell
+
+
+金钱:/mymoney查看自己的金钱
+
+         /give 名字 钱数 给某人多少钱(限op)
+
+         /pay 名字 钱数 给某人支付钱
+
+
+领地:/startp 第一个角
+
+          /endp 第二个角
+
+         /lund buy 购买
+
+         还要好多，输入/help 页数 自己看
+
+Q:领地出售插件有什么用?
+A:OP可以通过预先圈一块领地出售,玩家只需点击木牌就可购买该领地!
+/property pos1 : 和领地插件的startp一样.
+/property pos2 : 和领地插件的endp一样.
+/property make <价格> : 创建预售领地,会在领地中间自动生成一个购买木牌.
+
+FAQ:
+Q:如何修改语言？
+A:在PM的plugins文件夹中找到EconomyAPI,修改resources文件夹里面的config.yml，把default-lang:后面改为ch
+
+Q:这个插件只有经济核心吗？
+A:本插件包含EconomyAPI(经济核心), EconomyLand (领地插件), EconomyAuction(拍卖插件) , EconomyJob(职业插件) ,EconomyTax(税收插件), EconomyCasino(赌博插件),EconomyShop(商店插件) ,EconomyProperty(领地出售插件), EconomySell(收购插件),EconomyAirport(飞机场插件)
+
+Q:经济核心命令有那些?
+A:EconomyAPI(经济核心)命令:
+/bankadmin :OP管理银行账户命令
+/bank : 玩家银行相关命令
+/economys : 显示服务器?conom￥相关插件列表$。
+/givemoney : OP给玩家金钱
+/mydebt : 显示债务金额命令
+/mymoney :显示账户金额命令
+/mystatus : 显示账户状态,与排名相关
+/pay : 玩家给其他玩家金钱
+/returndebt : 偿还债务
+/seemoney : 查看其他玩家金钱
+/setlang : 设置语言
+/setmoney : OP设置玩家金钱
+/takedebt : 向银行借款
+/takemoney : OP拿走玩家金钱
+/topmoney : 显示金钱排名

@@ -1,0 +1,102 @@
+  让服务器增加VIP功能，有人赞助总得给点特权对吧...
+功能 : 
+        1.时间控制：VIP退出游戏时计算在线时间，自动从剩余时间中扣除
+        2.经验值：VIP每次进入游戏时自动签到（签到频率为12小时1次）获得经验值（数量根据Config.yml中的设置）
+        3.VIP特权：
+            ①传送：传送VIP玩家到另一个玩家
+            ②改变模式：改变VIP玩家的游戏模式（如“创造”，“生存”）
+            ③药水效果：让VIP玩家获得药水效果！（如“加速”，“挖掘加速”，“隐形”）【这需要消耗经验值，数量根据Config.yml中的设置】
+        4.全面的OP命令：
+            例如：
+                ①add/adds <玩家名> <小时数>        增加一个VIP/SVIP
+                ②effectall effectall <药水ID> [效果等级] [时间:秒]        给所有VIP指定时间(默认60s)的特效
+                .....
+        5.VIP方块保护：
+                处于创造模式的VIP玩家如果放置一个方块（如57.钻石块）且该方块的ID被保护（Config.yml中设置），那么这个方块将不可以被处于生存模式下的玩家拆除
+
+
+
+VIP命令:
+/vip gm <0 | 1>  '切换模式
+/vip tp <玩家名> '传送到某玩家
+/vip my '查看你的VIP的剩余时间
+/vip effect <药水ID> [效果等级] [时间:秒] '喝药水获得指定特效,根据药水强度减少经验
+
+OP命令:
+/vip add  <玩家名> <小时数> '增加一个VIP
+/vip adds <玩家名> <小时数> '增加一个SVIP
+/vip del <玩家名> '删除一个VIP
+/vip list '查看所有VIP
+/vip online '查看所有在线VIP
+/vip taketime <玩家名> <小时数> '减少玩家的VIP的时间
+/vip setexp <玩家名> <经验值> '设置玩家经验值,自动配置等级
+/vip addtime <玩家名> <小时数> '增加玩家的VIP的时间
+/vip effectall <药水ID> [效果等级] [时间:秒] '给所有VIP指定时间(默认60s)的特效
+配置项:
+   - config.yml
+     这是插件的主要配置 , 用于设置插件的功能
+
+               V1.0.4:
+            EnableGamemodeRestore: 开启游戏模式还原(true:开启,false:关闭) : 玩家的VIP到期后自动将该玩家的游戏模式切换为服务器默认模式
+            Enable_SVIP: 开启SVIP(true:开启,false:关闭)
+            SVIPWorlds: 仅SVIP可以使用的世界列表
+               V1.0.3:
+            defaultExp: 初始经验
+            defaultLevel: 初始等级
+            ExpList: 每级需要的经验值
+            LevelList: 等级列表
+            EnableBlockProtect: 开启方块保护(true:开启,false:关闭)
+            ProtectiveBlock: 开启方块保护后保护的方块ID
+            SignExp: 签到获得的经验值
+            EnableSignIn: 开启签到(true:开启,false:关闭)
+            EnableAutoSave: 开启自动保存(true:开启,false:关闭)
+            AutoSaveTime: 自动保存时间(单位:秒)
+            ProtectiveWorlds: 开启方块保护后,VIP创造模式不能放置方块的世界
+            EffectExp: 使用药水时经验消耗单位大小
+            EnableEffect: 开启药水(true:开启,false:关闭)            EnableGamemodeChange: 开启/vip gm 切换模式
+            EnableTeleport: 开启/vip tp 传送到某人
+
+
+   - ProtectiveBlocks.yml
+     这是保护的方块列表 . 请不要改动
+
+
+   - singin.yml
+     签到时保存的数据 . 请不要改动
+
+
+   - VIPs.yml
+     VIP列表 . 建议不要改动
+更新内容:
+
+V1.0.4 (2015年5月12日22:02:13):
+        增加SVIP
+        可设置SVIP专属的世界
+        增加"游戏模式恢复" : 玩家的VIP到期后自动将该玩家的游戏模式切换为服务器默认模式
+        一些小优化
+        增加OP命令 : "vip adds <玩家名> <小时数> '增加一个SVIP"
+V1.0.3:
+       修复药水使用崩服
+        增加功能的开关
+        关闭药水效果后支持0.10.5服
+        修复方块保护功能无效
+V1.0.2:
+        增加药水效果(/vip effect)
+V1.0.1:
+       修复VIP消失
+
+
+
+权限:
+
+
+plugin.yml:
+commands:
+vip:
+  description: VIP主命令
+  usage: "/vip"
+  permission: PocketVIP.command.vip
+permissions:
+PocketVIP.command.vip:
+  description: "VIP主命令"
+  default: true

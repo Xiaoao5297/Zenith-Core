@@ -1,0 +1,63 @@
+1.
+/status   这个是普通玩家可用，用来查看自己的生命值，坐标，地图等
+  
+
+
+2.
+/status [玩家名]   这个是OP玩家使用，用来查看该玩家的生命值，坐标，手上物品，是否飞行等。。。
+  
+
+
+3.
+/displayename  [玩家名]  [要修改的名称]           OP玩家可用，修改对话框名称
+  
+
+  
+  
+  
+
+4.
+/nametag [玩家名] [要修改的名称]      OP玩家可以修改玩家的显示名字
+例如:
+/nametag XDesperado_7 test
+  
+  <---玩家名字被修改成test
+
+
+
+5.
+/announcement @p [消息]               OP玩家可用，当玩家登入时，会显示的消息，@p 代表该玩家的名字
+  
+  
+
+
+/announcement [消息] @p [消息]
+  
+  
+
+
+/announcement no@p [消息]               no@p代表不加入玩家名字
+  
+
+  
+
+6.
+首先设定是否允许普通玩家使用/onlineplayers指令
+/onlineplayers [player/op]            <--player代表普通玩家可用，op代表op玩家可用
+  
+
+  
+
+
+
+设定完毕后，玩家可使用/onlineplayers获取伺服器人数
+[伺服器名称]伺服器人数:xx
+  
+
+  
+
+
+[伺服器名称]可去 server.properties配置 motd 这行
+  
+
+  

@@ -1,0 +1,168 @@
+[New API][创世神插件指令和文本全汉化 + BUG完美修复]
+
+上帝赋予建筑师们的神之手:创世魔杖(其实就是一把破铁锄了)
+
+★本次汉化修复6个BUG,创世神插件基本可以完美运行★
+(每次汉化都要修复一大堆BUG,真是醉了,这次修复BUG所花的时间比修复公会插件多得多!)
+原英文版创世神插件来源于原作者的github:
+https://github.com/ryuzaki01/pocketmine-WorldEditor
+这次指令和文本全汉化真是下了一番功夫!
+
+★中文命令功能和用法说明★
+1. 魔杖: 
+功能:  上帝赋予建筑师们的神之手:创世魔杖
+用法:  /魔杖 (召唤出创世魔杖)
+2. 剪切: 
+功能:  剪切当前选中的方块编辑区域
+用法:  /剪切
+3. 复制: 
+功能:  复制当前选中的方块编辑区域
+用法:  /复制
+4. 粘贴: 
+功能:  把剪切或复制的方块编辑区域粘贴到当前位置
+用法:  /粘贴
+5. 坐标1: 
+功能:  把你当前所站的位置设为方块编辑区域的起点坐标
+用法:  /坐标1
+6. 坐标2: 
+功能:  把你当前所站的位置设为方块编辑区域的终点坐标
+用法:  /坐标2
+7. 清除: 
+功能:  清除当前选择的方块编辑区域起点坐标和终点坐标
+用法:  /清除
+8. 置换 
+功能:  把选中的方块编辑区域内所有方块替换为给定ID的方块(点石成金)
+用法:  /置换 <方块ID>
+9. 替换: 
+功能:  把选中的方块编辑区域内的某种方块ID替换为特定的方块ID(局部替换)
+用法:  /替换 <需要被替换的某种方块ID> <替换为特定的方块ID>
+10. 实心
+功能:  自动生成半径为r的实心球形方块区域
+用法:  /实心 <方块ID> <实心球形方块区域的半径r>(可用于造山)
+11. 空心: 
+功能:  自动生成半径为r的空心球形方块区域
+用法:  /空心 <方块ID> <空心球形方块区域的半径r>(可用于造岩洞)
+12. 限制
+功能:  设置可编辑的方块数目上限
+用法:  /限制 <可编辑的方块数目上限>
+13. 创世神: 
+功能:  列出创世神插件相关的常用命令
+用法:  /创世神
+14. 魔法: 
+功能:  切换魔杖的功能,使之生效(变成创世魔杖)或失效(变成普通破铁锄)
+用法:  /魔法
+
+如此神器,相见恨晚呐!!!
+我刚开服的时候,建了主城地图,游戏地图,居民地图,矿区地图,于是乎想模仿PC建个地狱地图.
+为了把超平坦地图基岩以上一大片泥土草坪去掉,几百吨TNT炸药,,我和几个OP炸了一天,累得半死,边缘部分还不规整,又修整了好长时间;
+然后在基岩上铺一层地狱岩,就一层,动员好多玩家一起铺,铺了一天才铺完;
+想想还要建火山,熔岩湖,地狱迷宫...人工撸根本就是很完成的任务;
+如果使用这把创世魔杖做以上炸泥土铺地狱岩的工作,那真是小case,几分钟就搞定了!!!
+这款创世神插件比MCEDIT制图软件好用多了,有趣多了!!!
+
+★对本次修复的6个BUG详细说明★
+1. 资源配置文件未导出BUG
+public function onEnable(){
+	@mkdir("plugins/WorldEditor");
+...
+}
+改为
+public function onEnable(){	
+	@mkdir($this->getDataFolder());
+	file_put_contents($this->getDataFolder() . "config.yml",$this->getResource("config.yml"));
+...
+}
+错误说明: 原代码未导出resources目录下的资源配置文件,PM读取函数在访问空的资源配置文件会报错!
+未修复之前的后台出错提示信息:
+21:23:55 [WARNING] RuntimeException: "yaml_parse(): end of stream reached without finding document 0" (E_WARNING) in "/src/pocketmine/utils/Config" at line 137
+
+2 数组越界BUG:
+case "set":
+       $count = $this->countBlocks($data->get("selection"));
+        ....
+改为
+case "置换":
+       if(empty($params)) {
+	     $sender->sendMessage("用法: /置换 <方块ID>");
+	     return true;
+       }
+       $count = $this->countBlocks($data->get("selection"));
+        ....
+case "replace":
+	$count = $this->countBlocks($data->get("selection"));
+改为
+case "替换":
+       if(count($params) != 2) {
+		$sender->sendMessage("用法: /替换 <需要被替换的某种方块ID> <替换为特定的方块ID>");
+		return true;
+	}
+       $count = $this->countBlocks($data->get("selection"));
+        ....
+出错说明:缺少参数有效性判断就会导致数组越界错误!
+未修复之前的后台出错提示信息:
+21:35:42 [CRITICAL] Unhandled exception executing command '/set' in /set: Undefined offset: 0
+21:35:42 [NOTICE] ArrayOutOfBoundsException: "Undefined offset: 0" (E_NOTICE) in "/pocketmine-WorldEditor-master/src/WorldEditor/WorldEditor" at line 189
+21:39:04 [CRITICAL] Unhandled exception executing command '/replace' in /replace: Undefined offset: 0
+21:39:04 [NOTICE] ArrayOutOfBoundsException: "Undefined offset: 0" (E_NOTICE) in "/pocketmine-WorldEditor-master/src/WorldEditor/WorldEditor" at line 208
+
+3 变量前后不一致BUG:
+$items2 = Item::fromString($params[1], true);
+	if($items){
+	        foreach($items2 as $item){
+...
+改为
+$items2 = Item::fromString($params[1], true);
+	if($items2){
+		foreach($items2 as $item){
+...
+出错说明:变量前后不一致,从而访问一个未定义变量,导致变量访问出错!
+未修复之前的后台出错提示信息:
+21:40:33 [CRITICAL] Unhandled exception executing command '/replace 1 1' in /replace: Undefined variable: items
+21:40:33 [NOTICE] UndefinedVariableException: "Undefined variable: items" (E_NOTICE) in "/pocketmine-WorldEditor-master/src/WorldEditor/WorldEditor" at line 214
+4 事件冲突BUG:
+public function onPlayerInteract(PlayerInteractEvent $event){
+	        $player = $event->getPlayer();
+改为
+public function onPlayerInteract(PlayerInteractEvent $event){
+	$x = $event->getBlock()->x;
+        $y = $event->getBlock()->y;
+        $z = $event->getBlock()->z;
+        if((-1000 < $x && $x < 1000) && (-1000 < $y && $y < 1000) && (-1000 < $z && $z < 1000)){
+	        $player = $event->getPlayer();
+出错说明:魔杖的实现原理:通过用魔杖破坏方块事件(BlockBreakEvent)确定方块区域的起点坐标,触碰方块事件(PlayerInteractEvent)确定方块区域的终点坐标;但是在破坏事件(BlockBreakEvent)触发之前,还会触发一次无效的触碰事件(PlayerInteractEvent),产生无效的方块区域终点坐标;解决办法是在onPlayerInteract函数内加上坐标的有效性判断!
+(此BUG不解决,魔杖功能将无法使用!)
+
+5 函数返回值判断BUG:
+$count += (int) $pos->getLevel()->setBlock(...);
+改为
+if(0 == $pos->getLevel()->setBlock(...))
+{
+	$count++;
+}
+或者改为:
+$count += ($pos->getLevel()->setBlock(...) == 0 ? 1 : 0);
+出错说明:一般函数返回true表示执行正确,但这里函数PM函数返回0表示执行正确!
+(此BUG不修复,将无法显示成功置换,替换或粘贴的方块数目)
+
+6 switch...case语法BUG
+default:
+case "//help":
+...
+改为
+case "创世神":
+...
+default:
+出错说明:switch...case的基本语法!default放在所有case语句之后,不需要可以不写!
+
+命令使用优化:
+原来的插件为了避免与其他插件命令,系统命令冲突,在命令之前又多加了一个斜杠"/":
+复制需要输入"//copy",剪切需要输入"//cut";
+而优化之后,只需要输入"/复制","/剪切"就可以了!
+
+注意事项:
+红色粘土,蓝色粘土等彩色粘土不可以复制剪切!这是我在做演示的时候发现的.这个应该不是本插件的问题,而是PM本身框架的问题!彩色羊毛可以复制!如果你硬要复制剪切红色粘土,蓝色粘土等彩色粘土,后台会出现以下错误提示信息:
+17:01:30 [CRITICAL] Unhandled exception executing command 'cut' in cut: yaml_emit(): Invalid UTF-8 sequence in argument
+17:01:30 [WARNING] RuntimeException: "yaml_emit(): Invalid UTF-8 sequence in argument" (E_WARNING) in "/src/pocketmine/utils/Config" at line 186
+
+"PM插件指令汉化合集"已上传到百度云网盘,方便大家下载:
+http://pan.baidu.com/s/1gdBysa3

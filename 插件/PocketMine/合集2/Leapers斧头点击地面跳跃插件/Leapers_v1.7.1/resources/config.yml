@@ -1,0 +1,15 @@
+---
+# Config File:
+# The Leaper item ID:
+ID: 258
+# Popup or a message:
+# The popup/message sent to a play when they use Leap:
+Decide: Popup
+Message: §a§lUsed Leap!
+# The Name of the item:
+ItemName: §b§l§oLeaping Axe
+# Popup or Message:
+# Message for cooldown:
+Choose: Popup
+CoolDownMsg:  §cPlease wait!
+...

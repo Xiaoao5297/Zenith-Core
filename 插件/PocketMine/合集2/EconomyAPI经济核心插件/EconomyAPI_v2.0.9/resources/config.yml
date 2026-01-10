@@ -1,0 +1,9 @@
+# EconomyS configuration resource
+monetary-unit: "银币"
+add-op-at-rank: false
+default-money: 50
+max-money: 9999999999
+debug: true
+default-lang: user-define
+auto-save-interval: 10
+provider: yaml

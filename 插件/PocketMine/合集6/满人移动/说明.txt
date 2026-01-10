@@ -1,0 +1,4 @@
+把玩家移动到其他服务器当自己服务器满时
+在配置文件里设置
+fallback-server-ip: fallback.server：ip地址
+fallback-server-port: 19132（端口）

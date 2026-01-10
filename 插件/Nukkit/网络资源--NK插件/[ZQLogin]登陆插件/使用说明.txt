@@ -1,0 +1,26 @@
+本插件最大的特点是
+支持mySQL数据库存储模式！
+这里首先感谢下him188大大的Login插件，本插件的登录核心算法是借鉴Login插件的，这让本新插件初学者受到很大启发！
+此插件一直是鄙人服务器自用插件之一，今天打算把它公布出来，算是国内首款支持mySQL的免费插件吧(没有使用DBLib插件)
+
+命令:
+/cpw [新密码] 只能在游戏中且已登录使用！
+
+
+config.yml:
+check-update:检查更新开关，"true" or "false",建议保持默认"true"以获得后续更好的体验!
+
+
+login-timeout:登陆超时时间，默认为"90"(秒)，超出时间即踢出玩家
+
+login-mode:登陆模式,默认为"default","mysql"为mysql存储模式,只能填写"default" or "mysql",否则崩溃一律不负责!
+host: 数据库地址,如"login-mode"为"default"可留空
+port: 数据库端口,如"login-mode"为"default"可留空
+database: 数据库名,如"login-mode"为"default"可留空
+username: 数据库用户名,如"login-mode"为"default"可留空
+password: 数据库密码,如"login-mode"为"default"可留空
+
+BUG自测，欢迎反馈！
+By：Yanziqing25
+QQ：1519319045
+ 欢迎一起交流学习插件开发!

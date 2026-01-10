@@ -1,0 +1,9 @@
+PureEntitiesX生物AI插件
+作者: milk0417
+
+不支持怪物AI:
+史莱姆，女巫，岩浆怪，烈焰人和一些0.17的怪物!
+
+Github地址：https://github.com/RevivalPMMP/PureEntitiesX
+
+ 

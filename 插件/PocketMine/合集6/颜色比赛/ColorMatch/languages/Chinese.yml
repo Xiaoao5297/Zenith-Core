@@ -1,0 +1,128 @@
+## English translation by CreeperFace
+---
+join: "欢迎来到Color Match"
+join_others: "%1 加入了"
+leave: "离开房间"
+leave_others: "%1 离开了"
+arena_doesnt_exist: "&c房间不存在"
+arena_already_exist: "&c房间已存在"
+arena_create: "&e房间创建成功"
+start_game: "&l&1游戏开始！"
+death: "%1 死了！还剩 %2 个玩家"
+send_to_main_world: "&2回到大厅..."
+starting: "&a游戏将在 %1 秒后开始"
+kick_from_game: "&9你被从游戏踢出 因为 %1"
+game_full: "&c房间已满"
+ingame: "&c游戏正在进行..."
+enable_setup_mode: "&6你现在正处于设置模式，使用&l&ohelp获得帮助，使用&l&odone 结束设置"
+disable_setup_mode: '&a房间已保存'
+arena_in_setup: "&c房间正处于设置状态"
+#reward for win
+get_money: "&a你赢得了 %1 金币"
+#end game message
+#create new line using "\n"
+end_game: "&6&l---------------------&r\n&5游戏房间 %1 结束\n&4赢家:\n&a1. %2\n&e2. %3\n&c3. %4\n&6&l---------------------"
+not_enough_players: "&c没有足够的玩家"
+###################
+#Commands messages#
+###################
+has_not_permission: "&c你没有权限使用这个指令"
+#invalid arguments in setup mode
+invalid_arguments: "&c无效指令\n&6使用: &a&o&lhelp"
+help: "&6use /cm help"
+join_help: "&6use /cm join &a[房间名字]"
+leave_help: "&6use /cm leave &a[房间名字]"
+start_help: "&6use /cm start &a[房间名字]"
+stop_help: "&6use /cm stop &a[房间名字]"
+kick_help: "&6use /cm kick &a[房间名字] [玩家名字]"
+set_help: "&6use /cm set &a[房间名字]"
+create_help: "&6use /cm create &a[房间名字]"
+delete_help: "&6use /cm delete &a[房间名字]"
+setlobby_help: "&6use: &asetlobby"
+arena_running: "&c游戏已开始"
+use_cmd_in_game: "&6你只能在游戏使用这个指令"
+arena_not_running: "&6房间没有开始游戏"
+player_not_exist: "&c没有玩家在这个房间"
+##########################
+#setup mode done messages#
+##########################
+joinsign: "&a加入游戏牌子设置成功"
+returnsign: "&a离开游戏牌子设置成功"
+startpos: "&a成功设置出生点"
+lobbypos: "&a大厅出生点设置成功"
+corners: "&a地图范围设置成功"
+first_corner: "&a房间第一个点已设置\n&e现在请破坏第二个点"
+second_corner: "&a第二个点设置成功"
+spectatorspawn: "&a等待传送点设置成功"
+leavepos: "&a退出房间的传送点设置成功"
+mainlobby: "&a主世界设置成功"
+statusline: "&a牌子成功设置"
+type: "&a房间类型成功设置"
+material: "&a地面材料成功设置"
+allowstatus: "&a状态木牌成功设置"
+signupdatetime: "&a牌子更新间隔成功设置"
+world: "&a游戏房间世界成功设置"
+allowspectator: "&a观看模式成功设置"
+maxtime: "&a游戏最长时间成功设置"
+maxplayers: "&a玩家上限成功设置"
+minplayers: "&a最少玩家数成功设置"
+starttime: "&a游戏开始时间成功设置"
+colortime: "&a颜色变化的时间间隔成功设置"
+time: "&a房间时间成功设置"
+enable: "&a房间设置完毕"
+########################################
+#messages on help command in setup mode#
+########################################
+statusline_help: "&6use: &astatusline &b[行] [文字]"
+type_help: "&6use: &atype &b[classic/furious/stoned]"
+material_help: "&6use: &amaterial &b[wool/clay]"
+allowstatus_help: "&6use: &aallowstatus &b[true/false]"
+signupdatetime_help: "&6use: &asignupdatetime &b[秒]"
+world_help: "&6use: &aworld &b[世界名字]"
+allowspectator_help: "&6use: &aallowspectator &b[true/false]"
+maxtime_help: "&6use: &amaxtime &b[秒]"
+maxplayers_help: "&6use: &amaxplayers &b[数量]"
+minplayers_help: "&6use: &aminplayers &b[数量]"
+starttime_help: "&6use: &astarttime &b[秒]"
+colortime_help: "&6use: &acolortime &b[秒]"
+time_help: "&6use: &atime &b[true/day/night/TICKS]"
+enable_help: "&6use: &aenable &b[true/false]"
+##################################
+#ColorMatch help command messages#
+##################################
+lobby: "\n- &2/cm lobby &l&5»&r&f 传送到大厅"
+onleave: "\n- &2/cm leave &l&5»&r&f 离开房间"
+onjoin: "\n- &2/cm join &b[房间名字] &l&5»&r&f 加入房间"
+start: "\n- &2/cm start &b[房间名字] &l&5»&r&f 强制开始游戏"
+stop: "\n- &2/cm stop &b[房间名字] &l&5»&r&f 强制停止游戏"
+kick: "\n- &2/cm kick &b[房间名字] [玩家名字] [原因] &l&5»&r&f 将玩家从房间内t出"
+set: "\n- &2/cm set &b[房间名字] &l&5»&r&f 设置或修改房间"
+delete: "\n- &2/cm delete &b[房间名字] &l&5»&r&f 删除房间"
+create: "\n- &2/cm create &b[房间名字] &l&5»&r&f 创建一个新的房间"
+########################################
+#arena setup mode help command messages#
+########################################
+help_joinsign: "\n- &2joinsign &l&5»&r&f 设置一个加入房间木牌"
+help_returnsign: "\n- &2returnsign &l&5»&r&f 设置一个离开房间木牌"
+help_startpos: "\n- &2startpos &l&5»&r&f 设置开始游戏位置"
+help_lobbypos: "\n- &2lobbypos &l&5»&r&f 设置大厅传送点"
+help_corners: "\n- &2corners &l&5»&r&f 设置房间范围"
+help_spectatorspawn: "\n- &2spectatorspawn &l&5»&r&f 设置观战出生点"
+help_leavepos: "\n- &2leavepos &l&5»&r&f 设置离开房间传送点"
+help_time: "\n- &2time &b[true/day/night/ticks] &l&5»&r&f 设置房间的时间"
+help_colortime: "\n- &2colortime &b[秒] &l&5»&r&f 设置颜色改变的间隔时间"
+help_type: "\n- &2type &b[classic/furious/stoned] &l&5»&r&f 设置房间类型"
+help_material: "\n- &2material &b[wool/clay] &l&5»&r&f 设置地板材料"
+help_allowstatus: "\n- &2allowstatus &b[true/false] &l&5»&r&f 启用/禁用 状态显示在加入游戏木牌"
+help_world: "\n- &2world &b世界名字] &l&5»&r&f 设置房间世界"
+help_statusline: "\n- &2statusline &b[line (1-4)] [text] &l&5»&r&f 设置状态牌子的文字\n 可用变量：%alive=活着的玩家数 %dead=死亡玩家数\n %status =游戏状态 %type =游戏模式 %max =最高玩家数"
+help_allowspectator: "\n- &2allowspectator &b[true/false] &l&5»&r&f 启用/禁用 观战模式"
+help_signupdatetime: "\n- &2signupdatetime &b[秒] &l&5»&r&f 设置牌子更新的时间间隔"
+help_maxtime: "\n- &2maxtime &b[秒] &l&5»&r&f 设置最大游戏时间"
+help_maxplayers: "\n- &2maxplayers &b[数量] &l&5»&r&f 设置游戏最高玩家"
+help_minplayers: "\n- &2minplayers &b[数量] &l&5»&r&f 设置开始游戏的最少玩家数"
+######################
+#other setup messages#
+######################
+break_block: "&a现在破坏一个方块"
+break_sign: "&a现在破坏一个牌子"

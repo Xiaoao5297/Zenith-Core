@@ -1,0 +1,23 @@
+name: KLockCid
+main: KLockCid\Main
+version: 1.0.0
+api: 
+- 1.0.0
+- 2.0.0
+- 3.0.0
+- 3.0.0-ALPHA1
+- 3.0.0-ALPHA2
+- 3.0.0-ALPHA3
+- 3.0.0-ALPHA4
+- 3.0.0-ALPHA5
+- 4.0.0
+- 4.0.0-ALPHA1
+- 4.0.0-ALPHA2
+- 4.0.0-ALPHA3
+- 4.0.0-ALPHA4
+- 4.0.0-ALPHA5
+author: Knight
+commands:
+ lock:
+  usage: "/lock"
+  description: "绑定设备总指令"

@@ -1,0 +1,27 @@
+汉化教程:替换文件夹ZombieGame里同名文件即可
+游戏规则:
+游戏开始前，随机产生2个初始僵尸。
+总共3轮。
+如果你一次也没被碰到，你就会变成一个僵尸。
+可以碰触别的玩家一次
+每结束一轮，僵尸和人类将被系统公告。
+当你接碰触个人，结果是.
+僵尸打僵尸;什么事也没有
+僵尸打人:人会被感染成僵尸
+人打人:人类获得积分
+游戏结束后，如果每个人都变成了僵尸，初始的僵尸就会赢。如果还有人，则最高的分数着获胜。
+配置:
+language: en #选择语言
+NEED_PLAYERS: 10 #最低玩家数量
+INITIAL_ZOMBIE_COUNT: 2 #初始生成的僵尸数量
+ROUND_COUNT: 3 #总回合数
+INFECTION_MEDICINE_TERM: 1200 ####
+PREPARATION_TERM: 600 #准备时间
+INGAME_REST_TERM: 600 #休息时间
+ROUND_TERM: 2400 #一局的世界
+GIVE_JUMP_SPELL: true #给与速度和跳跃提成
+IS_KILL_TOUCH: false #true是杀死后才感染|false是触碰就感染
+IS_FLUSH: false
+UPDATE_CHECK: true
+NU_EFFECT: true
+IS_DAMAGE_ENABLED: false

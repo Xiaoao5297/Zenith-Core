@@ -1,0 +1,12 @@
+Boss顶部公告插件
+
+能够将服务器公告显示在屏幕上方的插件(附带Boss生命血量条)
+
+使用方法:
+安装BossAnnouncement插件与BossBarAPI插件，重启服务器即可。
+
+修改公告:
+在BossAnnouncement文件夹里面找到配置文件配并修改即可
+
+注意: 
+change-speed: 是公告间隔时间/秒

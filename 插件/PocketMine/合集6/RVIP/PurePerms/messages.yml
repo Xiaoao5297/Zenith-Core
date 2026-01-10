@@ -1,0 +1,110 @@
+
+# PurePerms by 64FF00 (xktiverz@gmail.com, @64ff00 for Twitter)
+
+---
+messages-version: "1.1.2"
+cmds:
+  addgroup:
+    desc: "添加一个新的权限组"
+    usage: "Usage: /addgroup <group>"
+    messages:
+      group_added_successfully: "成功添加 %var0% 权限组"
+      group_already_exists: "权限组 %var0% 已经存在"
+  fperms:
+    desc: "显示一个插件所拥有的权限节点"
+    usage: "Usage: /fperms <plugin>"
+    messages:
+      no_plugin_perms: "插件 %var0% 没有任何权限节点"
+      plugin_not_exist: "插件 %var0% 不存在"
+      plugin_perms_list: "列表中的所有插件权限 %var0% (%var1% / %var2%) : "
+  groups:
+    desc: "列出全部权限组"
+    messages:
+      all_registered_groups: "所有注册过的权限组: %var0%"
+  listgperms: 
+    desc: "显示一个权限组所有全部权限节点"
+    usage: "Usage: /listgperms <group> <page> [world]"
+    messages:
+      group_not_exist: "权限组 %var0% 不存在."
+      group_perms_list: "所有的权限组 %var0% (%var1% / %var2%) : "
+      level_not_exist: "世界 %var0% 不存在."
+      no_group_perms: "权限组 %var0% 未拥有任何权限节点"
+  listuperms: 
+    desc: "查看某玩家的所有权限节点"
+    usage: "Usage: /listuperms <player> <page> [world]"
+    messages:
+      level_not_exist: "世界 %var0% 不存在"
+      no_user_perms: "玩家 %var0% doesn't 没有任何权限节点"
+      user_perms_list: "该玩家所有的权限节点 %var0% (%var1% / %var2%) : " 
+  ppinfo: 
+    desc: "什么什么什么？pureperms信息？"
+    messages:
+      ppinfo_console: "你目前正在使用pureperms版本为 v%var0% by %var1%."
+      ppinfo_player: "服务器说使用的pureperms版本为 v%var0% by %var1%."
+  ppreload: 
+    desc: "所有pureperms重新加载配置。"
+    messages: 
+      successfully_reloaded: "所有的插件配置已成功加载。"
+  rmgroup: 
+    desc: "移除一个权限组"
+    usage: "Usage: /rmgroup <group>"
+    messages:
+      group_removed_successfully: "成功移除 %var0% 权限组"
+      group_not_exist: "权限组 %var0% 不存在"
+  setgperm: 
+    desc: "添加一个权限节点至某权限组"
+    usage: "Usage: /setgperm <group> <permission> [world]"
+    messages:
+      gperm_added_successfully: "成功添加权限 %var0% "
+      group_not_exist: "权限组 %var0% 不存在"
+      level_not_exist: "世界 %var0% 不存在"
+  setgroup: 
+    desc: "把某玩家放进某权限组"
+    usage: "Usage: /setgroup <player> <group> [world]"
+    messages: 
+      group_not_exist: "权限组 %var0% 不存在"
+      level_not_exist: "世界 %var0% 不存在"
+      setgroup_successfully: "成功 %var0% 至该权限组"
+  setuperm: 
+    desc: "添加一个权限节点至某玩家"
+    usage: "Usage: /setuperm <player> <permission> [world]"
+    messages:
+      level_not_exist: "世界 %var0% 不存在"
+      uperm_added_successfully: "成功添加权限 %var0% 至玩家 %var1% "
+  unsetgperm: 
+    desc: "移除一个权限组组说拥有的权限节点"
+    usage: "Usage: /unsetgperm <group> <permission> [world]"
+    messages:
+      gperm_removed_successfully: "成功移除权限 %var0% 在权限组 %var1%"
+      group_not_exist: "权限组 %var0% 不存在"
+      level_not_exist: "世界 %var0% 不存在"
+  unsetuperm: 
+    desc: "移除一个玩家身上的权限节点"
+    usage: "Usage: /unsetuperm <player> <permission> [world]"
+    messages: 
+      level_not_exist: "世界 %var0% 不存在"
+      uperm_removed_successfully: "成功移除权限 %var0% 在玩家 %var1% "
+  usrinfo: 
+    desc: "查看一个玩家的所有权限节点啊"
+    usage: "Usage: /usrinfo <player> [world]"
+    messages:
+      level_not_exist: "世界 %var0% 不存在"
+      status_online: "该玩家在线"
+      status_offline: "该玩家不在线"
+      usrinfo_header: "-- 玩家 %var0% 所有权限--"
+      usrinfo_username: "玩家名字: %var0%"
+      usrinfo_status: "现在状态: %var0%"
+      usrinfo_group: "所在权限组: %var0%"
+logger_messages:
+  getConfigValue_01: "Key %var0% not found in config.yml."
+  getDefaultGroup_01: "More than one default group was declared in the groups file."
+  getDefaultGroup_02: "No default group was found in the groups file."
+  getDefaultGroup_03: "Setting the default group automatically."
+  getGroup_01: "Group %var0% has invalid or corrupted data"
+  onEnable_01: "Multiworld support is currently disabled."
+  onEnable_02: "Don't forget to set enable-multiworld-perms option in config.yml to true if you want to use per-world permissions!"
+  onEnable_03: "Multiworld support enabled."
+  setProvider_SQLite3: "Set data provider to SQLite3."
+  setProvider_YAML: "Set data provider to YAML."
+  setProvider_Invalid: "Provider %var0% does NOT exist. Setting the data provider to default."
+...

@@ -1,0 +1,23 @@
+声明：
+
+	作者Spiderman！！
+	转载请标注作者名！！
+	插件禁止倒卖,修改作者名字！！
+
+
+介绍：
+
+	Bionics------仿生插件合集(建议直接装这个)
+
+	LuCactus------撸掉仙人掌得水瓶
+	LuWoodBlood------手撸木头扣血
+	BoreWoodFire------钻木取火
+	AltitudeStress------高原反应
+	Fallill------生病系统
+	Adrenaline------肾上腺素
+	LuLeaves------手撸树叶掉落
+	CutGlass------刀撸玻璃掉落
+	CutIce------刀撸冰块掉落
+	LuVines------手撸藤蔓掉落
+	CutWatermelon------刀撸西瓜掉落
+	SpecialHit----效果攻击

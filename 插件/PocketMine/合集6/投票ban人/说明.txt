@@ -1,0 +1,12 @@
+让玩家来决定是否ban人把！民主战胜一切！
+
+
+指令：
+/v ban <玩家id> - 投票该玩家是否应该被ban
+/v kick <玩家id> - 投票该玩家是否应该被踢出服务器
+
+
+配置文件：
+ban-count: 10 ban掉该玩家所需票数
+kick-count: 5 踢掉掉该玩家所需票数
+kick-reason: §cPlayers voted you to be kicked. 设置玩家被踢原因

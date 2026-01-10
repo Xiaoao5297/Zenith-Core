@@ -1,0 +1,1 @@
+/command <pos1|pos2|make> [price]

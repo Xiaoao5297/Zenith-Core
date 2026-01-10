@@ -1,0 +1,39 @@
+name: EconomyShop
+version: "2.0.7"
+api: 
+- 1.0.0
+- 2.0.0
+- 3.0.0
+- 3.0.0-ALPHA1
+- 3.0.0-ALPHA2
+- 3.0.0-ALPHA3
+- 3.0.0-ALPHA4
+- 3.0.0-ALPHA5
+- 4.0.0
+- 4.0.0-ALPHA1
+- 4.0.0-ALPHA2
+- 4.0.0-ALPHA3
+- 4.0.0-ALPHA4
+- 4.0.0-ALPHA5
+main: onebone\economyshop\EconomyShop
+author: onebone
+depend: [EconomyAPI]
+
+permissions:
+ economyshop.*:
+  description: Allows all functions in EconomyShop
+  default: op
+  children:
+   economyshop.shop.*:
+    description: Allows all functions about shops
+    default: op
+    children:
+     economyshop.shop.buy:
+      description: Allows player to buy from shop
+      default: true
+     economyshop.shop.create:
+      description: Allows player to create shop
+      default: op
+     economyshop.shop.remove:
+      description: Allows player to remove shop
+      default: op

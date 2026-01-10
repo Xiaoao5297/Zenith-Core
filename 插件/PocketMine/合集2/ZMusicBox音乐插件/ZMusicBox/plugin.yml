@@ -1,0 +1,36 @@
+name: ZMusicBox
+version: 2.5.0
+api: 
+- 1.0.0
+- 2.0.0
+- 3.0.0
+- 3.0.0-ALPHA1
+- 3.0.0-ALPHA2
+- 3.0.0-ALPHA3
+- 3.0.0-ALPHA4
+- 3.0.0-ALPHA5
+- 4.0.0
+- 4.0.0-ALPHA1
+- 4.0.0-ALPHA2
+- 4.0.0-ALPHA3
+- 4.0.0-ALPHA4
+- 4.0.0-ALPHA5
+author: Zzm
+description: Music~~
+main: ZMusicBox\ZMusicBox
+
+commands:
+ music:
+  permission: ZMusicBox.music
+  description: ZMusicBox's main command
+  usage: /music <next|start|stop>
+
+permissions:
+ ZMusicBox:
+  default: op
+  description: ZMusicBox Commands
+  children:
+     ZMusicBox.music:
+      default: op
+      description: ZMusicBox Commands
+    

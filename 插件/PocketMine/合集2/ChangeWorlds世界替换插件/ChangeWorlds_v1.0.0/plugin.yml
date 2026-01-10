@@ -1,0 +1,28 @@
+name: ChangeWorlds
+main: ChangeWorlds\ChangeWorlds
+version: 1.0.0
+api: 
+- 1.0.0
+- 2.0.0
+- 3.0.0
+- 3.0.0-ALPHA1
+- 3.0.0-ALPHA2
+- 3.0.0-ALPHA3
+- 3.0.0-ALPHA4
+- 3.0.0-ALPHA5
+- 4.0.0
+- 4.0.0-ALPHA1
+- 4.0.0-ALPHA2
+- 4.0.0-ALPHA3
+- 4.0.0-ALPHA4
+- 4.0.0-ALPHA5
+load: STARTUP
+author: Seaside
+
+commands:
+ CW:
+  description: "输入指令可以备份整个服务器世界的数据"
+  permission: ChangeWorlds.command.更换资源区
+ ChangeWorlds.command.更换资源区:
+  description: "OP有这个权限"
+  default: op

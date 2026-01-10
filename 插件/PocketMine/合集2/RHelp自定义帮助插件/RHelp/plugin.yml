@@ -1,0 +1,34 @@
+name: RHelp
+main: RHelp\RHelp
+version: 1.2.2
+api: 
+- 1.0.0
+- 2.0.0
+- 3.0.0
+- 3.0.0-ALPHA1
+- 3.0.0-ALPHA2
+- 3.0.0-ALPHA3
+- 3.0.0-ALPHA4
+- 3.0.0-ALPHA5
+- 4.0.0
+- 4.0.0-ALPHA1
+- 4.0.0-ALPHA2
+- 4.0.0-ALPHA3
+- 4.0.0-ALPHA4
+- 4.0.0-ALPHA5
+author: R158
+load: POSTWORLD
+
+commands:
+ rhelp:
+  description: "RHelp管理员设置系统"
+  usage : "/rhelp <set> <帮助名称> <帮助内容>\n/rhelp remove <帮助名称> 删除该帮助\n/rhelp item <物品id> 设置物品浮空字提示"
+  premissions: rHelp.command
+ phelp:
+  description: "RHelp玩家查看系统"
+  usage: "/phelp <帮助内容>"
+  
+permissions:
+ RHelp.command.rhelp:
+  description: "设置帮助内容"
+  default: op

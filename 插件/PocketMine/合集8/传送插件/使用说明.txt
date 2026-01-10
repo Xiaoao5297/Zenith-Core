@@ -1,0 +1,20 @@
+安装说明:把essentialsTP.phar文件放入PM文件夹的plugins文件夹中，重启服务器即可。
+
+命令:
+
+/home 展示家的列表
+/home  <家的名字> 传送回家
+/sethome <家的名字> 设置家, 可以设置5个
+/delhome <家的名字> 删除家
+/warp 展示传送点列表
+/warp <传送点名字> 传送到传送点
+/setwarp <传送点名字> 设置传送点
+/delwarp  <传送点名字> 删除传送点
+/back 回到上一次死亡地点
+/wild 传送到地图随机位置
+/spawn 传送到地图出生点
+/setspawn 设置地图出生点
+/tpa <玩家名> 向玩家发送传送到TA的位置的请求
+/tpahere  <玩家名> 向玩家发送传送到你的位置的请求
+/tpaccept 接收请求
+/tpdecline 拒绝请求

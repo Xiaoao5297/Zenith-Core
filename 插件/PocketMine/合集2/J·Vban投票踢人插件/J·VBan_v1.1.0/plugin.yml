@@ -1,0 +1,27 @@
+name: J·VBan
+main: vban\VBan
+version: 1.1.0
+author: Jiqimao
+api: 
+- 1.0.0
+- 2.0.0
+- 3.0.0
+- 3.0.0-ALPHA1
+- 3.0.0-ALPHA2
+- 3.0.0-ALPHA3
+- 3.0.0-ALPHA4
+- 3.0.0-ALPHA5
+- 4.0.0
+- 4.0.0-ALPHA1
+- 4.0.0-ALPHA2
+- 4.0.0-ALPHA3
+- 4.0.0-ALPHA4
+- 4.0.0-ALPHA5
+load: POSTWORLD
+commands:
+ vban:
+  description: "vban命令"
+ f11:
+  description: "vban命令"
+ cs:
+  description: "vban命令"

@@ -1,0 +1,16 @@
+
+Config设置(enchant-table) = 附魔台 = 默认 (发光的黑曜石)
+
+
+
+插件指令:
+
+/enc version - 查看插件版本
+
+/enc info - 查看插件信息
+
+/encgive <附魔id> - 把手上物品给予附魔
+
+/enc hand - 查看手上物品附魔效果
+
+详情用法请QQ私聊我

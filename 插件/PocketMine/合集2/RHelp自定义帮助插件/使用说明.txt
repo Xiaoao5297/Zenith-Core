@@ -1,0 +1,6 @@
+RHelp插件 用法: 
+/rhelp set 帮助名称 帮助内容 设置一个帮助
+/rhelp remove 帮助名称 删除一个帮助
+/phelp 帮助名称 打开帮助内容
+/rhelp item 物品ID 设置物品Tip提示语
+%n = 换行

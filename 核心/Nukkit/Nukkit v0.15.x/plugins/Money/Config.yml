@@ -1,0 +1,12 @@
+command-threaded: false
+money-unit-1: Coin
+enable-unit-2: true
+money-unit-2: Point
+bank-interest-value: '0.0003'
+bank-interest-time: '86400'
+bank-time: '0'
+initial-money-1: '1000'
+initial-money-2: '0'
+initial-bank-money: '0'
+pay-1-limit: '1000'
+pay-2-limit: '1000'

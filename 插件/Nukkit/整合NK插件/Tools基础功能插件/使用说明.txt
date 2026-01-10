@@ -1,0 +1,67 @@
+
+介绍
+
+这是一个集合大量基础功能的插件，包括传送、发送消息、生成世界等大量基础功能。值得一提的是，它由俄中两国开发者为首的许多国际友人协作完成，并且它的源代码在 GitHub 上开放。插件的功能可能有些许欠缺，但是每个人都可以参与它的开发。
+按照原作者要求，译者（Snake1999）搬运到mcbbs给大家分享。
+
+指令列表
+
+下面是所有的指令列表。参数一列中，<>包围的表示必选，[]包围的表示可选，<第一项|第二项>表示从两项中选一个。大多数命令和权限可以通过名称猜出用法。所有的玩家昵称不区分大小写，如果[玩家昵称]为可选而且留空，就说明指令的作用对象（“某人”）是玩家自己。
+似乎字太大影响阅读感谢群友反馈，部分文字字体已经调小，请放心阅读
+指令名称参数用途别称相关权限/antioch-投掷一个手雷-toolspro.commands.antioch/break-破坏你眼睛正对着的方块
+-toolspro.commands.break.use
+toolspro.break.bedrock/broadcast<消息>对所有玩家广播消息/bctoolspro.commands.broadcast/burn<玩家昵称> 
+<秒数>设置玩家着火几秒-toolspro.commands.burn/clearhotbar
+[玩家昵称]清空某人的物品栏
+/chbtoolspro.commands.clearhotbar.use 
+toolspro.commands.clearhotbar.other/clearinventory[玩家昵称]清空某人的背包
+/citoolspro.commands.clearinventory.use
+toolspro.commands.clearinventory.other/compass-显示你现在的方向，或者说就是指南针-toolspro.commands.compass/depth-显示你基于海平面的Y轴位置-toolspro.commands.depth/extinguish[玩家昵称]灭火！/exttoolspro.commands.extinguish.use
+toolspro.commands.extinguish.other/fly[玩家昵称]允许或禁止某玩家飞行
+-toolspro.commands.fly.use
+toolspro.commands.fly.other/gm<游戏模式> 
+[玩家昵称][注1]改变某人的游戏模式。
+/gms; 
+/survival;
+/gmc; 
+/creative;
+/spectator;
+/viewer;
+/gma; 
+/gmt[注1]toolspro.commands.gamemode.use
+toolspro.commands.gamemode.other/getpos[玩家昵称]得到某人的位置(XYZ坐标)-toolspro.commands.getpos.use
+toolspro.commands.getpos.other/god[玩家昵称]开启或关闭某人的上帝模式-toolspro.commands.god.use
+toolspro.commands.god.other/heal[玩家昵称]把某人的生命恢复到满血-toolspro.commands.heal.use
+toolspro.commands.heal.other/item<ban|unban> 
+<物品ID>允许或禁止所有玩家使用某物品-toolspro.commands.item/itemdb<name|id|meta>得到玩家手上拿着的物品的信息-toolspro.commands.itemdb/jump-传送你到你眼睛正对着的地方-toolspro.commands.jump/kickall-踢出除了你以外服务器上的所有玩家(呜呼)-toolspro.commands.kickall/more-把你手里的物品填满到一组[注2]-toolspro.commands.more.use
+toolspro.commands.more.oversizedstacks/mute<玩家名字> 
+<时间> [注3]禁言！-toolspro.commands.mute/nuke[玩家昵称]在某玩家的位置生成一场让他终身难忘的爆炸-toolspro.commands.nuke.use
+toolspro.commands.nuke.other/realname<玩家昵称>得到玩家的真实名字-toolspro.commands.realname/repair[all|hand|留空]修复手上的或所有背包里的工具。
+留空为修复手上的工具-toolspro.commands.repair.use
+toolspro.commands.repair.armor
+toolspro.commands.repair.all/saveinv[玩家昵称]保存某玩家的背包！-toolspro.commands.saveinv.use
+toolspro.commands.saveinv.other/setspawn-设置你的出生点！-toolspro.commands.setspawn/spawn[玩家昵称]把某玩家传送到世界出生点-toolspro.commands.spawn.use
+toolspro.commands.spawn.other/spawnall-把所有人传送到世界的出生点-toolspro.commands.spawnall/speed<玩家昵称> 
+[速度等级][注4]改变玩家走路的速度！-toolspro.commands.speed/sudo<玩家昵称> 
+<指令|c: 文字>以这个玩家为身份，使用指令
+c: 文字 代表以他的身份发送聊天信息-toolspro.commands.sudo.use
+toolspro.commands.sudo.exempt/suicide-自杀！-toolspro.commands.suicide/toolspro-输出关于这个插件的信息-toolspro.commands.toolspro/top-传送你到xz相同的最高方块上-toolspro.commands.top/tree<树的类别> [注5]在你的位置生成一颗指定种类的树-toolspro.commands.tree/unmute<玩家昵称>解除禁言！-toolspro.commands.unmute/vanish[玩家昵称]让某个玩家隐身或解除隐身-toolspro.commands.vanish.use
+toolspro.commands.vanish.other/world create<世界名字> 
+[世界类别] [注6]生成新世界！-toolspro.commands.world.use
+toolspro.commands.world.create/world tp<世界名字> 
+[玩家昵称]传送某个玩家到指定世界-toolspro.commands.world.use
+toolspro.commands.world.tp
+[注1] 如果使用/gm，使用方法为 /gm <游戏模式> [玩家名字]，这里的游戏名字可以是英语的 survival 或 s 等，比如 /gm s snake1999（把Snake1999切换到生存模式）。如果是 /gms 、/survival、/gmc、/creative、/gma、/gmt、/spectator、/viewer，为 /命令名字 [玩家名字]，此时直接将玩家转换到生存模式（/gms、/survival），创造模式（/gmc，/creative），或观察者模式（/gma，/gmt，/spectator，/viewer）
+[注2] 意思是，如果你手里是雪球，会把你手里填满到一组（16个）雪球。如果手里是钻石，会填满到一组（64个）。以此类推
+[注3] 时间的表达方式：10 seconds 为10秒，45 minutes 为45分钟，还支持有 12 hours，30 days 等。
+[注4] 速度等级：0~9，数字越大越快
+[注5] 树的类别可以是：oak，spruce，birch，jungle，acacia，darkoak
+[注6] 世界类别是 old（0.8.1那种坑爹有限制的世界），infinite（默认的无限大世界）或 flat（无限大的超平坦世界）
+
+使用说明
+
+把插件扔进 plugins 文件夹，如果服务器开着那就输入 reload 并回车，关着的话就开启服务器，然后看到提示就说明插件安装成功；插件有自动检查更新的功能，如果不连接互联网，该功能可能无法正常使用。
+
+源代码
+
+GitHub 托管平台

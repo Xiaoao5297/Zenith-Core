@@ -1,0 +1,22 @@
+提供2个地图生成器!
+
+BigLandGenerator (生成100*100的领地地图) – level-type=bigland
+SmallLandGenerator(生成40*40的领地地图) – level-type=smallland
+Screenshot_2015-04-28-19-52-58Screenshot_2015-04-28-20-26-28
+
+[关于PM1.4/1.5多世界与使用方法]
+
+随着PM1.4的更新,PM出现了一个更详细的配置文件:pocketmine.yml,用编辑器打开它并下滑到最后一行,可以看到
+
+worlds:
+ #These settings will override the generator set in server.properties and allows loading multiple levels
+ #Example:
+ #world:
+ # seed: 404
+ # generator: FLAT:2;7,59x1,3x3,2;1;decoration(treecount=80 grasscount=45)
+加载多世界并不需要多世界插件,上面的就是PM配置文件的多世界配置部分!(可以看到有一个world世界的例子,可以设置生成world世界的seed和generator),而PM自己有两个generator(地图生成器):Normal(正常世界)和Flat(超平坦)
+
+使用本插件(在配置文件最后添加):
+
+ world(改为自己要生成的世界名):
+  generator: bigland或者smallland

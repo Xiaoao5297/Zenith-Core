@@ -1,0 +1,31 @@
+name: Leapers
+main: LittleBigMC\Leaps\Main
+version: 1.7.1
+api: 
+- 1.0.0
+- 2.0.0
+- 3.0.0
+- 3.0.0-ALPHA1
+- 3.0.0-ALPHA2
+- 3.0.0-ALPHA3
+- 3.0.0-ALPHA4
+- 3.0.0-ALPHA5
+- 4.0.0
+- 4.0.0-ALPHA1
+- 4.0.0-ALPHA2
+- 4.0.0-ALPHA3
+- 4.0.0-ALPHA4
+- 4.0.0-ALPHA5
+load: POSTWORLD
+author: LittleBigMC
+permissions:
+    leapers.use.axe:
+        description: Gives player permission to use leap via axe!
+        default: true
+        
+    leapers.use.crouch:
+        description: Gives players permission to use leap via crouching in air!
+        default: true
+               
+               
+               

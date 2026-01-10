@@ -1,0 +1,16 @@
+按照BanItem照抄过来的，除了事件不同，指令不同，其他基本一样，所以叫做姊妹篇
+
+
+NoBreak与SimpleBanItem
+
+BanItem为禁止放置某种物品，NoBreak为禁止破坏某种物品
+
+用途:
+不让玩家破坏某种方块.....
+其实就是把BanItem的Place改为Break罢了.........
+<所以我才加了个类型娱乐....>
+指令:
+/nobreak add <ID>不让玩家破坏某种方块
+/nobreak remove <ID>取消方块保护的限制
+/nobreak trust <玩家>信任某位玩家<给破坏保护方块的权限>
+/nobreak detrust <玩家>取消信任某位玩家

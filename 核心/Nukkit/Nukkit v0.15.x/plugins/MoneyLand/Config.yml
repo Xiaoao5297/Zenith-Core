@@ -1,0 +1,5 @@
+# 每一平方格的价格
+square-price: 100
+
+# 回收时每一平方格价格
+sell-square-price: 50

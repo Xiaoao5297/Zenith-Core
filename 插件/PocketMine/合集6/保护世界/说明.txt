@@ -1,0 +1,55 @@
+iProtector是一个很简单的地图保护插件，通过这个插件能够让腐竹和管理员们去保护一些特定的建筑，比如主城，或者小游戏的地图。
+
+　　最什么要用这个插件？原因如下：
+　　1、部分服务器用领地，腐竹设置领地，这样如果装了领地显示，提示就会一直是腐竹；
+　　2、领地插件可能偶尔会失灵，特别是服务器上领地过多的时候，主城被熊回档麻烦。
+
+
+　　警告:这个保护功能是OP专用，仅仅用来保护主城等建筑，请不要因为这个插件而分发OP，这么做本插件会失去意义。如果看不懂，请等待小白后续提供汉化版本。现在只是对插件本身原样打包发布，并没有做任何修改。
+
+
+　　命令，就一句话搞定了，不解释了，都看得懂吧
+　　/area <pos1/pos2/create/flag/list/delete>
+
+
+　　用法：
+　　1、首先你得有一个需要保护的服务器官方建筑，或者是整个小游戏地图？
+　　2、在起点/area pos1；
+　　3、飞到终点，/area pos2；
+　　4、/area create，创建，其实很简单的，都有说明的每一步。
+
+
+　　权限组：
+　　iprotector:
+　　description: "Allows access to all iProtector features."
+　　default: false
+　　children:
+　　iprotector.access:
+　　description: "Allows access to editing terrain in iProtector areas."
+　　default: op
+　　iprotector.command:
+　　description: "Allows access to all iProtector commands."
+　　default: false
+　　children:
+　　iprotector.command.area:
+　　description: "Allows access to the area command."
+　　default: op
+　　children:
+　　iprotector.command.area.pos1:
+　　description: "Allows access to the iProtector pos1 subcommand."
+　　default: op
+  　iprotector.command.area.pos2:
+　　description: "Allows access to the iProtector pos2 subcommand."
+　　default: op
+　　iprotector.command.area.create:
+　　description: "Allows access to the iProtector create subcommand."
+　　default: op
+　　iprotector.command.area.list:
+　　description: "Allows access to the iProtector list subcommand."
+　　default: op
+　　iprotector.command.area.flag:
+　　description: "Allows access to the iProtector flag subcommand."
+　　default: op
+　　iprotector.command.area.delete:
+　　description: "Allows access to the iProtector delete subcommand."
+　　default: op

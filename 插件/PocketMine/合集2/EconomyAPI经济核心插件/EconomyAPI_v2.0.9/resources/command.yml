@@ -1,0 +1,20 @@
+---
+setmoney:
+- 发钱
+seemoney:
+- 查询
+mymoney:
+- 钱包
+pay:
+- 支付
+givemoney:
+- 给钱
+topmoney:
+- 财富榜
+setlang:
+- 语言
+takemoney:
+- 偷钱
+mystatus:
+- mystatus
+...

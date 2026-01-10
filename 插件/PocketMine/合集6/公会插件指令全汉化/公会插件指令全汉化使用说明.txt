@@ -1,0 +1,81 @@
+公会插件指令全汉化使用说明:
+
+1. 创建一个公会: /公会 创建 <公会名> (支持中文公会名)
+2. 解散一个公会: /公会 解散
+3. 邀请玩家入会: /公会 邀请 <玩家名>
+4. 接受入会邀请: /公会 接受
+5. 拒绝入会邀请: /公会 拒绝
+6.  退出所在公会: /公会 退出
+7. 会长踢出成员: /公会 踢人 <玩家名>
+8. 会长转让公会: /公会 会长
+9. 更新公会公告: /公会 公告
+10. 查看公会公告: /公会 信息
+11. 查看公会命令: /公会 帮助
+(同属一个公会的2个玩家互相PK不会造成对方伤害)
+使用示例:
+steve深恨熊孩子,于是使用命令"/公会 创建 防熊联盟"成立防熊联盟公会;
+steve在游戏里说话的效果:
+[防熊联盟] steve : 正义的勇士们快来加入"防熊联盟"打击熊孩子! 
+jack是OP管理员,于是使用命令"/公会 创建 OP管理团队"成立OP管理员公会;
+jack在游戏里说话的效果:
+[OP管理团队] jack : 在游戏里遇到任何问题请呼叫OP管理团队!
+lucy是资深建筑师,于是使用命令"/公会 创建 建筑师协会"成立建筑师公会;
+lucy在游戏里说话的效果:
+[建筑师协会] lucy : 优秀的建筑师快加入我们的协会交流经验!
+
+★对本次修复的3大BUG详细说明★
+1. 语法逻辑BUG
+1.1 语法小BUG
+if(count($args == 2)) {
+改为
+if(count($args) == 2) {
+if(count($args == 1)) {
+改为
+if(count($args) == 1) {
+说明:别看这么个小小的BUG,会造成数组越界,严重起来会导致程序崩溃的.
+此BUG没修复之前的后台出错提示:
+00:54:56 [CRITICAL] Unhandled exception executing command 'f create' in f: Undefined offset: 1
+00:54:56 [NOTICE] ArrayOutOfBoundsException: "Undefined offset: 1" (E_NOTICE) in "/FactionsPro.phar/src/FactionsPro/Main" at line 62
+
+1.2 逻辑小BUG
+else {
+    $sender->sendMessage("[公会管理] 请使用 /公会 帮助 来列出所有公会相关命令");
+}
+改为
+f(count($args) > 2) {
+    $sender->sendMessage("[公会管理] 请使用 /公会 帮助 来列出所有公会相关命令");
+}
+说明: 这个问题不大,主要会影响命令用错时的用法提示信息!
+2. 对象传参BUG
+public function factionPVP(EntityDamageByEntityEvent $factionDamage) {
+......
+}
+改为
+public function factionPVP(EntityDamageEvent $factionDamage) {
+if($factionDamage instanceof EntityDamageByEntityEvent){
+......
+}
+}
+说明:函数factionPVP会接收到2种伤害事件:EntityDamageEvent, EntityDamageByEntityEvent;
+EntityDamageEvent是父类对象,EntityDamageByEntityEvent是子类对象;
+因此这里的接收参数必须为父类对象,才能同时接收父类对象和子类对象;
+函数factionPVP只需要用到EntityDamageByEntityEvent这个子类对象,所以加个if语句限制一下!
+这个BUG会导致后台刷屏的:出现一次moved wrongly,就会导致下面这大段错误提示信息,出现N次moved wrongly,就会导致下面这大段错误提示信息一直刷屏!
+此BUG没修复之前的后台出错提示:
+18:44:08 [CRITICAL] Could not pass event pocketmine\event\entity\EntityDamageEvent to FactionsPro v1.0.1: Argument 1 passed to FactionsPro\Main::factionPVP() must be an instance of pocketmine\event\entity\EntityDamageByEntityEvent, instance of pocketmine\event\entity\EntityDamageEvent given, called in phar:///home/pocketmine/PocketMine-MP.phar/src/pocketmine/plugin/MethodEventExecutor.php on line 36 and defined on FactionsPro\Main
+18:44:08 [NOTICE] InvalidArgumentException: "Argument 1 passed to FactionsPro\Main::factionPVP() must be an instance of pocketmine\event\entity\EntityDamageByEntityEvent, instance of pocketmine\event\entity\EntityDamageEvent given, called in phar:///home/pocketmine/PocketMine-MP.phar/src/pocketmine/plugin/MethodEventExecutor.php on line 36 and defined" (E_RECOVERABLE_ERROR) in "/FactionsPro.phar/src/FactionsPro/Main" at line 323
+3. 数据库调用BUG
+$this->db->query("DELETE * FROM confirm WHERE player='$player';");
+改为
+$this->db->query("DELETE FROM confirm WHERE player='$player';");
+$this->db->query("DELETE * FROM confirm WHERE player='$lowercaseName';")
+改为
+$this->db->query("DELETE FROM confirm WHERE player='$lowercaseName';")
+
+说明:
+数据库MySQL的语法就是这么规定的:
+SELECT * FROM ... SELECT 后面是要有带*的
+DELETE FROM...     DELETE 后面是不要带*的
+此BUG没修复之前的后台出错提示:
+2015-02-27 20:10:16 [CRITICAL] Unhandled exception executing command 'f accept' in f: SQLite3::query(): near "*": syntax error
+2015-02-27 20:10:16 [WARNING] RuntimeException: "SQLite3::query(): near "*": syntax error" (E_WARNING) in "/FactionsPro.phar/src/FactionsPro/Main" at line 211

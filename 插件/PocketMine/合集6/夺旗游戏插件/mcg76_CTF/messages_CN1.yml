@@ -1,0 +1,122 @@
+﻿# -----------------------------------------------------------
+# MinecraftGenius76 - Mini-Games
+# CAPTURE THE FLAG
+# Youtube: http://www.youtube.com/user/minecraftgenius76
+# language file
+# Contributor(s): mcg76
+# -----------------------------------------------------------
+languageCode: "ZH"
+languageName: "CHINESE SIMPLIED"
+languageDescription: "CHINESE SIMPLIED"
+version: "1.50"
+# -----------------------------------------------------------
+ctf:
+ name: "§e夺旗"
+ status: "§e状态"
+ spawn_player: "§a传送玩家"
+ conglatulations: "§e***** 祝贺 *****"
+ return-flag: "§a对方旗帜已重置"
+ return-waiting-area: "§a回到玩家等候区"
+ left-game: " §e离开CTF游戏!"
+ finished: "§eCTF 游戏结束!"
+ red-team:
+  capturedflag: "§c红队夺旗了敌人的旗帜" 
+  score: " §c红队得分: "   
+ setup:
+  action: "设置模式操作: " 
+  select: "[选择一个块来设置位置]" 
+  success: "成功! 保存登录位置:"   
+  failed: "失败! 无法保存登录位置:"     
+ blue-team:
+  capturedflag: "§b蓝队夺旗了敌人的旗帜" 
+  score: " §b蓝队得分: "   
+ error: 
+  wrong-sender: "该命令只能在游戏中只运行!"
+  no-permission: "你无权使用此命令!"
+  blueteam-flag-exist: "§c无效的！蓝队旗帜依然存在."
+  redteam-flag-exist: "§c无效的！红队旗帜依然存在."
+  not-game-stop: "§a仅游戏玩家允许停止"   
+plugin:
+ enable: "夺旗 (CTF) 迷你游戏 - 启用"
+ disable: "夺旗  (CTF) 迷你游戏 - 已禁用 "
+arena:
+ created: "CTF 竞技场创建!"
+sign:
+ teleport:
+  world: "§a传送玩家CTF世界"
+  game: "§a传送玩家CTF游戏区"
+  spawn: "§a传送玩家 -" 
+  ctf: "§a传送到CTF世界 -" 
+ world-not-found: "无法找到CTF世界"
+ done: "完成!"
+command:
+ ctf: "§e夺旗"
+ home: "§e大厅"
+ joinred: "§c加入红队"
+ joinblue: "§b加入蓝队"
+ stop: "§a停止游戏"
+ leave: "§a离开一下"
+ start: "§a开始游戏"
+ stats: "§a玩家列表"
+ blockon: "开启"
+ blockoff: "关闭"
+ setsignblue: "设置蓝队木牌"
+ setsignred: "设置红队木牌"
+ setsignnew: "设置新木牌"
+ setsignstats: "设置玩家列队木牌" 
+team:
+ members: "§a成员:"
+ no-players: "§e团灭了!" 
+ blue-no-players: "§b蓝队团灭!"
+ red-no-players: "§c红队团灭!"  
+ blue: "§b蓝队"
+ red: "§c红队"  
+ join-blue: "§b加入蓝队"
+ join-red: "§c加入红队"
+ left-blue: " §e离开蓝队"
+ left-red: " §e离开红队"
+ joined-blue: " §b加入了 蓝 队"
+ joined-red: " §c加入了 红 队"
+ welcome-blue: "§b欢迎来到蓝队!"
+ welcome-red: "§c欢迎来到红队!"
+ tap-start: "§e准备好后, 点击 §a绿色§e 方块开始"
+ scores:
+  title-status: "§e夺旗 | 信息: "
+  red-players: " §c红队玩家 "
+  blue-players: " §b蓝队玩家 "
+  players: " §a玩家"
+  round: " §a回合"
+  score: " §a分数"
+  redteam-wins: " §c红队赢: "
+  blueteam-wins: " §b蓝队赢: "	
+game:
+ player-left: "§a玩家离开了游戏"
+ player-stop: "§a玩家停止了游戏"
+ player-start: "§a玩家开始了游戏" 
+ stats: "§e夺旗帜列表"
+ not-enought-players: "§c人数不够无法开始"
+ getready: "§e请准备!"
+ in-progress: "§a游戏已经开始请等待!" 
+ hit-stop: "§e选择蓝色方块停止游戏" 
+ new-game: "§a开启新夺旗房间,请加入游戏!"  
+ nextround: "§a下一轮"
+ finished: "§a夺旗游戏完成!" 
+ roundstart: "§a游戏开始"
+ round: "§a此轮"
+ stop: "§c夺旗游戏停止!" 
+ go: "§a游戏开始! 冲啊!!!!"
+ full: "§c人数已满!"
+ start-equipment: "§a已装备"
+ remove-equipment:  "§a装备已经移除"
+ resetting: "§a重置游戏,请等待...!"
+ ticks: " 秒倒计时..."
+ final:
+  title: "§e【夺旗完成，游戏得分】"
+  red-team: " §c红队得分: "
+  blue-team: " §b蓝队得分: "
+  red-win: "§c* 红队赢! *"
+  blue-win: "§b* 蓝队赢! *"
+  draw: "§a* 平局2333 *"
+block:
+ display-on: "CTF方块坐标开启"
+ display-off: "CTF方块坐标关闭"

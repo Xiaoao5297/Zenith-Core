@@ -1,0 +1,15 @@
+For PocketMine-MP:Alpha_1.4 Zekkou Cake
+A collection of tools to help development and distribution of plugins for PocketMine-MP.
+This plugin is needed to load plugins in the source form.
+
+WARNING: This plugin uses the new API existent in PocketMine-MP Alpha_1.4
+
+Commands
+/makeserver: Creates a PocketMine-MP Phar
+/makeplugin <pluginName>: Creates a Phar plugin from a unarchived one, to be able to distribute it
+/extractplugin <pluginName>: Extracts a Phar plugin to its source code form
+/checkperm <node> [playerName]: Checks a permission value for the current sender, or a player
+
+You can create a simple plugin folder loader so you don't have to use DevTools with /makeplugin FolderPluginLoader
+
+Get the latest release from the official Jenkins server.

@@ -1,0 +1,22 @@
+
+#PvPWorlds Config File
+
+#################################################
+#						#
+#		     PvPWorlds		        #
+#		    By Samueljh1		#
+#						#
+#################################################
+
+#Check Out My Youtube: http://youtube.com/samueljh1
+#My Google Play Apps! https://play.google.com/store/apps/developer?id=Samueljh1
+#My Website! http://samueljh1.net
+
+#禁止PVP的世界列表,必须填写地图文件夹名称
+worlds: ["lobby","parkour","world"]
+
+#当玩家在
+pvp-error: "你所在的世界禁止 PVP!"
+
+#是否允许OP在禁止PVP世界中PVP
+enable-op: "true"

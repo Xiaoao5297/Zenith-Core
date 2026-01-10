@@ -1,0 +1,6 @@
+【插件用法】
+所有命令：/clean  ——马上清理掉落物品
+
+
+更改清理时间：打开plugins/Cleaner/config.yml
+更改CleanDelay项   ' '    内的数字，单位为秒（sec）

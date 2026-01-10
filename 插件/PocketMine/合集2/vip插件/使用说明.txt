@@ -1,0 +1,21 @@
+vip插件
+
+一种是allvip，另一种是PocketVIP，很好用，谢谢
+
+
+allvip插件用法
+
+1.添加一个新的vip  /addvip
+2.删除一个vip  /delvip
+3.查询vip  /vip  /svip
+4.签到  /vip sign  /svip sign 
+5.减少vip时间   /rvip
+6.添加一个新的svip  /addsvip
+7.删除一个svip  /delsvip
+8.减少svip时间   /rsvip
+
+PocketVIP插件用法
+
+/vip  自己查去吧
+
+乌兰托娅万岁  谢谢

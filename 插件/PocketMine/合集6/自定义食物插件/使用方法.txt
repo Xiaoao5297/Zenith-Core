@@ -1,0 +1,16 @@
+自定义食物效果[注意需要加:0]
+编辑配置文件:
+
+## # config.yml ##
+
+#为生鱼添加Speed(加速)效果 "349:0": - effect: 1 #效果ID (Speed =1) amplifier: 1 # 效果的威力 (1) duration: 20 # 持续时间(2 0秒)
+
+#为生鲑鱼添加加速和弹跳2个效果 ! "349:1": - effect: 1 amplifier: 1 duration: 20 - effect: 8 amplifier: 5 duration: 20
+
+效果ID:
+
+## #Effect ID ## SPEED = 1;(加速) SLOWNESS = 2;(迟缓) SWIFTNESS = 3;(敏捷) FATIGUE = 4;(疲劳) MINING_FATIGUE = 4;(挖掘减 慢) STRENGTH = 5;(力量) JUMP = 8;(弹跳) NAUSEA = 9;(恶心) CONFUSION = 9;(混乱) REGENERATION = 10;(恢复) DAMAGE_RESISTANCE = 11;(伤 害抵抗) FIRE_RESISTANCE = 12;(火焰 抵抗) WATER_BREATHING = 13;(水下 呼吸) INVISIBILITY = 14;(隐形) WEAKNESS = 18;(虚弱) POISON = 19;(中毒) WITHER = 20;(凋零)
+
+To Do:
+
+添加命令(/foodeffect <add|remove>)

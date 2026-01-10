@@ -1,0 +1,55 @@
+name: RandomSpawn
+main: RandomSpawn\RandomSpawn
+version: 1.0.0
+api: 
+- 1.0.0
+- 2.0.0
+- 3.0.0
+- 3.0.0-ALPHA1
+- 3.0.0-ALPHA2
+- 3.0.0-ALPHA3
+- 3.0.0-ALPHA4
+- 3.0.0-ALPHA5
+- 4.0.0
+- 4.0.0-ALPHA1
+- 4.0.0-ALPHA2
+- 4.0.0-ALPHA3
+- 4.0.0-ALPHA4
+- 4.0.0-ALPHA5
+author: Angus
+description: spawn Random
+commands:
+ setspawn1:
+  description: set spawn 1
+  usage:  /setspawn1
+  permission: randomspawn.command.setspawn1 
+ setspawn2:
+  description: set spawn 2
+  usage:  /setspawn2
+  permission: randomspawn.command.setspawn2 
+ setspawn3:
+  description: set spawn 3
+  usage:  /setspawn3
+  permission: randomspawn.command.setspawn3
+ setspawn4:
+  description: set spawn 4
+  usage:  /setspawn4
+  permission: randomspawn.command.setspawn4
+  
+  
+
+permissions:
+ randomspawn.command.setspawn1:
+  default: op
+  description: set spawn 1
+  randomspawn.command.setspawn2:
+  default: op
+  description: set spawn 2
+ randomspawn.command.setspawn3:
+  default: op
+  description: set spawn 3
+ randomspawn.command.setspawn4:
+  default: op
+  description: set spawn 4
+ 
+ 

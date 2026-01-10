@@ -1,0 +1,50 @@
+---
+plugin-name: essentalsTp+
+sqlite-dbname: essentials_tp
+tpa-here-cooldown: "30"
+tp-home-cooldown: "5"
+tp-warp-cooldown: "5"
+tp-spawn-cooldown: "5"
+MOTD: Welcome to this awsome plugin showcase was hell for the first day but hey lol
+wild-MaxX: "300"
+wild-MaxY: "300"
+bed-sets-home: "true"
+Lang_invalid_usage: '非法使用:'
+Lang_command_only_use_ingame: 此命令只能在游戏中使用.
+Lang_no_permissions: '[EssentialsTP] 没有权限.'
+Lang_teleport_home: 传送你到家.
+Lang_teleport_spawn: 传送你到出生点.
+Lang_teleport_wild: 传送你到随机位置.
+Lang_teleport_death: 传送你到上次死亡地点.
+Lang_no_spawn_set: 没有设置世界的出生点 ....  将使用原本的世界出生点.
+Lang_teleport_spawn_original: 传送你到原本的世界出生点.
+Lang_spawn_set: 出生点设置.
+Lang_your_homes: '你的家:'
+Lang_no_home_set: 你还没有设置家.
+Lang_no_home_name: 你没有叫这个名字的家.
+Lang_home_set: 家设置
+Lang_home_delete_1: '家的名字:'
+Lang_home_delete_2: 已经被删除.
+Lang_no_teleport_self: 你不能传送到你自己的位置.
+Lang_player_not_online: 玩家不在线.
+Lang_sent_request_you: 发送给你一个传送请求.
+Lang_sent_request_them: 发送给你一个传送到TA的位置的请求.
+Lang_accept_request: 接受请求.
+Lang_decline_request: 拒绝请求.
+Lang_request_expire_1: 这个请求还有
+Lang_request_expire_2: 秒
+Lang_request_expire_3: 过期.
+Lang_type: 种类
+Lang_no_active_request: 没有请求存在.
+Lang_warps: 'Warps:'
+Lang_no_warps: 服务器没有设置传送点.
+Lang_no_warp_listed: 没有叫这个名字的传送点.
+Lang_warp_set: 传送顶设置
+Lang_warp_to: 你传送到
+Lang_warp_delete_1: '传送点名字:'
+Lang_warp_delete_2: 已经被删除.
+Lang_no_warps_name: 没有叫这个名字的传送点.
+Land_chunk_not_loaded: 无法加载区块 , 这是不安全的传送.
+Lang_action_cooldown: 这个动作还在冷却.
+Lang_no_death: 请先死亡.
+...

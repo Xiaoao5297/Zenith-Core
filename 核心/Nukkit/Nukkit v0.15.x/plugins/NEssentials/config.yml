@@ -1,0 +1,23 @@
+#玩家加入时显示的消息，使用"none"来禁用
+JoinMessage: "&e玩家 &6%player &e加入了游戏"
+
+#玩家退出时的消息，使用"none"来禁用
+QuitMessage: "&e玩家 &6%player &7离开了游戏...."
+
+#是否玩家一加入就传送到主城
+TeleportLogin: true
+
+#玩家加入时对玩家显示的消息
+MOTD:
+  - "&6欢迎你, &d%player"
+  - "&e更多帮助请详见在线OP"
+  - "&c可以使用/helpop [消息] 来向op发送求助"
+
+#Spawn地点， 无需手动设置，在服务器内输入/setspawn即可
+Spawn:
+  default:
+    X:
+    Y:
+    Z:
+    Pitch:
+    Yaw: 

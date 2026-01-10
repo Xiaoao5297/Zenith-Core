@@ -1,0 +1,20 @@
+大家好我是人见人爱花见花开的piz君，今天我带来的是 Thunder 
+大神勿喷
+这个插件..嗯 我就不说啥了
+功能:
+-输入指令 /Th 玩家名 噼里啪啦他妈炸了
+/Th 玩家名 super 啪啪啪啪炸个不停哎
+可以设置玩家是否能使用这个指令呢
+-爆炸时附带声音且有几率炸出血
+-可以自定义 type 也就是说 雷电可以变成其他玩意了呢 EG:经验球。弓箭
+-玩家进服显示雷电 可以开/关
+-其实type潜力无限呢 等你去开发
+拒绝伸手党伸手党死妈，拿插件必回
+作者:PIZZLE&&HOMENEAR
+目前已知可以使用的type:
+闪电/93/EntityType.LIGHTNING_BOLT/41 
+烈焰人丢出去的火球/94/EntityType.SMALL_FIREBALL/38
+丢出去的药水/86/EntityType.THROWN_POTION/31 
+丢出去的鸡蛋/82/EntityType.EGG/30 
+射出去的箭矢/80/EntityType.ARROW/32 
+经验球/69/EntityType.EXPERIENCE_ORB/40 

@@ -1,0 +1,33 @@
+
+作者：zmdd
+目前这个插件最大的用处就是”多语种支持“
+就是任何依附并依赖，前置该插件的插件，都会自动的根据玩家的IP地址，来发送不同的文本
+就是本身并没有多大的功能，只是提供了丰富的API(方法)给别的插件使用，只有安装依附这个插件的插件，它的便利才能体现出来
+它的用法非常简单，一共就一个指令
+/Language (语种)
+当你输入了/Language时，系统会自动提示五个语言选项
+这时你可以根据你的所输入的，来为你更改默认语言
+当然，默认语言在你第一次进入服务器的时候，会自动根据ip地址来获取
+（后台也同样
+
+开发者指南：
+添加的事件:
+PlayerTouchSignEvent
+PlayerPlaceSignEvent
+PlayerBreakSignEvent
+
+多语言开发:
+首先打开你的IDEA，
+然后打开你的插件项目，
+然后用一个类 implements main.java.RsFunction.Lang
+并创建一个函数
+@Override
+public File getMsg(String msg, String address) {
+return new File("plugins/XXXXX").getAbsoluteFile;
+}
+其中一般为你插件的名字
+
+然后你可以实例化Rs.Plugin.Function.LangSend(new Lang())
+然后会有函数供使用
+
+源码: gihub.com/Rlxzmdd/RsPlugins

@@ -1,0 +1,66 @@
+自定义任何实体的喷血效果…..
+
+版本: v1.0.0
+
+支持的实体
+
+chicken
+cow
+creeper
+enderman
+human
+ozelot
+pig
+pigzombie
+player
+sheep
+silverfish
+skeleton
+slime
+spider
+squid
+villager
+wolf
+zombie
+翻译自行百度好了~
+命令
+
+/blood set <实体> <方块ID> – 设置实体喷的什么血(方块)
+/blood entities – 列出所有支持的实体
+/blood get <实体> – 得到实体喷出的是什么血(方块)
+/blood reload – 重新加载配置
+/blood help – 列出命令的帮助 (暂时没用v1.0.1+才更新)
+配置文件
+
+ ## BloodFX Configuration File
+
+# What block-particles do you want to perform?
+# 默认血方块 id: 152 (redstone_block - 红石)
+# numbers (id of a block)
+entities:
+ chicken: 152
+ cow: 152
+ creeper: 152
+ enderman: 152
+ human: 152
+ ozelot: 152
+ pig: 152
+ pigzombie: 152
+ player: 152
+ sheep: 152
+ silverfish: 152
+ skeleton: 152
+ slime: 152
+ spider: 152
+ squid: 152
+ villager: 152
+ wolf: 152
+ zombie: 152
+ 
+# How much blood do u want to be sprayed? - 喷出多少血？ 默认：2
+# Default 2 (Developers recommended)
+amplifier: 2
+
+# Config version (Updater) - 版本咯
+# DO NOT MODIFY THIS OTHERVISE THE PLUGIN MAY NOT WORK WELL!!
+v: "1.0.0"

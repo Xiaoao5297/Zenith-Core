@@ -1,0 +1,40 @@
+AntiCheat是一款运行在Nukkit上的反作弊插件.
+
+它可以帮助你更好的检测作弊玩家并阻止.
+
+包括(快速聊天,敏感词检测,自动瞄准, 速度, 碰撞箱检测等.
+
+如果可以，你可以让它变得更好
+配置:
+
+antiSpeed: true
+
+antiSpeedPingCheck: true
+
+pingNoCheckValue: 25
+
+maxMoveSpeed: 6.0
+
+checkBB: true
+
+antiFly: true
+
+inAirTimeCheck: 5
+
+checkChat: true
+
+chatSec: 2
+
+checkChatWord: true
+
+SensitiveWords:
+
+- fuck
+
+- shit
+
+antiKillAura: true
+
+antiAutoAim: true
+
+checkKillAuraCPS: 3

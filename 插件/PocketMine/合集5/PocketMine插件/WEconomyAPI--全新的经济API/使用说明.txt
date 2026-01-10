@@ -1,0 +1,51 @@
+﻿作者: Himpq
+
+联系方式 QQ:2042432192
+
+制作团队: WPluginTeam(所在团队，并非制作本插件的团队)
+请勿随意修改作者版权，转载需经过作者的同意
+
+如有开发者需要接口，请自行解包查看。
+新的经济插件[WEconomyAPI]占用内存小于10mb!
+
+指令介绍:
+
+/paymoney : 支付金钱
+
+/setmoney : 设置金钱
+
+/delmoney : 删除一定数量的金钱
+
+/addmoney : 增加一定数量的金钱
+
+/lookmoney : 查看玩家的金钱
+
+ 
+
+插件接口:
+
+use himpq\economyapi\main;
+
+main::getInstance()->xxx();
+
+xxx()可以填写:
+
+*addMoney();       ^lookMoney();
+
+*delMoney();       *setMoney();
+
+^newAccount();
+
+标注有”*”的括号里可以写:(玩家名称,要增加/减去的金钱,原来的金钱)
+
+标注有”^”的括号里可以写:(玩家名)
+
+注意：自己判断是否为数字
+
+腐竹专栏：
+
+本插件最高权限为管理员
+
+配置的admin啊，api啊都是无用的
+
+Default-Money为初始金钱

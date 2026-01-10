@@ -1,0 +1,43 @@
+SntuSign
+
+
+v1.0
+
+
+
+
+签到小功能插件没啥好说的！
+
+
+
+
+指令
+
+
+/sign qd 每日签到
+
+
+/sign count 显示今日签到的人数
+
+
+
+
+
+注意事项
+
+
+本插件需要前置插件RsMoney
+连接：RsMoney
+配置文件说明
+
+
+#设置奖励金钱还是点劵（默认金币：Money，点劵：Point ）
+RewardType: 'Money'
+#每日签到奖励的金钱或点劵
+Reward: 100
+
+
+
+小提示
+配合FNPC更好哦！
+

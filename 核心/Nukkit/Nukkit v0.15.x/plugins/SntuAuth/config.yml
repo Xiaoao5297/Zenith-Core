@@ -1,0 +1,10 @@
+#是否显示登录后的玩家信息
+ShowPlayerInfo: 'true'
+#暂且没写数据库
+#以下暂且无用
+#Sql地址
+MySqlIp: 'jdbc:sqlserver://127.0.0.1:1433;database=SNTUAUTH'
+#登录用户名
+SqlUSerName: 'root'
+#登录密码
+SqlUserPwd: 'root'

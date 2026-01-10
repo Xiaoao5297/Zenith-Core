@@ -1,0 +1,204 @@
+插件指令
+
+/kvip - 插件主指令
+
+子指令:buy(购买)/me(我)/fly(飞行)/reward(签到)/gm(模式)/tp(TP)/hide(隐身)/stat(服务器评估)/time(时间)/jump(跳跃)/info(介绍)
+
+/kchest - KChest主指令
+
+子指令:info(介绍)/buy(购买)/open(开箱)/use(用喇叭)
+
+/donate - 工单赞助主指令
+
+子指令: help
+
+/recharge - 密匙充值主指令
+
+后台输入/recharge <面额> 生成密匙
+
+/kcpay - 云点卷
+
+子指令: pay(支付)/reg(注册)/unreg(取消注册)
+
+VIP输入 @内容 可有称号聊天
+
+
+
+插件介绍
+
+这是一款多功能的VIP插件
+
+总共有 4 种级别
+
+- Ultra
+
+- Hero
+
+- Legend
+
+- Titan (Halloween版更新)
+
+您可以自定义配置他们的权限, 价格等
+
+同时插件内置KChest插件
+
+玩家可以使用点卷购买箱子, 并输入指令/kchest open
+
+即可打开手上的箱子
+
+箱子里会出现大量宝物, 每种箱子出现的数量也可设置
+
+目前有 3 种箱子可以激活
+
+- Old Chest
+
+- Ancient Chest
+
+- Mythical Chest
+
+箱子内可能出现 金币, 钻石, 铁锭.... 同时也会出现 小喇叭
+
+手持小喇叭并输入: /kchest use <内容> 使用
+
+这样服务器就会自动帮玩家刷屏了
+
+VIP功能可以自由搭配
+
+请在Config中设置!
+
+
+
+插件API
+
+$this->getServer()->getPluginManager()->getPlugin("KVIP")
+
+getPlayerMoney(Name)
+
+获取玩家点卷
+
+givePlayerMoney(Name) 
+
+给予玩家点卷
+
+usePlayerMoney(Name) 
+
+使用玩家点卷
+
+getPlayerVIP(Name) 
+
+获取玩家的VIP (Ultra/Hero/Legend/Titan/null)
+
+setPlayerVIP(Name, Rank, Month = Forever)
+
+设置玩家VIP (Rank = 权限), Month (月) - 不填为永久 
+
+
+
+Halloween 更新介绍
+
+Titan 权限
+
+请在Config中设置出现几率
+
+该权限仅在 点击南瓜/打开箱子中(仅限Legend) 获得
+
+
+
+Donate系统使用说明
+
+该系统用于腐竹不在线时, 玩家可以提取充值, 然后等你在线时你在给他分配点卷
+
+
+/donate online <方式> <帐号> <交易号> <金额>
+网上支付 (支付宝/财付通) 赞助
+
+/donate card <卡的类别> <卡号> <卡密> <金额>
+点卡支付 (电话卡) 赞助
+
+/donate stats <工单ID> 
+工单查询, 查询当然赞助状态使用的指令
+
+/donate check <工单ID> 查询工单ID的信息
+
+/donate delete <工单ID> 删除某工单ID的信息
+
+/donate accept <工单ID> <点卷数量> 
+同意某工单ID通过, 并给予点卷
+
+就这样, 玩家可以提前给你支付宝付款, 您在线时则可以查看工单, 并给予点卷
+
+
+
+Config 设置
+
+DonateID: 0 请无设置
+Auto-Debug: true 启用自动报告
+Particle-Sec: 5 粒子时间
+Report: 工单汇报
+  Report-Time: 10 汇报检测
+  Skip-0-Report: true 如果没工单就自动跳过
+Command:
+  Stat-For-Player: false 玩家使用/kvip stat命令
+Donate:
+  AlipayRatio: 1 支付宝 x 元 兑 1 点卷
+  AlipayAccount: admin@qq.com 您的支付宝账户
+  TenPayAccount: admin@qq.com 你的财付通账户
+  CardRatio: 1 元电信全国卡兑换 1 点卷 - 1 元联通充值兑换 1 点卷#&1 元移动神州卡兑换 1 点卷 - 1 元骏网一卡通 兑换 0.8 点卷 点卡兑换公告
+  ErrorQQ: admin's QQ 您的QQ
+  DonateCD: 120 工单冷却时间
+CPay:
+  Max-Try: 3 KCPAY 登陆错误上限
+  Block-Time: 10 错误超过上限 IP 封锁时间
+  Max-Pay: 100 每次转账上限
+权限名字:
+  Info: §b========== Ultra ==========#&§aFull Join √ Jump √ ForceTP √ Change Time
+    √#&§6Daily Reward 1000, Monthly Bonus 5000 VIP介绍
+  Forever-Money: 100 永久VIP要的点卷
+  Forever-Command: 购买永久VIP后台输入的命令
+  - tell %p 欢迎下次光临, 永久 Ultra 购买成功
+  Once-Money: 30 购买一个月VIP的点卷
+  Once-Command: 购买一个月的VIP输入的命令
+  - tell %p 欢迎下次光临, Ultra 购买成功
+  Join-Message: §f[§bUltra§f] §e%p 加入了服务器 加入服务器公告内容(%p = 玩家ID)
+  Expire-Command: VIP到期后台输入的指令
+  - tell %p 您的 Ultra 到期啦
+  Daily-Reward: 1000 每日奖励
+  Daily-Command: 每日奖励后台输入的内容
+  - tell %p [Ultra] 成功领取每日奖励
+  Monthly-Bonus: 50000 每月奖励
+  Monthly-Command: 每月奖励后台输入的内容
+  - tell %p [Ultra] 成功领取每月奖励
+  Allow-Jump: 1 跳跃上限（0为没有）
+  Allow-Change-Time: 设置地图时间
+    Allow-Set: true 是否允许
+    Set-Time-CD: 300 设置后累却时间
+  Full-Join: true 满人进服
+  Allow-ForceTP: true 强制TP
+  Allow-Inv: false 隐身
+  Allow-Flight: false 飞行
+  Allow-Gamemode: false 改游戏模式
+  Allow-Particle: false 粒子
+  Allow-Kick: false T玩家下线(如启动, 请输入累却秒数)
+  Kick-Message: §6[§bUltra§6] %p 把你移出服务器了 T玩家下线后的给T的玩家发送的消息 (%p为T的人) 
+Titan: 权限特别说明
+  Enable: false 启用该权限
+  Find-In-Pumpkin: 15 点击南瓜出现概率
+  Legend-Find-In-Chest: 25 箱子打开出现概率
+  Have-Rank-Broadcast: §6>>>>> 恭喜玩家§a %p §6成为本服第§a %# §6个 §cTitan 玩家获得titan的全服公告 (%P 为获得权限的玩家名字, %#为总共有多少个titan)
+箱子名字:
+  One-Money: 5 一个箱子的点卷价格
+  Max-Diamond: 12 出现钻石最大数量
+  Broadcast-Diamond: 9 出现多少个钻石后就会全服公告
+  Max-Iron: 32
+  Broadcast-Iron: 30 出现铁最大数量
+  Max-Gold: 32
+  Broadcast-Gold: 30 出现金最大数量
+  Max-Coins: 10000
+  Broadcast-Coins: 9000 出现金币最大数量
+  Max-Speaker: 3
+  Broadcast-Speaker: 2 出现小喇叭最大数量
+  Max-Old-Chest: 3 出现Old Chest最大数量
+  Max-Ancient-Chest: 1 出现Ancient Chest最大数量
+  Max-Mythical-Chest: 1 出现Mythical Chest最大数量
+  Broadcast-Chest: true 出现Chest后公告
+  Find-Titan: false 是否可以找到Titan

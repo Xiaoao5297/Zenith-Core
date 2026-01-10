@@ -1,0 +1,26 @@
+Easily create, delete, and manage factions更容易创建，删除和保护公会
+Players in the same faction don't inflict PVP damage on each other同一个公会的人在pvp里不会伤害对方
+Kick annoying players把骚扰别人的玩家踢掉
+Invite anyone you want (they can accept or deny the invite)能邀请所有玩家加入公会（他们也可以选择同意或拒绝
+Claim plots and create a dominating base领取一个地皮和创建一个捐款箱（要经济核心支持）
+Three ranks: Member, Officer and Leader三个公会竞争排名：人数，工作人员，领导者
+Commands指令
+
+/f about - view plugin information查看公会信息
+/f accept - accept an invite接收邀请
+/f claim - claim a plot of land (two snow blocks will mark out the corners)领取一块公会地皮
+/f create - create a faction创建一个公会
+/f del - delete your faction (if you are the leader)删除公会
+/f demote <player> - demote a player from Officer to Member提拔一个玩家
+/f deny - decline an invite拒绝邀请
+/f home - go to your Faction's home回到公会设置的加
+/f help - display all FactionsPro commands关于公会插件指令
+/f invite <player> - invite a player邀请一个玩家加入
+
+/f kick <player> - remove someone from the faction踢掉一个公会成员
+/f leader <player> - give your leadership to someone else给会长权利别人
+/f leave - leave a faction you are currently in离开一个公会
+/f promote <player> - promote a player to Officer rank提升一个玩家排名
+/f sethome - set your Faction's home point设置公会共同家的地点
+/f unclaim - unclaim your plot删除公会地皮
+/f unsethome unset your Faction's home删除之前设置的家

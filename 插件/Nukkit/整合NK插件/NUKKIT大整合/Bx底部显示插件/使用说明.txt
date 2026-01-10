@@ -1,0 +1,12 @@
+这是底部显示，装上即可
+
+￼
+
+
+RsMoney地址: http://www.mcbbs.net/thread-557988-1-1.html
+
+RsFunction地址：http://www.mcbbs.net/thread-551227-1-1.html
+
+
+       RsAuto配套版，防止冲突，玩家没有登录就不会底部不会显示
+       RsAauto地址:http://www.mcbbs.net/thread-551844-1-1.html

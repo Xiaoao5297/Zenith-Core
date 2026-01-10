@@ -1,0 +1,6 @@
+[New API][锁箱子插件指令汉化]
+
+锁箱子指令"/lockchest"用"/锁"代替,开箱子指令"/unlockchest"用"/开"代替
+
+本来想写一个通用的给指令起别名的插件,移植0.81的CommandAlias,后来发现,NEW API很难找到对应于Old API 的Alias函数,只好作罢!
+好在PHP编程是支持Unicode编码的,只要把phar插件解包,把源代码转码为UTF-8编码,然后用自定义的指令/锁或/上锁或/lock或/l替换掉原来的/lockchest就OK了!

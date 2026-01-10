@@ -1,0 +1,14 @@
+
+简化指令| 全指令
+dc	|detainees create  创建收监点(犯人直接被传送到此)
+di	|detainees imprison  收监犯人
+dr	|detainees release   释放犯人
+dbans	|detainees bans   查看收监人员列表
+dps	|detainees ps      查看监狱列表
+
+
+/dc  							直接创造当前你脚下坐标为一个关押点，
+/di <ID> <监狱ID> 	关押玩家到指定监狱（监狱ID一般都是纯数字自动编号PX_前缀只是为了好看）
+/dr <ID>  				释放指定玩家（目前支持离线释放）释放后会将其传送到当前他所在的世界Spawn位置
+/dbans						查看收监人员列表信息
+/dps							查看监狱列表信息

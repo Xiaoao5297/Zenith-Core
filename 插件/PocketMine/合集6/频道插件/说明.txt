@@ -1,0 +1,7 @@
+/sch info关于这个插件的简介
+/sch help这个插件的帮助
+/sch reload加载配置项
+/sch list显示所有的频道
+/sch join加入频道
+/sch leave离开频道
+/sch new创建新的频道

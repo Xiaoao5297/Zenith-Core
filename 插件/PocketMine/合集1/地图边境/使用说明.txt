@@ -1,0 +1,7 @@
+【配置文件介绍】
+worldborder: “on” 改为off关闭此功能
+message: This is end of world 设置玩家到达边界的提示语
+blocks: “3000” 设置出生点到边境的距离
+
+【版权】
+*作者:Topic

@@ -1,0 +1,23 @@
+name: SpeedClickGame
+version: "1.4.0"
+api: 
+- 1.0.0
+- 2.0.0
+- 3.0.0
+- 3.0.0-ALPHA1
+- 3.0.0-ALPHA2
+- 3.0.0-ALPHA3
+- 3.0.0-ALPHA4
+- 3.0.0-ALPHA5
+- 4.0.0
+- 4.0.0-ALPHA1
+- 4.0.0-ALPHA2
+- 4.0.0-ALPHA3
+- 4.0.0-ALPHA4
+- 4.0.0-ALPHA5
+author: PiZzle_zZau
+main: HomeAndPiZzle\SpeedClickGame
+commands:
+ scg:
+  description: "极速点击"
+  usage: "/scg <set/remove> 设置/删除游戏"

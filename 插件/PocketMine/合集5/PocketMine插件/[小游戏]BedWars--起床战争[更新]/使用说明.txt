@@ -1,0 +1,18 @@
+﻿地狱科技制作
+作者KitrosMC
+在这个版本里修复了重启会卡服的bugs，不过也相对麻烦了一点，等下教程会讲。
+
+教程开始:
+1.把这个插进扔进plugins文件夹
+2.开启服务器
+3.输入/bw help查看所有的指令
+4.输入/bw addarena创建竞技场
+5.输入/bw setspawn设置游戏重生点
+6.输入/bw setbed设置每队的床
+7.输入/bw shop设置村民商店
+8.输入/bw setsign设置游戏牌子
+9.走到/PocketMine-MP/plugins/BedWars，开启config.yml
+10.修改PlayerPerTeam每队最大人数
+11.把游戏地图打包成zip文件
+12.把打包好的zip文件移动至BedWars/Maps文件夹
+13.完成。

@@ -1,0 +1,56 @@
+name: ES
+author: Taki21
+api: 
+- 1.0.0
+- 2.0.0
+- 3.0.0
+- 3.0.0-ALPHA1
+- 3.0.0-ALPHA2
+- 3.0.0-ALPHA3
+- 3.0.0-ALPHA4
+- 3.0.0-ALPHA5
+- 4.0.0
+- 4.0.0-ALPHA1
+- 4.0.0-ALPHA2
+- 4.0.0-ALPHA3
+- 4.0.0-ALPHA4
+- 4.0.0-ALPHA5
+version: 0.0.1
+main: Taki21\ES\Main
+commands:
+ playsounds:
+  usage: /playsounds
+  description:
+ s1:
+  usage: /s1
+  description:
+ s2:
+  usage: /s2
+  description:
+ s3:
+  usage: /s3
+  description:
+ s4:
+  usage: /s4
+  description:
+ s5:
+  usage: /s5
+  description:
+ s6:
+  usage: /s6
+  description:
+ s7:
+  usage: /s7
+  description:
+ s8:
+  usage: /s8
+  description:
+ s9:
+  usage: /s9
+  description:
+ s10: 
+  usage: /s10
+  description:
+ s11:
+  usage: /s11
+  description:

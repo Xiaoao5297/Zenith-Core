@@ -1,0 +1,27 @@
+WMultiWorld 高能的多世界
+作者: 鲸鱼 版权所有
+插件持续更新中，请加W系列群237043779获取最新版。
+本插件仅授权极致插件包转载！
+有bug欢迎反馈作者QQ:627577391
+=================
+命令:
+/w [地图名]: 传送至某地图
+/lw: 查看服务器内所有地图
+/setworld load [地图名]: 加载已安装的地图
+/setworld unload [地图名]: 卸载一个已加载的地图
+/setworld wl: 添加或删除一个世界的白名单
+/setworld chat [地图名]: 设置一个快速传送指令
+/setworld delmap [地图名]: 删除一个地图的存档
+/setworld protect [地图名]: 添加或删除一个保护的世界
+/setworld pvp oppvp: 设置op在禁止PVP的世界的权限
+/setworld pvp world: 设置禁止PVP的世界
+/setworld admin: 设置多世界管理员( 仅限后台)
+/setworld setwl: 添加或删除世界白名单的玩家
+/makemap [地图名] [类型]
+ 类型包括以下几种：
+ default: 原生世界
+ flat: 超平坦
+ empty: 空白世界
+ land: 普通地皮
+ snowland: 雪地地皮
+ woodflat: 平坦木头区

@@ -1,0 +1,36 @@
+### AuthMePE Configuration File ###
+
+# Sessions
+sessions:
+  # Enable session
+  enabled: true
+  # Session time (minutes)
+  # After player logout, player can login if session isn't expired
+  session-login-available-minutes: 5
+  
+# Email
+email:
+  # 如果他们没有添加.那么每次上线都会提示添加
+  # 玩家忘记密码时.可以把设置的内容告诉管理员.管理员审核(建议使用QQ邮箱)
+  remind-players-add-email: true
+ 
+# 当玩家加入游戏没有任何操作.多少秒踢出？(秒为单位)
+login-timeout: 60
+
+# 最短密码字数.玩家密码字数必须大于
+min-password-length: 4
+
+# 最长密码字数.玩家密码字数必须小于
+max-password-length: 15
+
+# 当玩家进入游戏是否传送到默认出生点?
+force-spawn: true
+
+# 密码管理
+# 允许玩家输入错误的密码几次.
+tries-allowed-to-enter-password: 3
+# 如果错误达到封号次数.那么应该封号几分钟? (分钟为单位)
+time-unban-after-tries-ban-minutes: 2
+
+# 对没有登陆的玩家进行隐身?
+vanish-nonloggedin-players: true

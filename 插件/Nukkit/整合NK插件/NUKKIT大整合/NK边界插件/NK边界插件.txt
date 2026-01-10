@@ -1,0 +1,24 @@
+
+　　fromgate的Borders这款nukkit插件能够限制玩家在地图上的活动范围，防止玩家离开区域，移动到区域外，防止玩家进入一些地方，或者拉地图。
+
+　　功能特点:
+　　1、在一个地图上设置多个限制区域；
+　　2、如果边界互相连接，你可以从一个边界区域直接到达相邻的区域；
+　　3、如果边界区域之间没有共同边界，可以移动到另外一个区域；
+　　4、玩家不能在边界之外的区域行走或者放置、破坏方块。
+
+　　使用方法:
+　　/border help - 显示Borders插件帮助信息
+　　/border p1 (/border p2) - 设置Borders区域的起点p1和终点p2
+　　/border p1 (/border p2 ) - 直接通过输入坐标来确定Borders的起点p1和终点p2，不建议这个，对一般腐竹太难
+　　/border add - 保存Borders选区(需要先设置p1 p2)
+　　/border list 页码 - 显示Borders边界区域列表
+　　/border remove - 删除一个Borders区域
+　　/border check - 查看你在哪个区域内
+　　/border walk -允许在边界外移动
+　　/border reload - 重新读取配置文件
+
+　　权限组
+　　borders.config — 可以配置Borders限制区域
+　　borders.walk — 有权限执行/border walk的玩家
+　　borders.check — 可以使用/border check 命令的玩家

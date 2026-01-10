@@ -1,0 +1,13 @@
+PureEntitiesX是一个优秀的生物插件
+
+可惜现在的新版本(0.22dev)只支持PMMP核心，其他核心使用会报错
+
+GITHUB地址https://github.com/RevivalPMMP/PureEntitiesX
+
+于是我稍微修改了下，现在它能在其他主流核心上运行使用了
+
+0.22dev比0.11dev多了很多东西，这里就不一一介绍了
+
+更新，放出#94版本，1.1GenisysPro可用
+
+——McShare投稿者:破晓时分

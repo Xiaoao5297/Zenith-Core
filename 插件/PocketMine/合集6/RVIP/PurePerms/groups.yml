@@ -1,0 +1,82 @@
+---
+Player:
+  isDefault: true
+  inheritance: []
+  permissions:
+  - -essentials.kit
+  - -essentials.kit.other
+  - -pocketmine.command.me
+  - economyapi.command.mymoney
+  - economyapi.command.pay
+  - economyapi.command.topmoney
+  - mspawns.spawn
+  - pocketmine.command.list
+  - pperms.command.ppinfo
+  - simplewarp.warp
+  - vip.command.vip
+  worlds: []
+Admin:
+  inheritance:
+  - Player
+  permissions:
+  - essentials.gamemode
+  - pocketmine.broadcast
+  - pocketmine.command.gamemode
+  - pocketmine.command.give
+  - pocketmine.command.kick
+  - pocketmine.command.teleport
+  - pocketmine.command.time
+  worlds: []
+Owner:
+  inheritance:
+  - Player
+  - Admin
+  permissions:
+  - essentials
+  - pocketmine.command
+  - pperms.command
+  worlds: []
+OP:
+  inheritance: []
+  permissions:
+  - '*'
+  worlds: []
+vip1:
+  isDefault: false
+  inheritance:
+  - Player
+  permissions: 
+  - -essentials.tp
+  worlds: []
+vip2:
+  isDefault: false
+  inheritance:
+  - Player
+  permissions: 
+  - -essentials.tp
+  worlds: []
+vip3:
+  isDefault: false
+  inheritance:
+  - Player
+  permissions: 
+  - -essentials.tp
+  - Rvip.fly
+  worlds: []
+vip4:
+  isDefault: false
+  inheritance:
+  - Player
+  permissions: 
+  - -essentials.tp
+  - Rvip.fly
+  worlds: []
+vip5:
+  isDefault: false
+  inheritance:
+  - Player
+  permissions: 
+  - -essentials.tp
+  - Rvip.fly
+  worlds: []
+...

@@ -1,0 +1,28 @@
+
+SBedWars Nukkit起床战争小游戏
+
+感谢以下大佬的帮助
+
+Him188
+Kevin
+SoleMemory丶孤心
+liujiahua123123
+果子狸
+WetABQ
+
+以及很多好朋友对此插件的出谋划策
+
+进入房间
+/bw join <房间ID>
+
+退出房间
+/bw quit
+
+设置一个新的房间
+/bw set
+
+
+希望小天才不要改个作者名称就去倒卖了
+
+作者：hhm
+Coding开源地址：https://coding.net/u/hhm233/p/SBedWars/git

@@ -1,0 +1,14 @@
+---
+prefix: "全服公告"
+suffix: "[A]"
+time: 60
+sendmessage-format: "[{TIME}] [{PREFIX}] {SUFFIX} {SENDER}> {MESSAGE}"
+datetime-format: "H:i:s"
+broadcast-enabled: true
+messages:
+ - "§6[{TIME}] [{PREFIX}] 全服公告插件"
+ - "§6[{TIME}] [{PREFIX}] 全服公告插件"
+ - "§6[{TIME}] [{PREFIX}] 全服公告插件"
+ - "§6[{TIME}] [{PREFIX}] 全服公告插件"
+ - "§6[{TIME}] [{PREFIX}] 全服公告插件"
+...

@@ -1,0 +1,26 @@
+【指令介绍】
+/bomber add <场地名字> <最大玩家数量>
+新建一个场地
+/bomber del <场地名字>
+删除一个场地
+/bomber set <场地名字>  pos1
+设置游戏场地的一角(东南角)
+/bomber set <场地名字> pos2
+设置游戏场地的另一角(西北角)
+/bomber set <场地名字> wait
+设置游戏房间的等待点
+/bomber set <场地名字> lobby
+设置游戏房间大厅
+/bomber set <场地名字> sign
+设置游戏房间木牌
+/bomber list
+查看所有房间
+/bomber stop <场地名字>
+强行停止房间
+/bomber join <场地名字>
+加入一个房间
+/bomber quit
+退出一个游戏
+
+【版权说明】
+*作者:anseEnd

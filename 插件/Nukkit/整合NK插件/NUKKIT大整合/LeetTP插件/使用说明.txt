@@ -1,0 +1,46 @@
+英文名字: LeetTP
+作者: projectinfinity
+
+LeetTP是一个非常完整的传送插件，拥有传送、地标、家、主城等功能的插件。而且支持牌子地标传送。
+牌子地标传送
+牌子如下所写，WarpName 为 传送的坐标名。
+
+[WARP]
+WarpName
+
+
+命令与权限
+命令描述权限/home [name]传送到名字为[name]的家中，如果不输入[name]则传送到默认家leettp.command.home
+/homes列出所有家leettp.command.homes
+/sethome [name]设置一个名字为[name]的家，如果不输入[name]则设置为默认家leettp.command.sethome
+/delhome [name]删除一个名字为[name]的家，如果不输入[name]则删除默认家leettp.command.delhome
+/setspawn在你当前位置设置出生点leettp.command.setspawn
+/spawn传送到出生点leettp.command.spawn
+/back回到上一个位置leettp.command.back
+/tpaccept [player]接受[player]的传送邀请leettp.command.tpaccept
+/tpdeny [player]拒绝[player]的传送邀请leettp.command.tpdeny
+/tptoggle切换你的传送状态leettp.command.tptoggle
+/tpa [player]发送一个传送邀请到[player]所在位置leettp.command.tpa
+/tpahere [player]发送一个传送邀请[player]到你所在位置leettp.command.tpahere
+/tpo [player]传送到[player]所在位置（无视传送状态）leettp.command.tpo
+/tpohere [player]传送[player]到你所在位置（无视传送状态）leettp.command.tpohere
+/tpworld [world]传送到世界[world]leettp.command.tpworld
+/warp [name] [-p]传送到名为[warp]的公共地标或者自己设置的私有地标。如果私有地标和公共地标同名，加上"-p" 传送到自己的私有地标，否则传送到公共地标leettp.command.warp
+/warps列出所有的公共地标或者自己的私有地标leettp.command.warps
+/setwarp [name] [-p]设置一个名为[name]的公共地标。加上"-p"表示设置一个名为[name]的私有地标leettp.command.setwarp 或 leettp.warp.public (设置公共地标)
+/delwarp [name] [-p]删除一个名为[name]的公共地标。加上"-p"表示删除自己的名为[name]的私有地标leettp.command.delwarp 或 leettp.warp.delall (删除公共地标)
+命令别名tp -> tpa
+tphere -> tpahere
+
+更新日志
+1.2.6：在使用/warp, /tpworld or /home时，如果世界未被加载，将会自动加载，可以在配置文件中禁用
+1.2.5：升级API，修复了错误。
+1.2.4：修改了Tpworld在新版本中无法传送到别的时间的问题
+1.2.3：修复了在使用warp命令时抛空指针异常的问题
+1.2.2：{为了适应"RIP协议"，更新地标牌子的设置方式}
+
+
+
+
+
+来自群组: Unknown Domain

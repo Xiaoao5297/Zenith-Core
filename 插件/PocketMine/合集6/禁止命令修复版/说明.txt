@@ -1,0 +1,1 @@
+指令/bc add 添加指令 remove是移除，trust是信任。

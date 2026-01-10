@@ -1,0 +1,8 @@
+---
+111:
+  effect: "0"
+  attack: true
+  break: true
+  Particle: true
+  Place: true
+...

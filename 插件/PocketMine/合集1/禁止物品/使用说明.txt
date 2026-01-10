@@ -1,0 +1,7 @@
+【指令介绍】
+/banitem ban 物品ID:附属ID 添加一个ban物品
+/banitem unban 物品ID:附属ID 删除一个ban物品
+/banitem list 查看已经ban掉的物品
+
+【版权说明】
+*汉化者:BenBen

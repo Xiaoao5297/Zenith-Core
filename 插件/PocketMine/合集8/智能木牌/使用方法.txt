@@ -1,0 +1,19 @@
+地图传送牌子:
+
+touchit&w
+地图名称
+功能描述
+留空
+普通传送牌子:
+
+touchit&p
+传送点名称
+功能描述
+功能描述
+命令木牌:
+
+touchit&c
+命令
+命令(如果上面一行不够写,紧接着写到这一行)
+功能描述
+插件支持中英文,换中文更改配置文件/plugins/TouchIt/config.yml,更改language: English为language: Chinese!

@@ -1,0 +1,7 @@
+#牌子坐标，一般情况下无需修改
+sign:
+ x: 0
+ y: 0
+ z: 0
+ level: "world"
+ enabled: false

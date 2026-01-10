@@ -1,0 +1,47 @@
+name: Broadcaster
+main: Broadcaster\Main
+version: "1.13"
+api: 
+- 1.0.0
+- 2.0.0
+- 3.0.0
+- 3.0.0-ALPHA1
+- 3.0.0-ALPHA2
+- 3.0.0-ALPHA3
+- 3.0.0-ALPHA4
+- 3.0.0-ALPHA5
+- 4.0.0
+- 4.0.0-ALPHA1
+- 4.0.0-ALPHA2
+- 4.0.0-ALPHA3
+- 4.0.0-ALPHA4
+- 4.0.0-ALPHA5
+load: STARTUP
+author: EvolSoft
+description: Broadcast Plugin
+website: https://www.evolsoft.tk
+
+commands:
+ broadcaster:
+  aliases: [bc, broadcast]
+  description: Broadcaster Commands.
+  permission: broadcaster
+ sendmessage:
+  aliases: [sm, smsg]
+  description: Send message to specified player (* for all players)
+  permission: broadcaster.sendmessage
+
+permissions:
+ broadcaster:
+  default: op
+  description: Broadcaster commands permissions.
+  children:
+   broadcaster.info:
+    default: op
+    description: Allows player to read info about Broadcaster.
+   broadcaster.reload:
+    default: op
+    description: Allows player to reload Broadcaster.
+   broadcaster.sendmessage:
+    default: op
+    description: Allows sending messages to players with /sendmessage command.

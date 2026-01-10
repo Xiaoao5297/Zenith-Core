@@ -1,0 +1,30 @@
+通过一个很简单的指令获取一个玩家的所有信息~
+
+对服务器管理有很大帮助哦~~
+
+ 
+
+使用：
+
+/profile <玩家名> – 给模式窗体上的玩家信息！
+
+ 
+
+显示：
+
+– 显示玩家名称
+– 显示玩家等级
+– 显示玩家金钱
+– 显示玩家阵营如果有
+– 显示玩家在线/离线状态
+– 显示玩家第一次加入日期与时间
+– 显示玩家上次看到，如果玩家离线
+– BY INFERNUS101 Fallentech.tk和Countertech.tk所有者！
+
+ 
+
+依赖插件：
+
+经济API 5.7.1-3需要查看插件  https://poggit.pmmp.io/p/EconomyAPI/5.7.1-3
+PurePerms 1.4.1-2需要查看插件  https://poggit.pmmp.io/p/PurePerms/1.4.1-2
+FactionsPro 1.3.11-3需要查看插件  https://poggit.pmmp.io/p/FactionsPro/1.3.11-3

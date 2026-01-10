@@ -1,0 +1,17 @@
+---
+vip1.get.Money: 20
+vip2.get.Money: 30
+vip3.get.Money: 40
+player.get.Money: 10
+buy.vip1.oneday: 0.500000
+buy.vip2.oneday: 0.900000
+buy.vip3.oneday: 3
+can.create.vip: 3
+can.fly.vip: 2
+can.tp.vip: 1
+can.tphere.vip: 1
+default.prefix: §5战5渣
+vip1.prefix: 御林军
+vip2.prefix: 锦衣卫
+vip3.prefix: 亲卫兵
+...

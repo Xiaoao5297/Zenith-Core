@@ -1,0 +1,36 @@
+name: MYServer
+version: 2.7.0
+api: 
+- 1.0.0
+- 2.0.0
+- 3.0.0
+- 3.0.0-ALPHA1
+- 3.0.0-ALPHA2
+- 3.0.0-ALPHA3
+- 3.0.0-ALPHA4
+- 3.0.0-ALPHA5
+- 4.0.0
+- 4.0.0-ALPHA1
+- 4.0.0-ALPHA2
+- 4.0.0-ALPHA3
+- 4.0.0-ALPHA4
+- 4.0.0-ALPHA5
+author: anseEND
+description: anseEND服务器专用登入和等级插件
+main: MYServer\MYServer
+
+commands:
+ 改密码:
+  description: 玩家密码修改
+ vip:
+  description: vip主指令
+ 结婚:
+  description: 结婚主指令
+ Popup:
+  description: 底部信息开关
+ 新手箱子:
+  description: 开启和关闭新手箱子
+  default: op
+ 升级粒子:
+  description: 可以设置玩家升级的时候是否出现粒子效果
+  default: op

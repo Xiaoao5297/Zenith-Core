@@ -1,0 +1,53 @@
+一个最简单的饥饿度系统,吃东西即可恢复饥饿度
+
+当饥饿度满的时候将会自动补血
+
+当饥饿度没了就会自动的扣血
+
+如有冲突请QQ 2712328142 =_=
+
+依靠插件: EconomyAPI
+
+
+
+本插件在PM 1.5里使用最佳
+
+
+
+
+如果插件有任何BUG请详细告诉我BUG或给我蹦服记录,谢谢！
+
+
+
+如果您安装后发现config.yml是空白的话,请联系我来手动安装config.yml,谢谢
+
+当前版本: v1.2.5 Build A
+插件更新记录:
+ v1.0.0 - 基本完善
+ v1.1.0 - 禁止玩家在饥饿度满了,但是血量没满时吃食物
+ v1.0.1 - Config设置一切功能
+ v1.2.0 - 增加更多选项,修复了创造扣饥饿度的BUG
+ v1.2.1 - 修复了?可能存在崩溃的BUG
+ v1.2.3 - 修复自动生成config的bug,现在聊天/破坏方块等已经不会扣饥饿度了(未来会增加回去),增加稳定性,允许了创造吃东西, 修复了?可能存在崩溃的BUG
+ v1.2.4 - 增加自定义饥饿图标 (请在config的'logo'里设置)
+ v1.2.5 - 增加玩家未登陆在线不会扣除饥饿度功能
+ v1.2.5 Build A - 修复可能存在蹦服的bug, 如果还是蹦服请告诉我, 谢谢
+Config设置:
+
+time-hunger: 2 － 每多少分钟扣除饥饿度
+check-hunger: 4 - 每多少秒监测一次玩家饥饿度
+send-tip-time: 10 - send提示的时间
+time-take: 1 - 每“time-hunger“内扣除多少饥饿点
+mode: tip - 模式(popup/tip)
+allow-eat: false - 是否允许玩家在饥饿度满时,但是血量没满的时候吃东西
+point-hunger: 10 - 购买饥饿度给予的饥饿点
+money-hunger: 500 - 购买饥饿度所花的钱
+logo: ? - 饥饿度的图标
+login-plugin: SimpleAuth - 你的登陆插件 (目前支持Login,SimpleAuth, 区分大小写,如果不启动未登陆不扣饥饿度的话可以随便填)
+[GI0K(ZCNF[QI(9A{P9)IN6.jpg
+
+Unknown.png
+
+如果您购买后显示 getCause() 的蹦服, 请注意这和本插件没有任何插件, 如果不信你可以直接下载插件 (仅限PMPLUGIN购买本插件的用户使用测试)
+
+请找我索要账号和密码, 谢谢: http://pan.baidu.com/s/1ntCHclN

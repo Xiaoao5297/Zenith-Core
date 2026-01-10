@@ -1,0 +1,11 @@
+一款能够快速种树的插件。
+
+作者:灵儿
+
+使用方法:
+命令:
+/treehand 查看所有命令
+/treehand type 查看所有树种
+/treehand remove 关闭
+用法:
+输入/treehand <树种>，然后点击地面开始种树，输入/treehand remove来关闭

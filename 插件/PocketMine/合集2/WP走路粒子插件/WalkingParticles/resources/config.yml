@@ -1,0 +1,25 @@
+# WalkingParticles Config File
+
+# Enable the feature or not?
+enable: true
+
+# What particle to give out while walking?
+# explode / bubble / splash / water / critical / spell / dripwater / driplava / spore / portal / flame / lava / reddust / heart / ink / snowballpoof
+default-particle: driplava
+
+# How much particles do u want to output?
+# The larger the amplifier, the more lag in your server
+# 9 is tested and recommended by developers
+default-amplifier: 9
+
+# How do you want particles to present for default?
+# A line behind the player, or in a group?
+default-display: line
+
+# Inventory MENU (TODO)
+#give-menu-onJoin: true
+#menu-id: 388
+
+# Version
+# DO NOT MODIFY THIS!
+v: "1.0.1"

@@ -1,0 +1,17 @@
+
+/island      ----回到自己的空岛，或者领取一个空岛
+
+/island pset <玩家> <权限> <T/F>  ---- 为一个玩家设置空岛权限
+
+/island set <权限> <T/F> ---- 设置空岛默认权限
+
+/island warp <玩家> ---- 传送到<玩家>所设置的传送点
+
+/island setwarp ---- 设置传送点
+
+
+Ps.其中<权限>可以为
+
+place,break,chest,move,use,pvp,tp
+
+其中只有place，break，move有用，(我懒怪我咯

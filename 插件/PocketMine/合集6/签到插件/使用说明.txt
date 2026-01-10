@@ -1,0 +1,3 @@
+指令、权限
+
+/qd — 签到 qd.command —— 签到权限（默 认全员开放） 功能 玩家输入 /qd 获取金钱。 金钱可以在 plugin/QD/config.yml 中修改 提示前缀可以在 plugin/QD/config.yml 中修改

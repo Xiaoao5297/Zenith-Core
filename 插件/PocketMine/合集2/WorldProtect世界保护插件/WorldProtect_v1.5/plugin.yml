@@ -1,0 +1,37 @@
+name: WorldProtect
+version: "1.5"
+api: 
+- 1.0.0
+- 2.0.0
+- 3.0.0
+- 3.0.0-ALPHA1
+- 3.0.0-ALPHA2
+- 3.0.0-ALPHA3
+- 3.0.0-ALPHA4
+- 3.0.0-ALPHA5
+- 4.0.0
+- 4.0.0-ALPHA1
+- 4.0.0-ALPHA2
+- 4.0.0-ALPHA3
+- 4.0.0-ALPHA4
+- 4.0.0-ALPHA5
+author: happylife
+description: 禁用物品插件(可设置管理员)
+main: WorldProtect\WorldProtect
+
+commands:
+ wp:
+  description: wp (world/admin/list) <世界名称/管理员名称> 添加世界/管理员/世界和管理员列表
+  permission: wp.command.wp
+  usage: "/wp (world/admin/list) <世界名称/管理员名称> 添加世界/管理员/世界和管理员列表"
+permissions:
+  worldprotect:
+    default: op
+    description: "Allows access to all wp features."
+    children:
+      wp.*:
+        default: false
+        description: "Allows access to all wp features."
+      wp.command.wp:
+        default: op
+        description: "Allows access to the wp command."

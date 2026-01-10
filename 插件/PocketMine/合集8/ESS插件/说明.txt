@@ -1,0 +1,45 @@
+AFK mode玩家挂机插件
+Back command回到上一次地点
+Broadcast command公告
+Burn command燃烧
+Clear Inventory清除物品
+Compass command指南针回家
+Depth command看深度
+God mode上帝模式
+Heal command快速回血
+Homes feature设置家
+Item command物品
+'KickAll' command剔除所有人
+'More' command多一些指令
+Mute features禁言
+Nicks features绰号
+'Nuke' command核弹
+Player vs Player feature (Aka PvP)玩家pvp
+'RealName' command真正名字
+Repair items feature修复物品
+Set Spawn feature (change the server's main spawn point)设置主世界出生点
+'Spawn' command出生点功能
+Teleport Requests多功能传送
+'TPAll' command传送所有人
+'TPHere' command传送到这里
+Warps feature设置传送点
+'World' command世界功能
+功能：
+内置经济（重要）
+多功能传送（修复普通玩家不能用版） 
+允许玩家间私信（重要）
+挂机
+回到上一次地点
+生成大树
+公告
+燃烧
+清空背包
+指南针传送
+飞行（生存）
+取得别的玩家的位置
+上帝模式（生存）
+治愈
+绰号 控制PvP
+工具修复耐久度
+自杀（QAQ）
+快速回复

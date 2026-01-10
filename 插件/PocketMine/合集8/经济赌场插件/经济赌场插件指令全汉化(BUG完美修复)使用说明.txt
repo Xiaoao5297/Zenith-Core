@@ -1,0 +1,164 @@
+[New API][经济赌场插件指令全汉化+BUG完美修复]
+
+★ 玩家可以开设自己的赌场俱乐部!
+★ 玩家可以加入别人的赌场俱乐部!
+★ 玩家还可以玩老虎机游戏,中大奖!
+★ OP可以自定义赌场数量上限和老虎机中奖概率!
+
+★ 本次汉化修复 5 个严重BUG!基本可以完美运行!
+
+★中文命令功能和用法说明★
+一、赌场管理命令:
+1 开设自己的赌场
+用法:  /赌场 开设
+2 关闭自己的赌场
+用法:  /赌场 关闭
+3 加入别人的赌场
+用法:  /赌场 加入 <赌场主的名字>
+4 退出别人的赌场
+用法:  /赌场 退出
+5 列出现有的赌场
+用法:  /赌场 列表
+6 赌场主设置赌注(设置好赌注,系统自动开奖)
+用法:  /赌场 赌注 <金钱>
+7 OP关闭非法赌场
+用法:  /赌场 关闭 <赌场主的名字>
+二、老虎机游戏:
+用法:  /老虎机 <金钱>
+
+★配置文件说明★
+1 允许开设的最大赌场数目:
+max-game: 10
+说明: 表示服务器允许开设赌场的最大数目为10!
+2 老虎机的中奖概率
+jackpot-winning: 1
+说明: 表示老虎机的中奖概率为1/(1+1)=50%;设为9表示中奖概率为1/(1+9)=10%;以此类推!
+
+★对本次修复的5个BUG详细说明★
+1 控制台运行命令BUG
+case "jackpot":
+	$money = array_shift($params);
+	if(!is_numeric($money)){
+		$sender->sendMessage("Usage: ".$command->getUsage());
+		break;
+	}
+改为
+case "老虎机":
+          if(!$sender instanceof Player){
+		$sender->sendMessage("请在游戏里运行该命令.");
+		break;
+	}
+
+	$money = array_shift($params);
+	if(!is_numeric($money)){
+		$sender->sendMessage("Usage: ".$command->getUsage());
+		break;
+	}
+错误说明: 命令分2种类型,控制台命令和游戏内命令.必须做好区分,否则导致严重错误!加一个限定判断,即可解决!
+
+2 引用API函数BUG
+if($rand === 0){
+	$this->api->addMoney($sender, $money);
+	$sender->sendMessage("You've wined jackpot! You've got ".$this->api->monetaryUnit()."$money");
+}else{
+	$sender->sendMessage("You've failed your jackpot! You've lost ".$this->api->monetaryUnit()."$money");
+}
+改为
+if($rand === 0){
+	$this->api->addMoney($sender, $money);
+	$sender->sendMessage("恭喜您中奖啦 ! 奖金 : ".$this->api->getMonetaryUnit()."$money 美元");
+}else{
+	$sender->sendMessage$sender->sendMessage("很遗憾您未中奖, 输掉 ".$this->api->getMonetaryUnit()."$money 美元");
+}
+foreach($this->casino[$sender->getName()]["players"] as $p => $v){
+	if($got === $p){
+		$this->getServer()->getPlayerExact($p)->sendMessage("You've win ".$this->api->monetaryUnit()."$all!");
+	}else{
+		$this->getServer()->getPlayerExact($p)->sendMessage("You've lost ".$this->api->monetaryUnit()."$money");
+	}
+}
+foreach($this->casino[$sender->getName()]["players"] as $p => $v){
+	if($got === $p){
+		$this->getServer()->getPlayerExact($p)->sendMessage("You've win ".$this->api->monetaryUnit()."$all!");
+	}else{
+		$this->getServer()->getPlayerExact($p)->sendMessage("You've lost ".$this->api->monetaryUnit()."$money");
+	}
+}
+改为
+foreach($this->casino[$sender->getName()]["players"] as $p => $v){
+	if($got === $p){
+		$this->getServer()->getPlayerExact($p)->sendMessage("恭喜您赢得 ".$this->api->getMonetaryUnit()."$all 美元!");
+	}else{
+		$this->getServer()->getPlayerExact($p)->sendMessage("很遗憾您输掉 ".$this->api->getMonetaryUnit().
+"$money 美元");
+	}
+}
+if($this->api->myMoney($sender) < $money){
+	$sender->sendMessage("You don't have money to gamble ".$this->api->monetaryUnit()."$money");
+	break;
+}
+改为
+if($this->api->myMoney($sender) < $money){
+	$sender->sendMessage("你没有足够多的金钱来押注,\n需要 ".$this->api->getMonetaryUnit()."$money 美元");
+	break;
+}
+★错误说明: 此BUG非常严重,后果就是服务器崩溃!原代码引用了核心插件API内并未定义的函数!
+(此BUG不修复,直接蹦服)
+
+3 赌场算法BUG
+$got = array_rand($this->casino[$sender->getName()]);
+改为
+$got = array_rand($this->casino[$sender->getName()]["players"]);
+★错误说明: casino数组成员访问出错,没有给定正确的下标!
+(此BUG不修复,赌场功能无法使用,会一直输钱)
+
+4 老虎机算法BUG
+$this->api->reduceMoney($sender, $money);
+$rand = rand(0, $this->config->get("jackpot-winning"));
+if($rand === 0){
+	$this->api->addMoney($sender, $money);
+	$sender->sendMessage("You've wined jackpot! You've got ".$this->api->monetaryUnit()."$money");
+}else{
+	$sender->sendMessage("You've failed your jackpot! You've lost ".$this->api->monetaryUnit()."$money");
+}
+改为
+$rand = rand(0, $this->config->get("jackpot-winning"));
+if($rand === 0){
+	$this->api->addMoney($sender, $money);
+	$sender->sendMessage("恭喜您中奖啦 ! 奖金 : ".$this->api->getMonetaryUnit()."$money 美元");
+}else{
+        $this->api->reduceMoney($sender, $money);
+	$sender->sendMessage$sender->sendMessage("很遗憾您未中奖, 输掉 ".$this->api->getMonetaryUnit()."$money 美元");
+}
+★错误说明: 老虎机算法逻辑出错,中奖增加玩家的金钱,未中奖扣掉玩家的金钱,很自然的道理!
+(此BUG不修复,老虎机中奖没奖金,输了要扣钱)
+
+5 老虎机刷钱BUG
+case "jackpot":
+	$money = array_shift($params);
+	if(!is_numeric($money)){
+	        $sender->sendMessage("Usage: ".$command->getUsage());
+		break;
+	}
+	$this->api->reduceMoney($sender, $money);
+	$rand = rand(0, $this->config->get("jackpot-winning"));
+改为
+case "jackpot":
+	$money = array_shift($params);
+	if(!is_numeric($money)){
+	        $sender->sendMessage("Usage: ".$command->getUsage());
+		break;
+	}
+
+        $money = (int)$money;
+	if($this->api->myMoney($sender) < $money){
+		$sender->sendMessage("骚年, 你没有足够多的 ".$this->api->getMonetaryUnit()."$money 美元来投注");
+		break;
+	}
+
+	$rand = rand(0, $this->config->get("jackpot-winning"));
+★错误说明: 原代码没有对玩家输入的金钱值做限制,导致老虎机可以无限刷钱!
+(此BUG不修复,老虎机可以无限刷钱)
+
+"PM插件指令汉化合集"已上传到百度网盘,持续更新中:
+http://pan.baidu.com/s/1gdBysa3
