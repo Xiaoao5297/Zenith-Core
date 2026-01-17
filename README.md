@@ -37,6 +37,11 @@
 - 核心类型：PMMP / Nukkit
 - 系统环境：Windows / Linux / Android（手机 PHP 核心）
 
+### 资源来源
+- PMPM 插件包 [点击跳转](https://www.123684.com/s/z7uSVv-68Did?notoken=1)
+- Lunchs 插件包 [点击跳转官网 - 网页时光机](https://web.archive.org/web/20220501202840/http://lunchs.mysxl.cn/) [下载](https://share.weiyun.com/567erH1) [下载2](https://share.weiyun.com/3ce980f6fdb0dbf238bf620327043f34)
+- 其他来源
+
 ---
 
 ## 二、快速开始
@@ -88,8 +93,7 @@
 
 <div align="center">
 
-╭───────────────────────────────────╮  
-│   感谢您支持和使用 Zenith 插件包!    │  
-╰───────────────────────────────────╯
+ 
+> 感谢您支持和使用 Zenith 插件包!
 
 </div>

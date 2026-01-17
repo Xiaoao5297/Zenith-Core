@@ -32,6 +32,13 @@
         
         ◎ 大部分版本为 0.14 的插件/核心
         ◎ 0.11 ~ 1.2 支持版本的插件
+    
+    4. 资源来源
+        ◎ PMPM 插件包 (https://www.123684.com/s/z7uSVv-68Did?notoken=1)
+        ◎ Lunchs 插件包 [官网](https://web.archive.org/web/20220501202840/http://lunchs.mysxl.cn/)
+            [下载](https://share.weiyun.com/567erH1)
+            [下载2](https://share.weiyun.com/3ce980f6fdb0dbf238bf620327043f34)
+        ◎ 其他来源
         
     
     二、快速开始
