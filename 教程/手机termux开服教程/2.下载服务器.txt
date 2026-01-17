@@ -1,0 +1,24 @@
+    ╭───────────────────────────────╮
+    │       Termux 手机开服方法      │
+    ├──────────┬────────────────────┤
+    │ VERSION  │ v1.0.0             │
+    │ AUTHOR   │ Xiaoao             │
+    │ QQ       │ 2574459918         │
+    │ E-MAIL   │ 2574459918@qq.com  │
+    ╰──────────┴────────────────────╯
+    
+    恭喜你到了第二步!!!让我们继续.
+    
+    一、启动 PMHelper
+    
+    1. 打开 Termux .
+    
+    2. 输入命令 bash -c "$(curl -L https://github.com/Xiaoao5297/PMhelper/releases/download/v2.1/PMhelper.sh)"
+    
+        这是我的另一个 GitHub 小项目
+        
+    3. 使用上下键选择，回车键进入，然后等待下载即可。
+    
+    4. 输入 mc 即可启动服务器！
+    
+    5. 所有的文件都在 ~/PocketMine/ 目录下
