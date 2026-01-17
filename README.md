@@ -1,6 +1,7 @@
 # Zenith 插件包
 
 <div align="center">
+<img src="./logo.png" alt="Zenith Core" width="200"/>
 
 | 项目 | 内容 |
 |------|------|
