@@ -14,7 +14,7 @@
 **Zenith 插件包，不只是插件。**
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Download](https://img.shields.io/badge/Download-1.9.7-orange.svg)](https://github.com/Xiaoao5297/Zenith-Plugin-Package/archive/refs/tags/v1.9.7.zip)
+[![Download](https://img.shields.io/badge/Download-1.9.8-orange.svg)](https://github.com/Xiaoao5297/Zenith-Plugin-Package/archive/refs/tags/v1.9.8.zip)
 
 </div>
 
