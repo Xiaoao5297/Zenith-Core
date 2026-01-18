@@ -1,8 +1,0 @@
-name: RsMoney
-main: Rs.Plugin.Money.RsEconomy
-version: 1.0.1
-api: 1.0.0
-load: POSTWORLD
-author: zmdd
-depend:
- - RsFunction
