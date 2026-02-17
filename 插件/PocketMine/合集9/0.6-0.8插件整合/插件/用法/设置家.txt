@@ -1,0 +1,2 @@
+/sethome设置家
+/home回家
