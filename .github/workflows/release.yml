@@ -1,0 +1,31 @@
+name: Package Source Code
+
+on:
+  push:
+    tags:
+      - '*'  # 任何标签都会触发
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Create ZIP package
+        run: |
+          # 获取仓库名和版本号
+          REPO_NAME="${GITHUB_REPOSITORY#*/}"
+          TAG_NAME="${GITHUB_REF#refs/tags/}"
+          
+          # 打包，排除 .git 和 .github 文件夹
+          git archive --format=zip \
+            --output="${REPO_NAME}-${TAG_NAME}.zip" \
+            --prefix="${REPO_NAME}-${TAG_NAME}/" \
+            HEAD
+      
+      - name: Upload to Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: "*.zip"
+          fail_on_unmatched_files: false
