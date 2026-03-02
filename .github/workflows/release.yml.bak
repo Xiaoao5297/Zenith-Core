@@ -1,7 +1,7 @@
 name: Package Source Code
 
 on:
-  workflow_dispatch:  # 添这一行！允许手动触发
+  workflow_dispatch:  # 手动触发
   push:
     tags:
       - '*'  # 任何标签都会触发
@@ -17,18 +17,21 @@ jobs:
         run: |
           REPO_NAME="${GITHUB_REPOSITORY#*/}"
           TAG_NAME="${GITHUB_REF#refs/tags/}"
+          
           # 如果手动触发时没有标签，用当前日期作为版本号
           if [ -z "$TAG_NAME" ]; then
             TAG_NAME=$(date +%Y%m%d-%H%M%S)
           fi
           
+          # 直接打包到当前目录
           git archive --format=zip \
             --output="${REPO_NAME}-${TAG_NAME}.zip" \
             --prefix="${REPO_NAME}-${TAG_NAME}/" \
             HEAD
       
-      - name: Upload to Release
-        uses: softprops/action-gh-release@v2
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
         with:
-          files: "*.zip"
-          fail_on_unmatched_files: false
+          name: source-code
+          path: "*.zip"
+          retention-days: 90  # 保留90天

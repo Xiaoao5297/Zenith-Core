@@ -16,22 +16,28 @@ jobs:
       - name: Create ZIP package
         run: |
           REPO_NAME="${GITHUB_REPOSITORY#*/}"
-          TAG_NAME="${GITHUB_REF#refs/tags/}"
           
-          # 如果手动触发时没有标签，用当前日期作为版本号
-          if [ -z "$TAG_NAME" ]; then
+          # 获取标签名，如果是手动触发则用日期
+          if [[ "${{ github.ref }}" == refs/tags/* ]]; then
+            TAG_NAME="${GITHUB_REF#refs/tags/}"
+          else
             TAG_NAME=$(date +%Y%m%d-%H%M%S)
           fi
+          
+          echo "打包文件名: ${REPO_NAME}-${TAG_NAME}.zip"
           
           # 直接打包到当前目录
           git archive --format=zip \
             --output="${REPO_NAME}-${TAG_NAME}.zip" \
             --prefix="${REPO_NAME}-${TAG_NAME}/" \
             HEAD
+          
+          # 确认文件已创建
+          ls -la *.zip
       
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: source-code
           path: "*.zip"
-          retention-days: 90  # 保留90天
+          retention-days: 90
