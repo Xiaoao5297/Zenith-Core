@@ -1,6 +1,7 @@
 name: Package Source Code
 
 on:
+  workflow_dispatch:  # 添这一行！允许手动触发
   push:
     tags:
       - '*'  # 任何标签都会触发
@@ -14,11 +15,13 @@ jobs:
       
       - name: Create ZIP package
         run: |
-          # 获取仓库名和版本号
           REPO_NAME="${GITHUB_REPOSITORY#*/}"
           TAG_NAME="${GITHUB_REF#refs/tags/}"
+          # 如果手动触发时没有标签，用当前日期作为版本号
+          if [ -z "$TAG_NAME" ]; then
+            TAG_NAME=$(date +%Y%m%d-%H%M%S)
+          fi
           
-          # 打包，排除 .git 和 .github 文件夹
           git archive --format=zip \
             --output="${REPO_NAME}-${TAG_NAME}.zip" \
             --prefix="${REPO_NAME}-${TAG_NAME}/" \
