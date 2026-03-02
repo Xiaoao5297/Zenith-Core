@@ -23,22 +23,32 @@ jobs:
             TAG_NAME=$(date +%Y%m%d-%H%M%S)
           fi
           
-          # 先用 rsync 复制文件到临时目录（排除 .github）
-          mkdir -p /tmp/package
-          rsync -av --exclude='.github' ./ /tmp/package/
+          echo "打包文件名: ${REPO_NAME}-${TAG_NAME}.zip"
           
-          # 进入临时目录打包
+          # 创建临时目录
+          mkdir -p /tmp/package
+          
+          # 复制所有文件到临时目录（排除 .git 和 .github）
+          rsync -av --exclude='.git' --exclude='.github' ./ /tmp/package/
+          
+          # 进入临时目录的上一级
           cd /tmp
-          zip -r "${REPO_NAME}-${TAG_NAME}.zip" package/
+          
+          # 打包 package 文件夹里的内容，而不是 package 文件夹本身
+          cd package
+          zip -r "/tmp/${REPO_NAME}-${TAG_NAME}.zip" ./*
+          cd ..
           
           # 把 zip 文件移回工作目录
-          mv "${REPO_NAME}-${TAG_NAME}.zip" /home/runner/work/Zenith-Core/Zenith-Core/
+          mv "/tmp/${REPO_NAME}-${TAG_NAME}.zip" /home/runner/work/Zenith-Core/Zenith-Core/
           
-          ls -la *.zip
+          # 确认文件存在
+          ls -la /home/runner/work/Zenith-Core/Zenith-Core/*.zip || echo "文件不存在"
       
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: source-code
           path: "*.zip"
+          if-no-files-found: error
           retention-days: 90
