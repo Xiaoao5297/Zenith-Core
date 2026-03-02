@@ -1,10 +1,10 @@
 name: Package Source Code
 
 on:
-  workflow_dispatch:  # 手动触发
+  workflow_dispatch:
   push:
     tags:
-      - '*'  # 任何标签都会触发
+      - '*'
 
 jobs:
   package:
@@ -17,22 +17,23 @@ jobs:
         run: |
           REPO_NAME="${GITHUB_REPOSITORY#*/}"
           
-          # 获取标签名，如果是手动触发则用日期
           if [[ "${{ github.ref }}" == refs/tags/* ]]; then
             TAG_NAME="${GITHUB_REF#refs/tags/}"
           else
             TAG_NAME=$(date +%Y%m%d-%H%M%S)
           fi
           
-          echo "打包文件名: ${REPO_NAME}-${TAG_NAME}.zip"
+          # 先用 rsync 复制文件到临时目录（排除 .github）
+          mkdir -p /tmp/package
+          rsync -av --exclude='.github' ./ /tmp/package/
           
-          # 直接打包到当前目录
-          git archive --format=zip \
-            --output="${REPO_NAME}-${TAG_NAME}.zip" \
-            --prefix="${REPO_NAME}-${TAG_NAME}/" \
-            HEAD
+          # 进入临时目录打包
+          cd /tmp
+          zip -r "${REPO_NAME}-${TAG_NAME}.zip" package/
           
-          # 确认文件已创建
+          # 把 zip 文件移回工作目录
+          mv "${REPO_NAME}-${TAG_NAME}.zip" /home/runner/work/Zenith-Core/Zenith-Core/
+          
           ls -la *.zip
       
       - name: Upload artifact
