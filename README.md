@@ -13,7 +13,7 @@
 
 **Zenith 插件包，不只是插件。**
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-GPL_3.0-blue.svg)](LICENSE)
 [![Download](https://img.shields.io/badge/Download-1.9.9-orange.svg)](https://github.com/Xiaoao5297/Zenith-Core/releases/download/v1.9.10/Zenith-Core-1.9.10.zip)
 
 </div>
